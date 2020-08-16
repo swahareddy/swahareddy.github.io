@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
-date: 2014-04-30
+title: "gpt2 Whatsapp Simulation"
+date: 2020-08-16
 ---
 # gpt2AI_whatsapp_simulation
 Fine tune Open AI's GPT2 on Whatsapp Chats to generate conversations. Works for both group chats and private chats.
