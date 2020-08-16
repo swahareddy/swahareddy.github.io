@@ -1,5 +1,7 @@
 plugins:
   - jekyll-relative-links
+markdown: kramdown  
+permalink: /blog/:year/:month/:day/:title
 relative_links:
   enabled: true
   collections: true
