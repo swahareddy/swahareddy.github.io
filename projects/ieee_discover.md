@@ -1,7 +1,8 @@
 ---
 layout: project
+title: Distributed computing in self-driving cars
 ---
-# Distributed computing in self-driving cars
+<!-- # Distributed computing in self-driving cars -->
 This was my BTech project that got accepted and [published](https://ieeexplore.ieee.org/document/8673972) an IEEE conference. 📰🤓<br><br>
 **The paper demonstrates the power of distributed computing in image processing algorithms and analysis of incredibly large datasets using a distributed approach. We give a statistical proof of concept of how  implementing a distributed parallel programming paradigm can improve autonomous systems which deal with high volumes of images.**
 <hr>
