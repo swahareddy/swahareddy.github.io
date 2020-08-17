@@ -11,6 +11,7 @@ layout: default
         <li><a href="ait_macroeco.html">Macroeconmics</a></li><br>
     </ol>
     <li><a href="globalisation_covid.html">Thoughts on Covid-19's impact on globalisation</a></li><br>
-    <!-- <li><a href="/about.html">About</a></li> -->
+    <li><a href="instagram_preview.html">I do some photography 📸</a></li><br>
+    
 </ul>
 <!-- * [](.md) -->
