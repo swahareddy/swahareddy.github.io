@@ -1,0 +1,8 @@
+I"v<h1 id="distributed-computing-in-self-driving-cars">Distributed computing in self-driving cars</h1>
+<p>This was my BTech project that got accepted and published an IEEE conference.</p>
+<hr />
+
+<blockquote>
+  <p>In an autonomous driving system, the field of view spans multiple cameras placed around a car driven through numerous driving scenarios. Sensor data is received by the analyzing unit at a high velocity, also the camera provides over millions of images for a small drive of about half a mile. Also not all the images captured by the cameras are capable of being analyzed as some of them might have to be discarded on accounts of high noise levels or lack of lighting. A simple example of this is when pictures clicked on burst mode often have more throwaways than the ones which can be utilized. So, it is important for the analyzing unit to make a series of decisions before even starting the feature extraction process. Efficient processing of a high volume of images is therefore a challenge which autonomous systems such as the driving system face. Given the multiple cameras present on autonomous cars, providing high resolution pictures through varying driving scenarios, the objective is to process and analyze this huge dataset efficiently. This paper shall demonstrate the power of distributed computing in image processing algorithms and analysis of incredibly large datasets using a distributed approach. This paper gives a statistical proof of concept of how implementing a distributed parallel programming paradigm can improve autonomous systems such as the driving system which deal with high volumes of images.</p>
+</blockquote>
+:ET

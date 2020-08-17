@@ -1,13 +1,14 @@
 ---
-layout: default
+layout: project
 title: "gpt2 Whatsapp Simulation"
 author: jill
+github_repo: https://github.com/swahareddy/gpt2AI_whatsapp_simulation
 ---
 [comment]:2020-08-16
 # Simulation of Whatsapp conversations
 Fine tune Open AI's GPT2 on Whatsapp Chats to generate conversations. Works for both group chats and private chats.
 
-<a href="https://github.com/swahareddy/gpt2AI_whatsapp_simulation" class="icon brands alt fa-github"><span class="label">GitHub</span> Check out the code on GitHub</a>
+<!-- <a href="https://github.com/swahareddy/gpt2AI_whatsapp_simulation" class="icon brands alt fa-github"><span class="label">GitHub</span> Check out the code on GitHub</a> -->
 
 The following steps are for running a Colab notebook, you can also run it locally. In that case it'd take longer since you don't get Colab's GPUs and you'd also have to replace the google drive folders with local ones.
 

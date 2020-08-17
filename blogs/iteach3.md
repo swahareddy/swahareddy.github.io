@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: blog
+date: 2020-08-17
+title: My experience with teaching - iTeach
 ---
-<h1 class="display-1">My experience with teaching</h1>
 
 >iTeach's Certified Peer Learning Program is a weekend educational program where professionals from various dsiciplines teach students from low income backgrounds. The program covers STEM, Arts and Commerce along with non technical life-skills.
 

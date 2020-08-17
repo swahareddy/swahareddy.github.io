@@ -1,13 +1,15 @@
 ---
-layout: default
+layout: blog
+date: March, 2020
+title: My experience with teaching - iTeach
 ---
 
-<h1 class="display-1">My experience with teaching</h1>
+<!-- <h1 class="display-1">My experience with teaching</h1> -->
 
 >iTeach's Certified Peer Learning Program is a weekend educational program where professionals from various dsiciplines teach students from low income backgrounds. The program covers STEM, Arts and Commerce along with non technical life-skills.
 
 # Part 1
-Since January this year I've been volunteering with iTeach on Sundays. iTeach is an NGO that provides quality high school education to the less fortunate. I mentored students from class XI in Mathematics and Physics. It was a lot of fun revisiting these concepts. *Highlights* - Climbing on the table to drop the duster to approximate g=9.8 ms-2, making weird noises to demonstrate the doppler effect and introducing them to graphs through [Wolfram Alpha](https://www.wolframalpha.com/)
+Since January this year I've been volunteering with iTeach on Sundays. iTeach is an NGO that provides quality high school education to the less fortunate. I mentored students from class XI in Mathematics and Physics. It was a lot of fun revisiting these concepts. <br>**Highlights** - Climbing on the table to drop the duster to approximate g=9.8 ms-2, making weird noises to demonstrate the doppler effect and introducing them to graphs through [Wolfram Alpha](https://www.wolframalpha.com/)
 
 <img src="/blogs/iteach_images/physicsclass.jpeg">
 

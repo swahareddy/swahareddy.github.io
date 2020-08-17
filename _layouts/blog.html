@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h1 class="display-1">{{page.title}}</h1>
+{{content}}
+<hr>
+{% if page.date!= null %}
+<i>Published: {{page.date}}</i>
+<br>
+{% endif %}
+
+<a href="/blogs">Check out my other blog posts!</a>

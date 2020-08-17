@@ -8,7 +8,7 @@ layout: default
     <ol>
         <li><a href="iteach1+2.html">STEM</a></li><br>
         <li><a href="iteach3.html">Life-skills</a></li><br>
-        <li><a href="/blogs">Macroeconmics</a></li><br>
+        <li><a href="ait_macroeco.html">Macroeconmics</a></li><br>
     </ol>
     <!-- <li><a href="/about.html">About</a></li> -->
 </ul>
