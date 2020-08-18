@@ -2,4 +2,4 @@
 layout: blog
 title: Stay curious
 ---
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSO3SNRZdMWk4HHyHSLvRYe_KKjDnECUlDVF3rnilwsNAogqC7Ljy_wk7cb0oP1pqNrwtCbm1r6Ed3-/pubhtml?gid=405003830&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="500"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSO3SNRZdMWk4HHyHSLvRYe_KKjDnECUlDVF3rnilwsNAogqC7Ljy_wk7cb0oP1pqNrwtCbm1r6Ed3-/pubhtml?gid=405003830&amp;single=true&amp;widget=true&amp;headers=false" width="70%" height="500"></iframe>
