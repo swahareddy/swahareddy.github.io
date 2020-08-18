@@ -5,10 +5,9 @@ author: jill
 github_repo: https://github.com/swahareddy/gpt2AI_whatsapp_simulation
 ---
 [comment]:2020-08-16
-# Simulation of Whatsapp conversations
-Fine tune Open AI's GPT2 on Whatsapp Chats to generate conversations. Works for both group chats and private chats.
+Fine tuned Open AI's GPT2 on Whatsapp Chats to generate conversations. Works for both group chats and private chats.
 
-<!-- <a href="https://github.com/swahareddy/gpt2AI_whatsapp_simulation" class="icon brands alt fa-github"><span class="label">GitHub</span> Check out the code on GitHub</a> -->
+<lottie-player src="https://assets3.lottiefiles.com/packages/lf20_i0pPw5.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; text-align:right;"  loop  autoplay></lottie-player>
 
 The following steps are for running a Colab notebook, you can also run it locally. In that case it'd take longer since you don't get Colab's GPUs and you'd also have to replace the google drive folders with local ones.
 
@@ -38,3 +37,5 @@ I won't be describing GPT-2 in detail, instead I'd encourage you to check this o
 * The copy of files (`generated_text`) from Colab local runtime -> GDrive is a little slow, give it a couple of minutes
 
 * Drop a mail at swahareddy@gmail.com for any comments.
+
+

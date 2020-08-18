@@ -5,7 +5,9 @@ title: Whatsapp group chat analytics
 ---
 <!-- # Whatsapp group chat analytics -->
 This code takes your notebook takes your whatsapp group chat and parses all the messages to show interesting insights.
-### Check out the end product [here](https://datastudio.google.com/reporting/d1a94683-9b57-4b6d-9282-ed31ac9cec04)
+### [Check out the end product here](https://datastudio.google.com/reporting/d1a94683-9b57-4b6d-9282-ed31ac9cec04)
+
+<lottie-player src="https://assets3.lottiefiles.com/packages/lf20_i0pPw5.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; text-align:right;"  loop  autoplay></lottie-player>
 
 * It breaks up messages by group members
 ![MemberOverview](whatsapp_analytics_images/member_overview.png)

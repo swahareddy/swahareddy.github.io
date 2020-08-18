@@ -10,9 +10,14 @@ layout: default
     <ol>
         <li><a href="iteach1+2.html">STEM</a></li><br>
         <li><a href="iteach3.html">Life-skills</a></li><br>
-        <li><a href="ait_macroeco.html">Macroeconmics 📈</a></li><br>
+        <li><a href="ait_macroeco.html">Macroeconomics 📈</a></li><br>
+        <li><a href="tripti.html">Tripti</a></li><br>
     </ol>
     <li><a href="globalisation_covid.html">Thoughts on Covid-19's impact on globalisation 📉</a></li><br>
 
 </ul>
+
+
+<img src="https://media.giphy.com/media/a5viI92PAF89q/giphy.gif" width="30%"/>
+
 <!-- * [](.md) -->
