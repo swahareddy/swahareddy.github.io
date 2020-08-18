@@ -2,6 +2,9 @@
 layout: blog
 title: Animations Test
 ---
+
+
+
 <div style="float: right;">
 <lottie-player src="https://assets1.lottiefiles.com/datafiles/HN7OcWNnoqje6iXIiZdWzKxvLIbfeCGTmvXmEm1h/data.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player> 
 </div>
