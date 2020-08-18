@@ -22,7 +22,7 @@ While teaching PCM (context -  a special project that we initiated with our stud
 So, for over 2 hours, we covered non-traditional fields like design, architecture, planning and defence services. And within the traditional route also we explained the distinction between major engineering and medical branches. For some of the fields, qualified people shared their experiences over video (Thanks Ayush Poddar, Tripti Rajput and JS Gavankar!). 
 We ended with a note of the financial assistance provided at a central/state and institute level.
 
-It's a pretty comprehensive deck, take a look, and do reuse if it can help anyone else 😇
+It's a pretty comprehensive deck, [take a look, and do reuse](https://drive.google.com/drive/u/0/mobile/folders/1uCIGXLmXqIXPEvD4SaDop0_hKOe7gXhT) if it can help anyone else 😇
 <img src="/blogs/iteach_images/Annotation 2020-08-17 051939.png">
 
 <a href="iteach3.html">Check out my next teaching project</a>
