@@ -19,5 +19,10 @@ layout: default
 
 
 
+<a href="http://127.0.0.1:4000/blogs/blogs.rss" title="Subscribe to my feed"><img src="/feed-icon.gif" style="border:0"/></a><br>
+                            
+                            
+
+
 
 <!-- * [](.md) -->
