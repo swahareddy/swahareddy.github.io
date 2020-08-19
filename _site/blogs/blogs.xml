@@ -4,7 +4,7 @@
 <channel>
   <title>Tejaswa's Website</title>
   <link>swahareddy.github.io</link>
-  <description>Free web building tutorials</description>
+  <description>My first attempt at an RSS feed</description>
   <item>
     <title>Tejaswa's YouTube</title>
     <link>/blogs/us_history.html</link>
@@ -12,7 +12,7 @@
   </item>
   <item>
     <title>Tejaswa's FAcebook</title>
-    <link>/blogs/us_history.html</link>
+    <link>/blogs/iteach3.html</link>
     <description>< dsfsddddddddddddd fffffffffffffffffffffff eeeeeeeeeeee sasssssssssstions </a></description>
   </item>  
 </channel>
