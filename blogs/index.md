@@ -12,12 +12,12 @@ layout: default
         <li><a href="iteach3.html">Life-skills</a></li><br>
         <li><a href="ait_macroeco.html">Macroeconomics 📈</a></li><br>
     </ol>
-    <li><a href="self_learning.html">Here are my recommended youtube subscriptions 📼</a></li><br>
-    <li><a href="globalisation_covid.html">Thoughts on Covid-19's impact on globalisation 📉</a></li><br>
+    <li><a href="self_learning.html">Here are my recommended youtube subscriptions 📼<lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_imyUMa.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player></a></li><br>
+    <li><a href="globalisation_covid.html">Thoughts on Covid-19's impact on globalisation 📉 <img src="https://media.giphy.com/media/a5viI92PAF89q/giphy.gif" width="8%"/></a></li><br>
 
 </ul>
 
 
-<img src="https://media.giphy.com/media/a5viI92PAF89q/giphy.gif" width="30%"/>
+
 
 <!-- * [](.md) -->
