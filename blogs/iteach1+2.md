@@ -11,7 +11,7 @@ title: My experience with teaching - iTeach
 # Part 1
 Since January this year I've been volunteering with iTeach on Sundays. iTeach is an NGO that provides quality high school education to the less fortunate. I mentored students from class XI in Mathematics and Physics. It was a lot of fun revisiting these concepts. <br>**Highlights** - Climbing on the table to drop the duster to approximate g=9.8 ms-2, making weird noises to demonstrate the doppler effect and introducing them to graphs through [Wolfram Alpha](https://www.wolframalpha.com/)
 
-<img src="/blogs/iteach_images/physicsclass.jpeg">
+<img src="/blogs/iteach_images/physicsclass.jpeg" width="100%">
 
 Its been a whole cycle, and I have a new found appreciation for teachers. Its not at all easy! Especially recent grads, you should try such an experience 😛
 Working on something interesting right now with the kids since its a unique combination of summer vacations and the lockdown.
@@ -23,6 +23,6 @@ So, for over 2 hours, we covered non-traditional fields like design, architectur
 We ended with a note of the financial assistance provided at a central/state and institute level.
 
 It's a pretty comprehensive deck, [take a look, and do reuse](https://drive.google.com/drive/u/0/mobile/folders/1uCIGXLmXqIXPEvD4SaDop0_hKOe7gXhT) if it can help anyone else 😇
-<img src="/blogs/iteach_images/Annotation 2020-08-17 051939.png">
+<img src="/blogs/iteach_images/Annotation 2020-08-17 051939.png" width="100%">
 
 <a href="iteach3.html">Check out my next teaching project</a>
