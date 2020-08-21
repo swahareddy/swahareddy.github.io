@@ -3,6 +3,26 @@ layout: blog
 title: Animations Test
 ---
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=swahareddy&layout=compact)
+
+### Environment
+![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=21b52b)
+![](https://img.shields.io/badge/OS-Windows-informational?style=flat&logo=windows&logoColor=white&color=21b52b)
+![](https://img.shields.io/badge/Browser-Chrome-informational?style=flat&logo=googlechrome&logoColor=white&color=21b52b)
+![](https://img.shields.io/badge/IDE-Visual Studio-informational?style=flat&logo=visualstudiocode&logoColor=white&color=21b52b)
+### Cloud
+![](https://img.shields.io/badge/Cloud-Google Cloud Platform-informational?style=flat&logo=googlecloud&logoColor=white&color=21b52b)
+### Big Data 
+[/]: Logos N/A for these
+![](https://img.shields.io/badge/Big Data-HDFS-informational?style=flat&color=21b52b)
+![](https://img.shields.io/badge/Big Data-Sqoop-informational?style=flat&color=21b52b)
+![](https://img.shields.io/badge/Big Data-Oozie-informational?style=flat&color=21b52b)
+![](https://img.shields.io/badge/Big Data-Impala-informational?style=flat&color=21b52b)
+![](https://img.shields.io/badge/Big Data-Hive-informational?style=flat&color=21b52b)
+### Front End
+![](https://img.shields.io/badge/UI-Flask-informational?style=flat&logo=flask&logoColor=white&color=21b52b)
+![](https://img.shields.io/badge/UI-Angular-informational?style=flat&logo=angular&logoColor=white&color=21b52b)
+
 
 
 <div style="float: right;">
