@@ -5,10 +5,9 @@ layout: default
 ![](images\tejaswa_casual.jpg){: style="float: right;margin-left:85px" width="20%" }
 Hi, I am Tejaswa Gavankar. <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> I work in the technology division of Credit Suisse, a major global financial firm. 
 
-With regard to my [professional skills](#technical-skills), I would call myself an E-shaped technologist. I code in python, primarily for back end in Big Data and Google cloud solutions. 
-I am good at exploring new technologies for greenfield projects and scaling them from PoC to production.
+With regard to [my professional skills](#technical-skills), I code in python, primarily for back end development in Big Data and Google cloud solutions. I'd say I fit the [*E-shape employee*](https://www.linkedin.com/pulse/which-letter-shaped-future-employees-leaders-esin-akay/) category as I am good at exploring new technologies for greenfield projects and scaling them from PoC to production.
 
-I love working with people as much as I love technology. I have played a significant part in Credit Suisse India's Branding and Collaboration workstreams. I have organised the firm's partnerships with major events like Pune Agile UnConference and Grace Hooper Celebration. I've also organised events that have reached over 5000 employees.
+I love working with people as much as I love technology. I have played a significant part in Credit Suisse India's Branding and Collaboration workstreams. I have organised the firm's partnerships with major events like [Pune Agile UnConference](https://www.linkedin.com/posts/tejaswa_pauc-pauc19-agile-activity-6569831173307109377-grCo) and Grace Hooper Celebration. I've also organised events that have reached over 5000 employees.
 
 I graduated in Computer Engineering from the College of Engineering Pune in 2018. I have been brought up in a military family and have lived in multiple cities before moving out to college.
 
