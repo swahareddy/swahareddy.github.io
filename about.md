@@ -5,13 +5,12 @@ layout: default
 ![](images\tejaswa_casual.jpg){: style="float: right;margin-left:85px" width="20%" }
 Hi, I am Tejaswa Gavankar. <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> I work in the technology division of Credit Suisse, a major global financial firm. 
 
-
-
-With regard to my professional skills, I would call myself an E-shaped technologist. I code in python, primarily for back end of big data and Google cloud.
-
+With regard to my [professional skills](#technical-skills), I would call myself an E-shaped technologist. I code in python, primarily for back end in Big Data and Google cloud solutions. 
 I am good at exploring new technologies for greenfield projects and scaling them from PoC to production.
 
 I love working with people as much as I love technology. I have played a significant part in Credit Suisse India's Branding and Collaboration workstreams. I have organised the firm's partnerships with major events like Pune Agile UnConference and Grace Hooper Celebration. I've also organised events that have reached over 5000 employees.
+
+I graduated in Computer Engineering from the College of Engineering Pune in 2018. I have been brought up in a military family and have lived in multiple cities before moving out to college.
 
 I'm always upto [something fun](/blogs) outside work. Over the last year I have been seriously engaged with [educational non-profits](/blogs/iteach1+2.html) and I also do some other [projects](/projects) to stay sharp.
 
