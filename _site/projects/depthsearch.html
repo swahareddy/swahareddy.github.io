@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Depth Search for Research Nerds 🤓</title>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="../assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+                <header id="header" class="alt">
+                    <a href="/index.html" class="logo"><strong>Tejaswa Gavankar</strong></a>
+                    <!-- <a href="/index.html" class="logo"><strong>Tejaswa Gavankar</strong> <span>Portfolio</span></a> -->
+                    <nav>
+                        <a href="#menu">Menu</a>
+                    </nav>
+                </header>
+
+				<!-- Menu -->
+                <nav id="menu">
+                    <ul class="links">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/blogs">Blog</a></li>
+                    </ul>
+                    <!-- <ul class="actions stacked">
+                        <li><a href="#" class="button primary fit">Get Started</a></li>
+                        <li><a href="#" class="button fit">Log In</a></li>
+                    </ul> -->
+                </nav>
+
+                <section id="whyido">
+                    <div class="inner">
+                        <h1 class="display-1">Depth Search for Research Nerds 🤓</h1>
+
+<a href="https://github.com/swahareddy/DepthSearch" class="icon brands alt fa-github"><span class="label">GitHub</span> Check out the code on GitHub</a>
+<br><br>
+
+<p>Does your browser often look like this?
+<img src="/projects/depthsearch_images/toomaytabs.jpeg" alt="toomanytabs" />
+For me, often this was a consequence of me reading one important article and opening up many links within it <a href="https://chrome.google.com/webstore/detail/right-click-opens-link-ne/mhjkeimpgjokbjmioglhlngefbddppnn">in the background</a>.</p>
+
+<p>I wondered if there is any way for me to know which links are important (Eg which wikipedia references are significant) without having to open them up. So basically a way of doing a <code class="language-plaintext highlighter-rouge">Ctrl + F</code> through all the links in a page, and not just the page itself. Not that hard right?</p>
+
+<p>And why stop there. Why not go through all the links within those pages too!? Granted, that’s more than what laymen like me might require, but I imagined it to have actual value in the hands of journalists and researchers and academics (who have to go through maaany citations of many papers)</p>
+
+<blockquote>
+  <p>This is how I’ll be referring to it:</p>
+  <ul>
+    <li>Depth=0 : Regular current (home) page search</li>
+    <li>Depth=1 : Search through all pages linked in the home page</li>
+    <li>Depth=2 : Search through all pages linked in the all the pages that are linked to the home page</li>
+    <li>…</li>
+  </ul>
+</blockquote>
+
+<p>Ofc, the first place I go for such tools is the Chrome Web Store (where I have found many amazing extensions. I might make a list of them too someday too). I found <a href="https://chrome.google.com/webstore/detail/search-all-tabs/ndfnfhnlgoocpbbjjjfmiojdfcgcfomn">this</a>, which kiiind of solves it, but not really.</p>
+
+<hr />
+
+<p>I wanted this tool to be a browser extension, because that’s the only practical way someone is going to use it. Hardly anyone is going to run a python script for a URL that interests them.</p>
+
+<p><img src="/projects/depthsearch_images/chrome_wireframe.jpg" alt="my vision" /></p>
+
+<p>I was aware that it was going to have <strong>exponential time complexity (O(c<sup>n</sup>)</strong>, but I thought that the operations itself (text search) is not that expensive (<em>Boy was I wrong</em>), and almost no one will really need a depth&gt;2</p>
+
+<p>I started a tutorial on making extensions, but I quickly realised that I would not be able to do as good a job as needed in Javascript. So I got a friend onboard who said he would do the JS stuff if I did the exploration and came up with the logic.</p>
+
+<hr />
+
+<p>And spoiler alert, he could never get to the chrome extension as the exploration itself threw up concerns.</p>
+
+<p>It was never going to be a straightforward recursive because almost inevitably there are links at the header and footer and even advertisements that are unnecessary. I did my analysis using Beautiful Soup. Maybe I should have used <a href="https://github.com/scrapy/scrapy">Scrapy</a> or some other tool?</p>
+
+<p>My observations on all the cases I encountered:</p>
+<ul>
+  <li>
+    <p>There are always <strong>repeated URLs in a page</strong>. Mostly about the website itself (rather than the content). Eg: Subscribe, Links to latest articles, link to twitter/app store. These accounted for 10-30% of links, so that was a good thing to catch.</p>
+  </li>
+  <li>
+    <p>Secondly, its not enough to remove repetitions on each page, but we also need to <strong>remove repetitions across all pages</strong>. Eg: If my depth=0 is a NYT article, then a lot of links in it will be for other NYT articles that all have the same header (<em>home page, trending, business, tech..</em>) and footer (<em>about us, legal, careers..</em>). So I made sure the article I was about to search has not already been searched.</p>
+  </li>
+  <li>
+    <p>Probably the <strong>biggest improvement</strong> (order of magnitude) in performance was pretty simple actually. I will ‘dive’ only into those articles that have non zero articles. Eg. If user has requested depth=2, and  only 56/105 links at depth=1 actually have any matches. Then only those 56 will be searched instead of all 105 as part of depth=2.</p>
+  </li>
+  <li>
+    <p><strong>Advertisements</strong> were not really a problem, for some reason they were not even showing up in my code’s extracted URLs. Maybe has something to do with the way they are rendered on front end? Idk. I still looked into some solutions and would have probably come up with something using a <a href="https://github.com/notracking/hosts-blocklists">mature list</a> and implemented using <a href="https://www.wikiwand.com/en/Bloom_filter">bloom filters</a>.</p>
+  </li>
+  <li>
+    <p>I was using a regex to pick stuff that looks like a URL. i.e starts with http, www etc.. But I later caught some links that were being left out <img src="/projects/depthsearch_images/runnersworld.jpg" alt="" /> So I made sure to catch them too.</p>
+  </li>
+</ul>
+
+<hr />
+<h1 id="actual-use-of-all-this">Actual use of all this?</h1>
+
+<p>If you don’t mind, you can use this a locally or in Colab as a notebook. But as to the question of putting it in a browser extension, I am not sure how that will work.</p>
+
+<p>Since even Depth=1 can take a couple of minutes* <img src="/projects/depthsearch_images/notime.jpg" alt="" /> (when run through an IPython kernel on a 1.6Ghz 8GBRAM Windows 10 machine), its probably going to be even slower running as a chrome extension (If you know more about this, please reach out to me).</p>
+
+<p>So maybe server-side processing is the way to go rather than client side. Then I might be able to use better machines from GCE too. ^</p>
+
+<!-- ## But.. but...
+If you still see some use in having a python implementation of this idea I stumbled upon [this package](https://github.com/s0md3v/Photon) which looks pretty promising (It processed links orders of magnitude better than my notebook, but I was getting an encoding error at the last step). I did not look for this initially since I wanted to build a browser extension and not a python app. -->
+
+<hr />
+<h3 id="misc">Misc:</h3>
+<p>Additionally, bs4 is compatible with PDFs too, and as part of an academic solution (for research papers) this could be extended to PDFs too and not just webpages</p>
+
+<p>^  If getting count of links is not too expensive, we can do it and accordingly do server side processing only for requests that we know are going to take too long, and also set wait time expectation for the user.</p>
+
+<p>* I definitely should be doing some <em>parallel threading</em> for the links since this serial processing is majorly slowing it down.</p>
+
+<hr>
+<h3><a href="/projects">Check out my other projects!🌟</a></h3>
+<br>I'd love to know to know what you thought of this 
+
+<br><br><div id="disqus_thread"></div>
+<script>   
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+        
+        // IMPORTANT: Replace EXAMPLE with your forum shortname!
+        s.src = 'https://tejaswag.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view the 
+    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+        comments powered by Disqus.
+    </a>
+</noscript>
+
+                    </div>
+                </section>
+
+				<!-- Footer -->
+                <footer id="footer">
+                    <div class="inner">
+                        <ul class="icons">
+                            <li><a href="https://www.linkedin.com/in/tejaswa/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/swahareddy" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                            <li><a href="https://www.instagram.com/tejaswagg/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                            <!-- <li><a href="https://twitter.com/khanakhilao" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
+                            <!-- <li><a href="https://www.facebook.com/reddyswaha/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+                            
+                        </ul>
+                        <ul class="copyright">
+                            <li>&copy; Tejaswa</li><!-- <li>Template: <a href="https://html5up.net">HTML5 UP</a></li> -->
+                        </ul>
+                    </div>
+                </footer>
+        </div>
+            
+            
+            
+        <!-- Scripts -->
+            <script src="../assets/js/jquery.min.js"></script>
+            <script src="../assets/js/jquery.scrolly.min.js"></script>
+            <script src="../assets/js/jquery.scrollex.min.js"></script>
+            <script src="../assets/js/browser.min.js"></script>
+            <script src="../assets/js/breakpoints.min.js"></script>
+            <script src="../assets/js/util.js"></script>
+            <script src="../assets/js/main.js"></script>
+
+        
+    </body>
+<html>

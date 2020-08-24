@@ -1,7 +1,6 @@
 ---
 layout: project
 title: "gpt2 Whatsapp Simulation"
-author: jill
 github_repo: https://github.com/swahareddy/gpt2AI_whatsapp_simulation
 ---
 [comment]:2020-08-16
