@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Chatbot for your favorite GIFs
-github_repo: TBD
+github_repo: https://github.com/swahareddy/Ask-me-to-make-you-GIFs
 ---
 
 <blockquote class="blockquote">
