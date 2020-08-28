@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>US History</title>
+		<title>A year of my Spotify <img src="misc_images\spotify.png" width="8%"></title>
 		<meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -43,26 +43,32 @@
 
                 <section id="whyido">
                     <div class="inner">
-                        <h1 class="display-1">US History</h1>
-<p>I have always had a nudge to know about US History. I mean almost all that I knew is that the British were once there, they harmed native Indians and the civil war abolished slavery.</p>
+                        <h1 class="display-1">A year of my Spotify <img src="misc_images\spotify.png" width="8%"></h1>
+<p>One of the easiest dashboards I have made. Particularly since the <a href="https://docs.google.com/spreadsheets/d/1bIxNFQmPRpb_SoXTooEJ68SAH60S7Ups5J18iCuug2o/edit?usp=sharing" target="_blank">data</a> need not be cleaned so you can just reuse the template. Scroll down for instructions. 19,000 streamed songs in a year.</p>
 
-<p>My trigger to finally learn about it was after watching the <a href="https://www.hotstar.com/in/movies/hamilton/1260032145">Hamilton musical (sadly on Hotstar</a>, not live). I came across this <a href="https://www.youtube.com/embed/videoseries?list=PL8dPuuaLjXtMwmepBjTSG593eG7ObzO7s"><strong>beautiful web series</strong></a>. It took me 2 weeks before I realised that the host <em>John Green</em> is the John Green from <em>Fault in Our Stars</em> fame! 🌟</p>
+<p>This is thanks to EU’s <a href="https://www.spotify.com/us/privacy/#privacy-center-rights" target="_blank"><abbr title="General Data Protection Regulation">GDPR</abbr></a> which mandates that consumers should have access to the company’s data about them. And even though I use Spotify in a non EU country, the fact that they are headquartered in Sweden (in EU) and they rely on a <a href="https://cloud.google.com/customers/spotify" target="_blank">cloud provider</a> that would have global resources means that I am eligible for <abbr title="General Data Protection Regulation">GDPR</abbr>’s rights too.</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8dPuuaLjXtMwmepBjTSG593eG7ObzO7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe width="100%" height="750" src="https://datastudio.google.com/embed/reporting/882eb2bc-367d-4afa-8b93-f8574bfde6b0/page/jnxUB" frameborder="0" style="border:0" allowfullscreen=""></iframe>
 
-<p>Its a 48 part, 10 hour series which I saw in increments everyday while washing dishes 
-<iframe src="https://giphy.com/embed/d2YMJ481F8qqs" width="15%" class="giphy-embed"></iframe> during the Covid-19 lockdown.</p>
+<!-- Observations:
+* Weekly distribution: I listen to music while working  -->
+<blockquote>
+  <p>Caveat: Spotify even logs the songs that you skip over (so they have 0sec play time). Hence the <code class="language-plaintext highlighter-rouge">record count</code> can be slightly misleading. For context, I have 750 records with secPlayed=0, 5,000 records for &lt;3sec 7,000 records for &lt;15sec out of a total of 19,000 records.</p>
+</blockquote>
 
-<p>Its interesting to contrast the tense, violent, racist America of the last 2 centuries with the country today. Knowing the roots of Hamilton’s <em>Wall Street</em>, what’s common between the ivy leagues 🏛, wars were fought over whiskey 🍺, Mexico used to include California, Texas etc too, why the French gifted the statue of liberty 🗽.</p>
+<p><strong>To make this for yourself, just follow the instructions from <a href="https://thenextweb.com/tech/2020/06/19/a-simple-guide-to-visualising-your-spotify-listening-data-badass-ly/" target="_blank">here</a>.</strong> I have added a lot more visualisations in my dashboard, so you might want to copy my report instead. You’ll just have to add a <code class="language-plaintext highlighter-rouge">secPlayed</code> field (<code class="language-plaintext highlighter-rouge">=msPlayed/1000</code>) in <code class="language-plaintext highlighter-rouge">manage added data sources</code>.</p>
 
-<p>And in light of the civil unrest trigerred by George Floyd’s death, it is eye opening to know how ingrained racism was in the 19th and 20th century America. Did you know that not only the legislature, but even the supreme court once upheld the law to serve <em>“the broad dominant purpose of preserving the purity and integrity of the white race”</em>.</p>
+<p>This project leads to two other thoughts:</p>
+<ol>
+  <li>Spotify provides some amazing information of songs (happiness, dance-ability, tempo, album cover etc) through <a href="https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/" target="_blank">APIs</a>. Connecting to those APIs can lead to more interesting and even <a href="https://developer.spotify.com/documentation/widgets/" target="_blank">interactive</a> apps.</li>
+  <li>I should explore more of my <abbr title="General Data Protection Regulation">GDPR</abbr>-enabled-data to see what can be inferred. Starting with <a href="https://myaccount.google.com/dashboard" target="_blank">Google</a>?</li>
+</ol>
 
-<p>There are also some parts that reminded me of India’s freedom struggle. For example we had a <a href="https://www.wikiwand.com/en/History_of_the_British_salt_tax_in_India#:~:text=The%20India%20Salt%20Act%20of,each%20maund%20(82%20pounds).">salt tax</a> forced upon us, while America had the <a href="https://www.bostonteapartyship.com/the-tea-act#:~:text=The%20passing%20of%20the%20Tea,oil%2C%20paint%2C%20and%20paper.">tea tax</a>. Both boycotted British products, both were the world’s biggest cotton plantations for the British (which interestingly played a major role in US’s civil war, and the the <em>civil war gave way for the rise of the city of Bombay!</em>)</p>
-
-<p>Episodes 32-34 were a nice revision of the intro to <a href="/blogs/ait_macroeco.html">macroeconomics class I taught</a> earlier this year. And a reminder of</p>
-
-<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_kBufiL.json" background="transparent" speed="1" style="width: 300px; height: 300px; text-align:right;float: right;" loop="" autoplay=""></lottie-player>
-
+<p>Other more evolved projects I found based on this data:</p>
+<ul>
+  <li><a href="https://towardsdatascience.com/spotify-sentiment-analysis-8d48b0a492f2" target="_blank">https://towardsdatascience.com/spotify-sentiment-analysis-8d48b0a492f2</a></li>
+  <li><a href="https://towardsdatascience.com/i-wrapped-my-spotify-history-the-hard-way-93dc832d9b47" target="_blank">https://towardsdatascience.com/i-wrapped-my-spotify-history-the-hard-way-93dc832d9b47</a></li>
+</ul>
 
 <hr>
 
