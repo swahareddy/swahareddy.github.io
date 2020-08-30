@@ -19,6 +19,9 @@ This project leads to two other thoughts:
 1. Spotify provides some amazing information of songs (happiness, dance-ability, tempo, album cover etc) through [APIs](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/){:target="_blank"}. Connecting to those APIs can lead to more interesting and even [interactive](https://developer.spotify.com/documentation/widgets/){:target="_blank"} apps.
 2. I should explore more of my GDPR-enabled-data to see what can be inferred. Starting with [Google](https://myaccount.google.com/dashboard){:target="_blank"}?
 
+![](misc_images/interpretation.pdf)
+<object data="misc_images/interpretation.pdf" width="70%" height="500" type='application/pdf'/>
+
 Other more evolved projects I found based on this data:
 * [https://towardsdatascience.com/spotify-sentiment-analysis-8d48b0a492f2](https://towardsdatascience.com/spotify-sentiment-analysis-8d48b0a492f2){:target="_blank"}
 * [https://towardsdatascience.com/i-wrapped-my-spotify-history-the-hard-way-93dc832d9b47](https://towardsdatascience.com/i-wrapped-my-spotify-history-the-hard-way-93dc832d9b47){:target="_blank"}

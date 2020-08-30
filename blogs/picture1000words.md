@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: A picture speaks a 1000 words
+title: A picture speaks a 1000 words 🖼 ℹ
 ---
 I'm not go into the history or philosophy of this adage. And as for its meaning, it's self explanatory.
 ## How did I get here?

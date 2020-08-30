@@ -1,0 +1,64 @@
+I"X<p>Hey, this post is here to give an overview of how this site technically works. I’ll be defining the components and the reasons for my choices and linking relevant tutorials at the end. After going through this you can probably clone my repo, delete couple of folders that have these posts and put in your own content.</p>
+
+<h3 id="where-i-was-coming-from">Where I was coming from?</h3>
+<p>Although I am a developer, I have always worked o the back-end of stuff. Honestly, my experience with any front-end technology was as limited as just knowing <code class="language-plaintext highlighter-rouge">&lt;HTML&gt;</code> tags. But as I started doing more and more projects for fun, I realised that I do not want to be shy about this going forward.</p>
+
+<p>But at the same time I felt that it would be a shame for a professional developer to use Wordpress, Wixsite etc, although they are great solutions. And now that I have built this, I think it is as easy as any of these tools!</p>
+
+<h2 id="what-is-needed-for-a-website">What is needed for a website?</h2>
+<ol>
+  <li>
+    <h3 id="web-html-pages">Web (HTML) pages</h3>
+    <p>Don’t worry, you barely need to use any HTML after an initial setup. I write all these posts in <strong>markdown</strong> which is plain text with minimal formatting. But if you right-click and view page source (<code class="language-plaintext highlighter-rouge">Ctrl+U</code> on Chrome) on ony page here, or elsewhere on the internet you see HTML.</p>
+  </li>
+</ol>
+
+<p>So the most important part of this website is a tool called <a href="https://jekyllrb.com/">Jekyll</a>. <strong>This tool converts my simple markdown to HTML automatically along with themes, header, footers etc</strong>.</p>
+
+<p><strong>This is how easy it was for me to write this blog!</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: project
+title: How does this website work?
+---
+
+Hey, this post is here to give an overview of how this site technically works. I'll be defining the components and the reasons for my choices and linking relevant tutorials at the end. After going through this you can probably clone my repo, delete couple of folders that have these posts and put in your own content.
+
+### Where I was coming from?
+Although I am a developer, I have always worked o the back-end of stuff. Honestly, my experience with any front-end technology was as limited as just knowing `&lt;HTML&gt;` tags. But as I started doing more and more projects for fun, I realised that I do not want to be shy about this going forward.
+</code></pre></div></div>
+
+<ol>
+  <li><a href="https://www.youtube.com/watch?v=u-RLu_8kwA0&amp;t=291s">Get a theme</a></li>
+  <li><a href="https://jekyllrb.com/docs/installation/windows/">Install Jekyll</a></li>
+  <li><a href="https://www.youtube.com/watch?v=HlfvhkDuicc">Get started on Windows</a></li>
+  <li>
+    <p><a href="https://www.youtube.com/watch?v=T1itpPvFWHI&amp;list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB">Elaborate tutorial</a></p>
+  </li>
+  <li>
+    <h3 id="hosting">Hosting</h3>
+    <p>When you use Jekyll (or anything else like Flask, Angular etc) and get a good website ready, it is still running on a local link that only you can see like <code class="language-plaintext highlighter-rouge">127.0.0.1:4000/about.html</code> and not at a publicly accessible one like <code class="language-plaintext highlighter-rouge">swahareddy.github.io/about.html</code>. This is the simplest step.</p>
+  </li>
+</ol>
+
+<p>In order to do this, you need to use a hosting service. To put it simply, it is a fancier online storage of your photos, markdown files, templates etc. Most people use paid hosting services, but now we have an option to do this for free! This is why I am using Github Pages.</p>
+
+<ol>
+  <li><a href="http://jmcglone.com/guides/github-pages/">This</a> was sufficient for me.</li>
+  <li>
+    <p><a href="https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1">Another option</a></p>
+  </li>
+  <li>
+    <h3 id="domain-name">Domain name</h3>
+    <p>Now that you have converted <code class="language-plaintext highlighter-rouge">127.0.0.1:4000/about.html</code> ➡ <code class="language-plaintext highlighter-rouge">swahareddy.github.io/about.html</code>, you  might still want to convert <code class="language-plaintext highlighter-rouge">swahareddy.github.io/about.html</code> ➡ <code class="language-plaintext highlighter-rouge">swahareddy.com/about.html</code>.
+<strong>This is purely optional</strong>, and the only place you’ll need to pay anything.</p>
+  </li>
+</ol>
+
+<p>I am yet to make this happen. I’ll update it once its done.</p>
+
+<h2 id="misc">Misc</h2>
+<ul>
+  <li>I found Jekyll <em>blogs</em> confusing. If you can help me out, let me know! This has not been a problem for any of my posts (yet).</li>
+  <li>I’m not able to use my layouts in nested folders</li>
+</ul>
+:ET

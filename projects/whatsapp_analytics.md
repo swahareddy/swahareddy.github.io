@@ -4,10 +4,12 @@ github_repo: https://github.com/swahareddy/WhatsappAnalytics
 title: Whatsapp group chat analytics
 ---
 <!-- # Whatsapp group chat analytics -->
-This code takes your notebook takes your whatsapp group chat and parses all the messages to show interesting insights.
-### [Check out the end product here](https://datastudio.google.com/reporting/d1a94683-9b57-4b6d-9282-ed31ac9cec04)
+This notebook takes your Whatsapp group chat and parses all the messages to show interesting insights.
+### This is just a preview. Check out the full product *[here](https://datastudio.google.com/reporting/d1a94683-9b57-4b6d-9282-ed31ac9cec04)*
 
-<lottie-player src="https://assets3.lottiefiles.com/packages/lf20_i0pPw5.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; text-align:right;"  loop  autoplay></lottie-player>
+<iframe width="90%" height="750" src="https://datastudio.google.com/embed/reporting/d1a94683-9b57-4b6d-9282-ed31ac9cec04/page/4VxZB" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<!-- <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_i0pPw5.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; text-align:right;"  loop  autoplay></lottie-player> -->
 
 * It breaks up messages by group members
 ![MemberOverview](whatsapp_analytics_images/member_overview.png)
@@ -29,7 +31,7 @@ This code takes your notebook takes your whatsapp group chat and parses all the 
 
 Export chats from Whatsapp mobile application. This will give you a file with a name like `WhatsApp Chat with Sushil Khairnar.txt`
 
-<img src="https://github.com/swahareddy/gpt2AI_whatsapp_simulation/blob/master/readme_images/WhatsApp%20Image%202020-08-02%20at%2011.52.43.jpeg" height="240" width="330"> <img src="https://github.com/swahareddy/gpt2AI_whatsapp_simulation/blob/master/readme_images/WhatsApp%20Image%202020-08-02%20at%2011.52.43%20(1).jpeg" height="240" width="380">
+<img src="gpt2Whatsapp_images/WhatsApp%20Image%202020-08-02%20at%2011.52.43.jpeg" height="240" width="330"> <img src="gpt2Whatsapp_images/WhatsApp%20Image%202020-08-02%20at%2011.52.43%20(1).jpeg" height="240" width="380">
 
 
 > 17/06/20, 20:05 - Aditya Daftari Coep: <Media omitted>

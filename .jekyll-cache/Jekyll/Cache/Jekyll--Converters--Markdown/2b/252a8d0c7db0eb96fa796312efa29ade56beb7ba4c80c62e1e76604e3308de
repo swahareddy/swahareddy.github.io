@@ -1,0 +1,84 @@
+I"2<!-- # Whatsapp group chat analytics -->
+<p>This notebook takes your Whatsapp group chat and parses all the messages to show interesting insights.</p>
+<h3 id="this-is-just-a-preview-check-out-the-end-product-here"><a href="https://datastudio.google.com/reporting/d1a94683-9b57-4b6d-9282-ed31ac9cec04">This is just a preview. Check out the end product here</a></h3>
+
+<iframe width="90%" height="1750" src="https://datastudio.google.com/embed/reporting/d1a94683-9b57-4b6d-9282-ed31ac9cec04/page/4VxZB" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+
+<lottie-player src="https://assets3.lottiefiles.com/packages/lf20_i0pPw5.json" background="transparent" speed="1" style="width: 300px; height: 300px; text-align:right;" loop="" autoplay=""></lottie-player>
+
+<ul>
+  <li>It breaks up messages by group members
+<img src="/projects/whatsapp_analytics_images/member_overview.png" alt="MemberOverview" /></li>
+  <li>Analyzes sentiment of messages (and ofc at an aggregate level too)</li>
+  <li>Provides time-based analysis of conversation volumes and emotions (<em>using google’s industry standard  cloud NLP API</em>)
+<img src="/projects/whatsapp_analytics_images/timeseries1.png" alt="MemberOverview" /></li>
+  <li>Seperates out emojis used</li>
+  <li>Seperates out individuals <em>tagged</em> in messages</li>
+  <li>Handle emoticons and common contractions</li>
+</ul>
+
+<p><img src="/projects/whatsapp_analytics_images/filter.png" alt="MemberOverview" /></p>
+
+<h3 id="what-you-need-to-run-it-yourself">What you need to run it yourself:</h3>
+<ul>
+  <li>A python/jupyter installation (run the <code class="language-plaintext highlighter-rouge">.py</code>/ <code class="language-plaintext highlighter-rouge">.ipynb</code> file respectively) or you can simply use an online tool like <a href="http://colab.research.google.com/">Colab</a>.</li>
+  <li>A google cloud account setup. Use this <a href="https://github.com/swahareddy/IndianMediaNegativity/blob/master/gcp_guide.md">basic intro of GCP components</a> and then follow <a href="https://cloud.google.com/natural-language/docs/setup">these steps</a> (till ‘use key in your env’) if you are new to GCP.</li>
+</ul>
+
+<h2 id="input-format">Input format</h2>
+
+<p>Export chats from Whatsapp mobile application. This will give you a file with a name like <code class="language-plaintext highlighter-rouge">WhatsApp Chat with Sushil Khairnar.txt</code></p>
+
+<p><img src="https://github.com/swahareddy/gpt2AI_whatsapp_simulation/blob/master/readme_images/WhatsApp%20Image%202020-08-02%20at%2011.52.43.jpeg" height="240" width="330" /> <img src="https://github.com/swahareddy/gpt2AI_whatsapp_simulation/blob/master/readme_images/WhatsApp%20Image%202020-08-02%20at%2011.52.43%20(1).jpeg" height="240" width="380" /></p>
+
+<blockquote>
+  <p>17/06/20, 20:05 - Aditya Daftari Coep: <Media omitted=""></Media></p>
+
+  <p>17/06/20, 20:05 - Sim-rum Melvani: Hahaha feels like ages ago</p>
+
+  <p>17/06/20, 20:06 - Aditya Daftari Coep: Yes 😂</p>
+
+  <p>17/06/20, 20:06 - Sim-rum Melvani: Kya photo hai😂</p>
+
+  <p>17/06/20, 20:07 - Aditya Daftari Coep: <Media omitted=""></Media></p>
+
+  <p>17/06/20, 20:07 - Aditya Daftari Coep: Sponge Bob with the sponge ball😂</p>
+
+  <p>17/06/20, 20:07 - Anoushka Kundu: 😂😂😂😂 look at his fists</p>
+
+  <p>17/06/20, 20:07 - Aditya Daftari Coep: 😂</p>
+
+  <p>17/06/20, 20:07 - Anoushka Kundu: SonjBob</p>
+
+  <p>17/06/20, 20:08 - Aditya Daftari Coep: No</p>
+
+  <p>17/06/20, 20:08 - Aditya Daftari Coep: Sponge Bob bhi bolte the hum 😂</p>
+
+  <p>17/06/20, 20:08 - Anoushka Kundu: But there lies an opportunity to call him sonjbob 😂</p>
+</blockquote>
+
+<h2 id="comments">Comments</h2>
+<blockquote>
+  <p>The cleaned message is the one sent to Google’s natural language API for classification. Thus, that’s what sentiment score and magnitude are based on.<br />
+<em>Cleaned message + (Links + Emoticons + Emojis* + Tagged people + Garbage characters) = Original message</em>
+*Emojis are conected to their text equivalent in the cleaned message. Eg: 😓 –&gt; downcast_face_with_sweat</p>
+</blockquote>
+
+<ul>
+  <li>Removed system messages like <em>’..has left the group’, ‘.. changed the description’, ‘.. changed the group icon’</em> etc..</li>
+  <li>Ignored <code class="language-plaintext highlighter-rouge">&lt;media ommitted&gt;</code> that corresponds to images ad GIFs</li>
+  <li>Extract URLs, emojis, emoticons from message.</li>
+</ul>
+
+<h2 id="future-scope">Future scope</h2>
+<ul>
+  <li><em>Tagged</em> members are mentioned by mobile number. Eg <code class="language-plaintext highlighter-rouge">Hey @919167023114, are you going for the party?</code>. A simple function to map this number to your mobile’s contacts <a href="https://contacts.google.com/">(export as csv)</a> can reveal name of the person and provide another interesting dimension to the analysis about who tags whom etc.</li>
+</ul>
+
+<h2 id="limitations">Limitations</h2>
+<ul>
+  <li>Whatsapp does not provide <em>‘reply context’</em>. i.e. if a message B is in a repsonse to message A, there is no information about this in the <code class="language-plaintext highlighter-rouge">.txt</code> that you can export.</li>
+  <li>Only recent media can be exported. Cannot perform straightforward analysis of media. (Might need to export directly from Whatsapp’s mobile storage) and tie it up with <code class="language-plaintext highlighter-rouge">chat.txt</code>.</li>
+  <li>A significant number of messages are <em>hindi</em> words described in English. These cannot be analysed for sentiment (Although if this can be converted into devnagiri script, then it is easily possible)</li>
+</ul>
+:ET
