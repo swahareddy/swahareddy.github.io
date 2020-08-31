@@ -16,7 +16,7 @@ layout: default
     <!-- <li><a href="startsmall.html">#StartSmall ₹</a></li><br> -->
     <li><a href="us_history.html">10hrs learning about US History 🔎</a></li><br>
     <li><a href="ideas_box.html">Ideas</a></li><br>
-    <li><a href="books2020.html">What I'm reading in 2020 📚</a></li>
+    <li><a href="books2020.html">What I'm reading in 2020 📚</a></li><br>
     <!-- <ol>
         <li><a href="picture1000words.html">A picture can say a 1000 words 🖼</a></li><br>
     </ol> -->
