@@ -4,10 +4,10 @@ title: US History
 ---
 
 I have always had a nudge to know about US History. I mean almost all that I knew is that the British were once there, they harmed native Indians and the civil war abolished slavery.
-<br><img src="https://media.giphy.com/media/J1v8Fx8ro0gkFt96To/giphy.gif" width="100%"><br>
+<p align="center"><br><img src="https://media.giphy.com/media/J1v8Fx8ro0gkFt96To/giphy.gif" width="50%"><br></p>
 My trigger to finally learn about it was after watching the [Hamilton musical (sadly on Hotstar](https://www.hotstar.com/in/movies/hamilton/1260032145), not live). I came across this [**beautiful web series**](https://www.youtube.com/embed/videoseries?list=PL8dPuuaLjXtMwmepBjTSG593eG7ObzO7s). It took me 2 weeks before I realised that the host *John Green* is the John Green from *Fault in Our Stars* fame! 🌟 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8dPuuaLjXtMwmepBjTSG593eG7ObzO7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="60%" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8dPuuaLjXtMwmepBjTSG593eG7ObzO7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p>Its a 48 part, 10 hour series which I saw in increments everyday while washing dishes 
 <iframe src="https://giphy.com/embed/d2YMJ481F8qqs" width="15%" class="giphy-embed" ></iframe> during the Covid-19 lockdown.</p>
@@ -20,8 +20,8 @@ There are also some parts that reminded me of India's freedom struggle. For exam
 
 Episodes 32-34 were a nice revision of the intro to [macroeconomics class I taught](ait_macroeco.md) earlier this year. If you just want a **sneak peak**, you'll probably enjoy episodes 37-40 (WW2 +Cold War) and episodes 46-49 (recent history)
 
-<img src="https://media.giphy.com/media/7GFfijngKbeNy/giphy.gif" width="100%">
-<img src="https://media.giphy.com/media/xT5LMtHmmaTZgm9ELC/giphy.gif" width="100%">
+<img src="https://media.giphy.com/media/7GFfijngKbeNy/giphy.gif" width="49%">
+<img src="https://media.giphy.com/media/xT5LMtHmmaTZgm9ELC/giphy.gif" width="49%">
 
 
 
