@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: project
 title: Some ideas of mine
 ---
 
@@ -7,6 +7,6 @@ I have a lot of project ideas that I note down, hoping to either read more and i
 
 If any of these interest you and you want to bounce ideas (even without actually getting involved with code), please reach out to me at one of the social media links mentioned at the end of this page.
 
-<li><a href="picture1000words.html">A picture can say a 1000 words 🖼</a></li><br>
-
+* [A picture can say a 1000 words 🖼](picture1000words.html)<br><br>
+* [How BJP or Congress is that channel?](media_polarisation.html)<br><br>
 

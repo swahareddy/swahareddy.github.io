@@ -71,3 +71,5 @@ If you have done Steps 1 and 2 from above, you can try more fun stuff like showi
 1. Visitor analytics?
 2. SEO optimization (XML sitemap etc)
 3. Automate RSS feed file generation
+4. Customise my 404 page
+5. Automate a script to check if there are any broken links
