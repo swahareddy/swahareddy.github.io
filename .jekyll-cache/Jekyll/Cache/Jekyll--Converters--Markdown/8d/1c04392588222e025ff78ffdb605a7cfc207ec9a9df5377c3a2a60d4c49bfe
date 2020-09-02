@@ -1,0 +1,72 @@
+I"�<p>This image was the inspiration for this project. I wanted to make the X axis of this:
+<img src="media_polarisation_images\2d_scale.jpg" alt="alt_text" width="70%" />
+<br />Like this:<br />
+<img src="media_polarisation_images\linear_scale.jpg" alt="alt_text" width="50%" /></p>
+
+<h2 id="my-idea">My idea:</h2>
+<ol>
+  <li>Define a right and left wing corpus with words that those wings are usually associated with
+    <ol>
+      <li>Manually decide 20-30 accounts (politicians, commentators, spokespersons etc..) each from right and left wing for loud polarised people</li>
+      <li>Use Twitter API to input tweets from them</li>
+      <li>For every right-wing tweet:
+        <ol>
+          <li>Run GCP entity sentiment analysis</li>
+          <li>Add entities with positive sentiment to right wing corpus</li>
+          <li>Add entities with negative sentiment to left wing corpus</li>
+          <li>There will be entities that are in both corpuses (‘army’, ‘mahatma gandhi’ etc).</li>
+          <li>Do vice-versa for left-wing tweets</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li>Now stream news like I did in <a href="/projects/news_negativity.html">my other project</a></li>
+  <li>Run GCP entity sentiment analysis on news data</li>
+  <li>Compare these entity sentiments with the above defined corpora</li>
+  <li>Calculate difference in % match</li>
+  <li>Scatter plot and clustering of different news sources</li>
+</ol>
+
+<p>These corpora would be at a national level, not same corpora for all international sources</p>
+
+<p>This could be extended to do the same for transcripts from YouTube videos of NDTV, Republic TV etc (<a href="https://www.aclweb.org/anthology/W19-2110.pdf">a data science heavy project</a>)</p>
+
+<h2 id="relevant-reads">Relevant reads:</h2>
+<ol>
+  <li><a href="https://www.cjr.org/innovations/measure-media-bias-partisan.php">https://www.cjr.org/innovations/measure-media-bias-partisan.php</a> - Good intro read for the concept. Specifically see the ‘armchair academics’ section</li>
+  <li>Similar manual projects:
+    <ol>
+      <li><a href="https://www.adfontesmedia.com/interactive-media-bias-chart/">https://www.adfontesmedia.com/interactive-media-bias-chart/</a> for interactive link to source of 2D image above</li>
+      <li><a href="https://www.journalism.org/2014/10/21/political-polarization-media-habits/pj_14-10-21_mediapolarization-08/">https://www.journalism.org/2014/10/21/political-polarization-media-habits/pj_14-10-21_mediapolarization-08/</a> link to source of 1D image above</li>
+      <li><a href="https://www.allsides.com/media-bias/media-bias-ratings">https://www.allsides.com/media-bias/media-bias-ratings</a></li>
+      <li>Can use these to validate our outputs</li>
+    </ol>
+  </li>
+</ol>
+
+<p>Unrelated, but interesting - <a href="http://graphics.wsj.com/blue-feed-red-feed/#/president-trump">http://graphics.wsj.com/blue-feed-red-feed/#/president-trump</a></p>
+
+<h2 id="progress-so-far">Progress so far</h2>
+
+<p>I have completed upto Step 1.3.</p>
+
+<p>Entity Name	Entity Type	Entity Salience	Entity Senti Score	Entity Senti Mag	Translated tweet	Date	Hashtags	Username	Link	Retweet	Likes	Replies	Retweets	Quoted tweet	Tagged accounts
+Aarogya Setu	PERSON	0.44599539	0	0	“‘Aarogya Setu’ app programming code should be made open source. What is there to hide if there is nothing fishy?
+#RahulFightsForIndia
+Right Now”	08/05/2020 06:13	[‘#rahulfightsforindia’]	SATAVRAJEEV	https://twitter.com/SATAVRAJEEV/status/1258641041659318272	FALSE	372	4	108		[]
+people	PERSON	0.020683698	-0.100000001	0.100000001	Another example of vandalism of Gujarat police in the middle of lockdown. Instead of helping the Dalits, poor and laborers are being harassed. The government is there to solve the problem of the people - not to increase it. https://twitter.com/gopimaniar/status/1244902345684598789â€¦	31/03/2020 09:58	[]	SATAVRAJEEV	https://twitter.com/SATAVRAJEEV/status/1244927118032560129	FALSE	225	10	67	https://twitter.com/gopimaniar/status/1244902345684598789	[]
+GujaratModel of Elections	PERSON	0.422431827	-0.100000001	0.100000001	#GujaratModel of Elections exposed. Gujarat Law Minister Bhupendra Sinh Chudasamaâ€™s election victory in 2017 declared unlawful, null &amp; void by Gujarat High Court in a land mark judgement	12/05/2020 06:23	[‘#gujaratmodel’]	SATAVRAJEEV	https://twitter.com/SATAVRAJEEV/status/1260093180730540032	FALSE	4998	115	1528		[]
+Gujarat High Court	ORGANIZATION	0.034117322	-0.100000001	0.100000001	#GujaratModel of Elections exposed. Gujarat Law Minister Bhupendra Sinh Chudasamaâ€™s election victory in 2017 declared unlawful, null &amp; void by Gujarat High Court in a land mark judgement	12/05/2020 06:23	[‘#gujaratmodel’]	SATAVRAJEEV	https://twitter.com/SATAVRAJEEV/status/1260093180730540032	FALSE	4998	115	1528		[]
+labourers	PERSON	0.049935434	-0.400000006	0.400000006	“After failing to contain the large scale migration,the BJP Govt is now indulging in inhuman act by forcing labourers to take bath in chemical solution.</p>
+
+<p>This is shocking &amp; deplorable that the UP Police &amp; BJP Govt is using such tactics in the name of preventing corona outbreak. https://twitter.com/KanwardeepsTOI/status/1244508599038009344Â â€¦”	30/03/2020 08:00	[]	SATAVRAJEEV	https://twitter.com/SATAVRAJEEV/status/1244534905981128704	FALSE	147	1	41	https://twitter.com/KanwardeepsTOI/status/1244508599038009344	[]
+BJP Govt	ORGANIZATION	0.667284906	-0.600000024	2	“After failing to contain the large scale migration,the BJP Govt is now indulging in inhuman act by forcing labourers to take bath in chemical solution.</p>
+
+<p>This is shocking &amp; deplorable that the UP Police &amp; BJP Govt is using such tactics in the name of preventing corona outbreak. https://twitter.com/KanwardeepsTOI/status/1244508599038009344Â â€¦”	30/03/2020 08:00	[]	SATAVRAJEEV	https://twitter.com/SATAVRAJEEV/status/1244534905981128704	FALSE	147	1	41	https://twitter.com/KanwardeepsTOI/status/1244508599038009344	[]
+UP Police	ORGANIZATION	0.00448969	-0.699999988	0.699999988	“After failing to contain the large scale migration,the BJP Govt is now indulging in inhuman act by forcing labourers to take bath in chemical solution.</p>
+
+<p>This is shocking &amp; deplorable that the UP Police &amp; BJP Govt is using such tactics in the name of preventing corona outbreak. https://twitter.com/KanwardeepsTOI/status/1244508599038009344Â â€¦”	30/03/2020 08:00	[]	SATAVRAJEEV	https://twitter.com/SATAVRAJEEV/status/1244534905981128704	FALSE	147	1	41	https://twitter.com/KanwardeepsTOI/status/1244508599038009344	[]</p>
+
+<h3 id="comments">Comments</h3>
+<p>As I have read more about this, I have come to understand that using the concepts of right and left in India is not meaningful. If we have to we can do a pro-vs-anti government scale.</p>
+:ET

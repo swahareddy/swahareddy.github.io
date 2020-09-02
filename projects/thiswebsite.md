@@ -65,4 +65,9 @@ If you have done Steps 1 and 2 from above, you can try more fun stuff like showi
 ### Misc
 * I found Jekyll *blogs* confusing. If you can help me out, let me know! This has not been a problem for any of my posts (yet).
 * I'm not able to use my layouts in nested folders 
-* I've never worked with CSS, so I am relying on standard styling and not customising anything
+* I've never worked with CSS, so I am relying on standard styling and a theme and not customising anything
+
+### Backlog
+1. Visitor analytics?
+2. SEO optimization (XML sitemap etc)
+3. Automate RSS feed file generation

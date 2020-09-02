@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>How biased is the news org/ person?</title>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="../assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+                <header id="header" class="alt">
+                    <a href="/index.html" class="logo"><strong>Tejaswa Gavankar</strong></a>
+                    <!-- <a href="/index.html" class="logo"><strong>Tejaswa Gavankar</strong> <span>Portfolio</span></a> -->
+                    <nav>
+                        <a href="#menu">Menu</a>
+                    </nav>
+                </header>
+
+				<!-- Menu -->
+                <nav id="menu">
+                    <ul class="links">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/blogs">Blogs</a></li>
+                    </ul>
+                    <!-- <ul class="actions stacked">
+                        <li><a href="#" class="button primary fit">Get Started</a></li>
+                        <li><a href="#" class="button fit">Log In</a></li>
+                    </ul> -->
+                </nav>
+
+                <section id="whyido">
+                    <div class="inner">
+                        <h1 class="display-1">How biased is the news org/ person?</h1>
+
+<a href="https://github.com/swahareddy/political_polarisation" class="icon brands alt fa-github"><span class="label">GitHub</span> Check out the code on GitHub</a>
+<hr>
+<br><br>
+
+<p>This image was the inspiration for this project. I wanted to make the X axis of this:
+<img src="media_polarisation_images\2d_scale.jpg" alt="alt_text" width="70%" />
+<br />Like this:<br />
+<img src="media_polarisation_images\linear_scale.jpg" alt="alt_text" width="50%" /></p>
+
+<h2 id="my-idea">My idea:</h2>
+<ol>
+  <li>Define a right and left wing corpus with words that those wings are usually associated with
+    <ol>
+      <li>Manually decide 20-30 accounts (politicians, commentators, spokespersons etc..) each from right and left wing for loud polarised people</li>
+      <li>Use Twitter API to input tweets from them</li>
+      <li>For every right-wing tweet:
+        <ol>
+          <li>Run GCP entity sentiment analysis</li>
+          <li>Add entities with positive sentiment to right wing corpus</li>
+          <li>Add entities with negative sentiment to left wing corpus</li>
+          <li>There will be entities that are in both corpuses (‘army’, ‘mahatma gandhi’ etc).</li>
+          <li>Do vice-versa for left-wing tweets</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li>Now stream news like I did in <a href="/projects/news_negativity.html">my other project</a></li>
+  <li>Run GCP entity sentiment analysis on news data</li>
+  <li>Compare these entity sentiments with the above defined corpora</li>
+  <li>Calculate difference in % match</li>
+  <li>Scatter plot and clustering of different news sources</li>
+</ol>
+
+<p>These corpora would be at a national level, not same corpora for all international sources</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Oversimplifying the scenario into a BJP vs Congress world. These are the twitter accounts I have used to build the corpus.
+## INC
+### List of INC spokespersons: [Official](https://https://twitter.com/i/lists/200025713/members)
+['JM_Scindia', 'RajBabbarMP', '_SandeepDikshit', 'SATAVRAJEEV', 'VijayIndrSingla', 'Meem_Afzal', 'MYaskhi', 'SinghRPN', 'sushmitadevinc', 'dineshgrao', 'plpunia', 'GauravGogoiAsm', 'DrAMSinghvi', 'drajoykumar', 'khushsundar', 'shaktisinhgohil', 'JhaSanjay', 'DeependerSHooda', 'rajeevgowda']
+### Others
+['RahulGandhi', 'sunilkjakhar', 'srinivasiyc', 'INCIndiaLive']
+---
+## BJP
+### List of BJP spokespersons: (Verified accounts)
+['sambitswaraj', 'ShahnawazBJP', 'NupurSharmaBJP', 'gauravbh', 'GVLNRAO', 'AshwiniBJP', 'NalinSKohli']
+### Others
+['BJP4India', 'rammadhavbjp', 'JPNadda', 'BJPLive']
+</code></pre></div></div>
+
+<p>Did not include cabinet ministers since their tweets are overwhelmingly about their portfolios and not about the common narrative.</p>
+
+<p>This could be extended to do the same for transcripts from YouTube videos of NDTV, Republic TV etc (<a href="https://www.aclweb.org/anthology/W19-2110.pdf">a data science heavy project</a>)</p>
+
+<h2 id="relevant-reads">Relevant reads:</h2>
+<ol>
+  <li><a href="https://www.cjr.org/innovations/measure-media-bias-partisan.php">https://www.cjr.org/innovations/measure-media-bias-partisan.php</a> - Good intro read for the concept. Specifically see the ‘armchair academics’ section</li>
+  <li>Similar manual projects:
+    <ol>
+      <li><a href="https://www.adfontesmedia.com/interactive-media-bias-chart/">https://www.adfontesmedia.com/interactive-media-bias-chart/</a> for interactive link to source of 2D image above</li>
+      <li><a href="https://www.journalism.org/2014/10/21/political-polarization-media-habits/pj_14-10-21_mediapolarization-08/">https://www.journalism.org/2014/10/21/political-polarization-media-habits/pj_14-10-21_mediapolarization-08/</a> link to source of 1D image above</li>
+      <li><a href="https://www.allsides.com/media-bias/media-bias-ratings">https://www.allsides.com/media-bias/media-bias-ratings</a></li>
+      <li>Can use these to validate our outputs</li>
+    </ol>
+  </li>
+</ol>
+
+<p>Unrelated, but interesting - <a href="http://graphics.wsj.com/blue-feed-red-feed/#/president-trump">http://graphics.wsj.com/blue-feed-red-feed/#/president-trump</a></p>
+
+<h2 id="progress-so-far">Progress so far</h2>
+<p>I have completed upto Step 1.3.3 (described <a href="#my-idea">above</a>)</p>
+
+<p>Here is a small sample of what I extracted for tweets from a congress party spokesperson :</p>
+
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">After failing to contain the large scale migration,the BJP Govt is now indulging in inhuman act by forcing labourers to take bath in chemical solution.<br /><br />This is shocking &amp; deplorable that the UP Police &amp; BJP Govt is using such tactics in the name of preventing corona outbreak. <a href="https://t.co/l2Iodi2Qcd">https://t.co/l2Iodi2Qcd</a></p>&mdash; Rajeev Satav (@SATAVRAJEEV) <a href="https://twitter.com/SATAVRAJEEV/status/1244534905981128704?ref_src=twsrc%5Etfw">March 30, 2020</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<table>
+  <thead>
+    <tr>
+      <th>Entity Name</th>
+      <th>Entity Type</th>
+      <th>Entity Salience</th>
+      <th>Entity Senti Score</th>
+      <th>Entity Senti Mag</th>
+      <th>Translated tweet</th>
+      <th>Date</th>
+      <th>Hashtags</th>
+      <th>Username</th>
+      <th>Link</th>
+      <th>Retweet</th>
+      <th>Likes</th>
+      <th>Replies</th>
+      <th>Retweets</th>
+      <th>Quoted tweet</th>
+      <th>Tagged accounts</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Aarogya Setu</td>
+      <td>PERSON</td>
+      <td>0.445995</td>
+      <td>0</td>
+      <td>0</td>
+      <td>‘Aarogya Setu’ app programming code should be made open source. What is there to hide if there is nothing fishy?<br />#RahulFightsForIndia<br />Right Now</td>
+      <td>08/05/2020 06:13</td>
+      <td>[‘#rahulfightsforindia’]</td>
+      <td>SATAVRAJEEV</td>
+      <td>https://twitter.com/SATAVRAJEEV/status/1258641041659318272</td>
+      <td>FALSE</td>
+      <td>372</td>
+      <td>4</td>
+      <td>108</td>
+      <td> </td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>people</td>
+      <td>PERSON</td>
+      <td>0.020684</td>
+      <td>-0.1</td>
+      <td>0.1</td>
+      <td>Another example of vandalism of Gujarat police in the middle of lockdown. Instead of helping the Dalits, poor and laborers are being harassed. The government is there to solve the problem of the people - not to increase it. https://twitter.com/gopimaniar/status/1244902345684598789â€¦</td>
+      <td>31/03/2020 09:58</td>
+      <td>[]</td>
+      <td>SATAVRAJEEV</td>
+      <td>https://twitter.com/SATAVRAJEEV/status/1244927118032560129</td>
+      <td>FALSE</td>
+      <td>225</td>
+      <td>10</td>
+      <td>67</td>
+      <td>https://twitter.com/gopimaniar/status/1244902345684598789</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>GujaratModel of Elections</td>
+      <td>PERSON</td>
+      <td>0.422432</td>
+      <td>-0.1</td>
+      <td>0.1</td>
+      <td>#GujaratModel of Elections exposed. Gujarat Law Minister Bhupendra Sinh Chudasamaâ€™s election victory in 2017 declared unlawful, null &amp; void by Gujarat High Court in a land mark judgement</td>
+      <td>12/05/2020 06:23</td>
+      <td>[‘#gujaratmodel’]</td>
+      <td>SATAVRAJEEV</td>
+      <td>https://twitter.com/SATAVRAJEEV/status/1260093180730540032</td>
+      <td>FALSE</td>
+      <td>4998</td>
+      <td>115</td>
+      <td>1528</td>
+      <td> </td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>Gujarat High Court</td>
+      <td>ORGANIZATION</td>
+      <td>0.034117</td>
+      <td>-0.1</td>
+      <td>0.1</td>
+      <td>#GujaratModel of Elections exposed. Gujarat Law Minister Bhupendra Sinh Chudasamaâ€™s election victory in 2017 declared unlawful, null &amp; void by Gujarat High Court in a land mark judgement</td>
+      <td>12/05/2020 06:23</td>
+      <td>[‘#gujaratmodel’]</td>
+      <td>SATAVRAJEEV</td>
+      <td>https://twitter.com/SATAVRAJEEV/status/1260093180730540032</td>
+      <td>FALSE</td>
+      <td>4998</td>
+      <td>115</td>
+      <td>1528</td>
+      <td> </td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>labourers</td>
+      <td>PERSON</td>
+      <td>0.049935</td>
+      <td>-0.4</td>
+      <td>0.4</td>
+      <td>After failing to contain the large scale migration,the BJP Govt is now indulging in inhuman act by forcing labourers to take bath in chemical solution.<br /><br />This is shocking &amp; deplorable that the UP Police &amp; BJP Govt is using such tactics in the name of preventing corona outbreak. https://twitter.com/KanwardeepsTOI/status/1244508599038009344Â â€¦</td>
+      <td>30/03/2020 08:00</td>
+      <td>[]</td>
+      <td>SATAVRAJEEV</td>
+      <td>https://twitter.com/SATAVRAJEEV/status/1244534905981128704</td>
+      <td>FALSE</td>
+      <td>147</td>
+      <td>1</td>
+      <td>41</td>
+      <td>https://twitter.com/KanwardeepsTOI/status/1244508599038009344</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>BJP Govt</td>
+      <td>ORGANIZATION</td>
+      <td>0.667285</td>
+      <td>-0.6</td>
+      <td>2</td>
+      <td>After failing to contain the large scale migration,the BJP Govt is now indulging in inhuman act by forcing labourers to take bath in chemical solution.<br /><br />This is shocking &amp; deplorable that the UP Police &amp; BJP Govt is using such tactics in the name of preventing corona outbreak. https://twitter.com/KanwardeepsTOI/status/1244508599038009344Â â€¦</td>
+      <td>30/03/2020 08:00</td>
+      <td>[]</td>
+      <td>SATAVRAJEEV</td>
+      <td>https://twitter.com/SATAVRAJEEV/status/1244534905981128704</td>
+      <td>FALSE</td>
+      <td>147</td>
+      <td>1</td>
+      <td>41</td>
+      <td>https://twitter.com/KanwardeepsTOI/status/1244508599038009344</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>UP Police</td>
+      <td>ORGANIZATION</td>
+      <td>0.00449</td>
+      <td>-0.7</td>
+      <td>0.7</td>
+      <td>After failing to contain the large scale migration,the BJP Govt is now indulging in inhuman act by forcing labourers to take bath in chemical solution.<br /><br />This is shocking &amp; deplorable that the UP Police &amp; BJP Govt is using such tactics in the name of preventing corona outbreak. https://twitter.com/KanwardeepsTOI/status/1244508599038009344Â â€¦</td>
+      <td>30/03/2020 08:00</td>
+      <td>[]</td>
+      <td>SATAVRAJEEV</td>
+      <td>https://twitter.com/SATAVRAJEEV/status/1244534905981128704</td>
+      <td>FALSE</td>
+      <td>147</td>
+      <td>1</td>
+      <td>41</td>
+      <td>https://twitter.com/KanwardeepsTOI/status/1244508599038009344</td>
+      <td>[]</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>You can find the notebook to do this over <a href="https://github.com/swahareddy/political_polarisation">here</a>.
+I’m retiring this project due to time constraints but <em>if you’d like to complete this project, the main steps remaining are #4, #5 and #6, data science related.</em></p>
+
+<h3 id="comments">Comments</h3>
+<p>As I have read more about this, I have come to understand that using the concepts of right and left in India is not meaningful. If we have to we can do a pro-vs-anti government scale.</p>
+
+<hr>
+<h3><a href="/projects">Check out my other projects!🌟</a></h3>
+<br>I'd love to know to know what you thought of this 
+
+<br><br><div id="disqus_thread"></div>
+<script>   
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+        
+        // IMPORTANT: Replace EXAMPLE with your forum shortname!
+        s.src = 'https://tejaswag.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view the 
+    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+        comments powered by Disqus.
+    </a>
+</noscript>
+
+                    </div>
+                </section>
+
+				<!-- Footer -->
+                <footer id="footer">
+                    <div class="inner">
+                        <ul class="icons">
+                            <li><a href="https://www.linkedin.com/in/tejaswa/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/swahareddy" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                            <li><a href="https://www.instagram.com/tejaswagg/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                            <!-- <li><a href="https://twitter.com/khanakhilao" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
+                            <!-- <li><a href="https://www.facebook.com/reddyswaha/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+                            
+                        </ul>
+                        <ul class="copyright">
+                            <li>&copy; Tejaswa</li><!-- <li>Template: <a href="https://html5up.net">HTML5 UP</a></li> -->
+                        </ul>
+                    </div>
+                </footer>
+        </div>
+            
+            
+            
+        <!-- Scripts -->
+            <script src="../assets/js/jquery.min.js"></script>
+            <script src="../assets/js/jquery.scrolly.min.js"></script>
+            <script src="../assets/js/jquery.scrollex.min.js"></script>
+            <script src="../assets/js/browser.min.js"></script>
+            <script src="../assets/js/breakpoints.min.js"></script>
+            <script src="../assets/js/util.js"></script>
+            <script src="../assets/js/main.js"></script>
+
+        
+    </body>
+<html>

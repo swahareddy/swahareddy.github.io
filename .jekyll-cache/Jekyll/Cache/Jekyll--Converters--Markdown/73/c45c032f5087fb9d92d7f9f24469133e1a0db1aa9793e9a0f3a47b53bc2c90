@@ -1,0 +1,95 @@
+I"z<!-- Copy and paste the converted output. -->
+
+<!-----
+NEW: Check the "Suppress top comment" option to remove this info from the output.
+
+Conversion time: 1.305 seconds.
+
+
+Using this Markdown file:
+
+1. Paste this output into your source file.
+2. See the notes and action items below regarding this conversion run.
+3. Check the rendered output (headings, lists, code blocks, tables) for proper
+   formatting and use a linkchecker before you publish this page.
+
+Conversion notes:
+
+* Docs to Markdown version 1.0β29
+* Wed Sep 02 2020 00:11:57 GMT-0700 (PDT)
+* Source doc: GCP: News polarisation
+* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
+
+----->
+
+<p style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt;  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 2.</p>
+<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with &gt;&gt;&gt;&gt;&gt;  gd2md-html alert:  for specific instances that need correction.&lt;/ul&gt;
+
+<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
+<a href="#gdcalert2">alert2</a>
+
+<p style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; PLEASE check and correct alert issues and delete this message and the inline alerts.<hr /></p>
+
+
+This project wants to make a software generated graph (only X axis) of the following viral human generated image:
+
+
+
+<p id="gdcalert1"><span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt;  gd2md-html alert: inline image link here (to images/image1.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br />(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br /><span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; </span></p>
+
+
+![alt_text](images/image1.jpg "image_tooltip")
+
+
+Like this:
+
+
+
+<p id="gdcalert2"><span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt;  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br />(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br /><span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; </span></p>
+
+
+![alt_text](images/image2.png "image_tooltip")
+
+
+
+## Suggested process:
+
+
+
+1. Define a right and left wing corpus with words that those wings **like** to be associated with 
+    1. Manually decide 20-30 accounts (politicians, commentators, bhakts, libtards etc..) each from right and left wing for loud polarised people
+    2. Use Twitter API to input tweets from them
+    3. For every right-wing tweet:  
+        1. Run GCP entity sentiment analysis
+        2. Add entities with positive sentiment to right wing corpus
+        3. Add entities with negative sentiment to left wing corpus
+        4. There will be entities that are in both corpuses ('army', 'mahatma gandhi' etc)
+        5. Do vice-versa for left-wing tweets
+2. Now stream news like we are doing in this project
+3. Run GCP entity sentiment analysis on news data
+4. Compare these entity sentiments with the above defined corpora
+5. Calculate difference in % match 
+6. Scatter plot and clustering of different news sources
+
+These corpora would be at a national level, not same corpora for all international sources
+
+This could be extended to do the same for transcripts from YouTube videos of NDTV, Republic TV etc ([a data science heavy project](https://www.aclweb.org/anthology/W19-2110.pdf))
+
+<span style="text-decoration:underline;">Get this approach reviewed by a data scientist first (will this corpora method even work?).</span>
+
+
+## Must reads:
+
+
+
+1. [https://www.cjr.org/innovations/measure-media-bias-partisan.php](https://www.cjr.org/innovations/measure-media-bias-partisan.php) - Good intro read for the concept. Specifically see the ‘armchair academics’ section
+2. Similar manual projects:
+    1. [https://www.adfontesmedia.com/interactive-media-bias-chart/](https://www.adfontesmedia.com/interactive-media-bias-chart/) for interactive link to source of 2D image above
+    2. [https://www.journalism.org/2014/10/21/political-polarization-media-habits/pj_14-10-21_mediapolarization-08/](https://www.journalism.org/2014/10/21/political-polarization-media-habits/pj_14-10-21_mediapolarization-08/) link to source of 1D image above
+    3. [https://www.allsides.com/media-bias/media-bias-ratings](https://www.allsides.com/media-bias/media-bias-ratings)
+    4. Can use these to validate our outputs
+3. 
+
+Unrelated, but interesting - [http://graphics.wsj.com/blue-feed-red-feed/#/president-trump](http://graphics.wsj.com/blue-feed-red-feed/#/president-trump)
+</li></li></ul>
+:ET
