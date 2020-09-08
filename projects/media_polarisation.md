@@ -45,6 +45,7 @@ Oversimplifying the scenario into a BJP vs Congress world. These are the twitter
 Did not include cabinet ministers since their tweets are overwhelmingly about their portfolios and not about the common narrative.
 
 This could be extended to do the same for transcripts from YouTube videos of NDTV, Republic TV etc ([a data science heavy project](https://www.aclweb.org/anthology/W19-2110.pdf))
+It could also be used to validate apparent bias in platforms, Eg - FB (right) and Twitter (left), and also *gauge how various subsections (read subreddits) are aligned on our scale*.  
 
 ## Relevant reads:
 1. [https://www.cjr.org/innovations/measure-media-bias-partisan.php](https://www.cjr.org/innovations/measure-media-bias-partisan.php) - Good intro read for the concept. Specifically see the ‘armchair academics’ section

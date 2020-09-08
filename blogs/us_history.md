@@ -12,7 +12,7 @@ My trigger to finally learn about it was after watching the [Hamilton musical (s
 <p>Its a 48 part, 10 hour series which I saw in increments everyday while washing dishes 
 <iframe src="https://giphy.com/embed/d2YMJ481F8qqs" width="15%" class="giphy-embed" ></iframe> during the Covid-19 lockdown.</p>
 
-Its interesting to contrast the tense, violent, racist America of the last 2 centuries with the country today. Knowing the roots of Hamilton's *Wall Street*, what's common between the ivy leagues 🏛, wars were fought over whiskey 🍺, Mexico used to include California, Texas etc too, why the French gifted the statue of liberty 🗽.
+Its interesting to contrast the tense, violent, racist America of the last 2 centuries with the country today. The roots of Hamilton's *Wall Street*, what's common between the ivy leagues 🏛, wars were fought over whiskey 🍺, Mexico used to include California, Texas etc too, why the French gifted the statue of liberty 🗽, the increasing wealth disparity, immigration waves..
 
 And in light of the civil unrest trigerred by George Floyd's death, it is eye opening to know how ingrained racism was in the 19th and 20th century America. Did you know that not only the legislature, but even the supreme court once upheld the law to serve *"the broad dominant purpose of preserving the purity and integrity of the white race"*. The US constitution when drafted counted a slave as 3/5ths of a person for legislative representation! 
 
