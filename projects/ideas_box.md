@@ -9,4 +9,5 @@ If any of these interest you and you want to bounce ideas (even without actually
 
 * [A picture can say a 1000 words 🖼](picture1000words.html)<br><br>
 * [How BJP or Congress is that channel?](media_polarisation.html)<br><br>
+* [Jigsaw puzzle solver](jigsaw_solver.html)<br><br>
 

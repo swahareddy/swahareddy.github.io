@@ -9,8 +9,7 @@ My trigger to finally learn about it was after watching the [Hamilton musical (s
 
 <iframe width="60%" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8dPuuaLjXtMwmepBjTSG593eG7ObzO7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<p>Its a 48 part, 10-hour series which I saw in increments everyday while washing dishes 
-<iframe src="https://giphy.com/embed/d2YMJ481F8qqs" width="15%" class="giphy-embed" ></iframe> during the Covid-19 lockdown.</p>
+Its a 48 part, 10-hour series which I saw in increments everyday
 
 Its interesting to contrast the tense, violent, racist America of the last 2 centuries with the country today. The roots of Hamilton's *Wall Street*, what's common between the ivy leagues 🏛, wars were fought over whiskey 🍺, Mexico used to include California, Texas etc too, why the French gifted the statue of liberty 🗽, the increasing wealth disparity, immigration waves..
 
