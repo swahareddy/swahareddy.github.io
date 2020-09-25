@@ -1,6 +1,9 @@
 plugins:
   - jekyll-relative-links
 markdown: kramdown  
+kramdown:
+  input: GFM
+  hard_wrap: false
 # permalink: /blog/:year/:month/:day/:title
 relative_links:
   enabled: true
