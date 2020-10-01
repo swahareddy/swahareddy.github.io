@@ -11,9 +11,9 @@ And as a self-assigned homework assignment, I wanted to analyse 'stories' from t
 Just to get everyone on the same page, what I mean by stories is this:
 
 **Instagram:** <br> 
-![](hooked-stories_images/gs_insta_ss.jpeg){: width="30%" }
-![](hooked-stories_images/cleo_insta_ss.jpeg){: width="30%" }
-![](hooked-stories_images/llb_insta_ss.jpeg){: width="30%" }
+![Instagram story which is a Goldmansachs advertisement](hooked-stories_images/gs_insta_ss.jpeg){: width="30%" }
+![Instagram Story by Netflix promoting the show Explained](hooked-stories_images/cleo_insta_ss.jpeg){: width="30%" }
+![Instagram Story of an blogger with a picture of waterfilled mountain valley](hooked-stories_images/llb_insta_ss.jpeg){: width="30%" }
 
 There are a lot more platforms*, Facebook, Whatsapp and YouTube being other visible examples. Even Skype and Medium apparently have their versions of it and LinkedIn is recently launched it too. They have various names - fleets, snaps, statuses and reels, but I'll be using 'story' as a broad name for them all. 
 
@@ -24,7 +24,7 @@ So how would you define a *story*? This definition of course differs among diffe
 But breaking down just the essentials:
 1. **Full screen** A pretty simple feature, but one that has the most value. Unlike a post that is packed inside the app's UI which is already inside the OS's UI, stories take advantage of almost 2x real estate on your screen. And this captures *all of your attention* .
 
-2. **Ephemeral presence**. The story once opened disappears. If its a public story it fades back into the story rack and if its a DM story, it can even disappear for ever. Why is this good? Because again you have *all their attention*. Checking stories demands a certain engagement which simply is not there when someone is casually running through their wall.
+2. **Ephemeral presence**. The story once opened disappears. If its a public story it fades back into the story rack and if its a DM story, it can even disappear for ever. Why is this good? Because again you have *all their attention*. Checking stories demands a certain engagement which simply is not there when someone is casually running through their feed.
 <br><br> Note! This is different from the *expiry* talked about next. This can be possibly be explained by the heuristic of **Scarcity effect** which says that the *appearance of scarcity affects the perception of value* (Click on the cookie to see the actual experiment [🍪](https://rochemamabolo.wordpress.com/2016/10/28/creating-scarcity-cookie-jar-experiment/))
 
 3. **Expiry**. From a user behavior perspective, this was a gamechanger. Even today, stories are primarily visual content. And stories offered a way of sharing (your images) with your network **without the anxiety** of chasing perfect images, filters and captions that was common with existing apps like Instagram. Of course the quality of stories has since matured, but it's still **distinctly more honest** than posts. 
@@ -37,33 +37,36 @@ Where else would brands find such genuine free publicity? These would have never
 <br>![](hooked-stories_images/cadbury_mention.jpeg){: width="49%" }
 ![](hooked-stories_images/ghc_promotion_insta.jpeg){: width="49%" }
 
+<br>![Story of Dairy milk chocolate on instagram being taged by a fan account ](hooked-stories_images/cadbury_mention.jpeg){: width="70%" }
+
+![Instagram higlights](hooked-stories_images/highlights_insta_ss.jpeg){: width="80%" }
 
 # Now what is this 'Hooked' model?
 Its a model of how habits (or addictions) can be created, explained in (although not limited to) a technological context. This has been created by Nir Eyal, an industry veteran, author and lecturer who's work is a part of BSchool curriculums. You can find the preview and purchase link for the book [here](books2020.html)!
 
-<br>![](hooked-stories_images/hook-model.png){: width="80%" }
+<br>![Hook model representation, fours components as Trigger, Investment, Variable reward and Action ](hooked-stories_images/hook-model.png){: width="80%" }
 
 ## 1. Trigger
-![](hooked-stories_images/hooked_trigger.jpg){: width="80%" }
+![Hook Model with trigger highlighted](hooked-stories_images/hooked_trigger.jpg){: width="80%" }
 
 Triggers can be :
 * **External** - Notifications are the most obvious. Yes, the ones that say 'Tejaswa mentioned you in a story' and 'TanmyaBhatt is now live' are direct triggers for stories. But more than that, I believe the placement of stories in the app's UI is the most effective external trigger. They get prime real estate at the top of the app's home page and you're also reminded in between your non-story usage of that application.
 
-![](hooked-stories_images/insta_live_notif.png){: width="60%" }
+![Instagram notification for the begining of a live video](hooked-stories_images/insta_live_notif.png){: width="60%" }
 
-![](hooked-stories_images/insta_top_ss.jpeg){: width="40%" }
-![](hooked-stories_images/fb_landing_ss.jpeg){: width="40%" }
+![Instagram Story higlights for an account](hooked-stories_images/insta_top_ss.jpeg){: width="40%" }
+![Facebook Story highlights for an account](hooked-stories_images/fb_landing_ss.jpeg){: width="40%" }
 
-![](hooked-stories_images/youtube_bw_ss.jpeg){: width="35%" }
-![](hooked-stories_images/insta_bw_ss.jpeg){: width="35%" }
-![](hooked-stories_images/insta_circumference_trigger.jpeg){: width="12%" }
+![Youtube highlights and suggested search topics](hooked-stories_images/youtube_bw_ss.jpeg){: width="35%" }
+![Instagram recent stories](hooked-stories_images/insta_bw_ss.jpeg){: width="35%" }
+![Instagram search](hooked-stories_images/insta_circumference_trigger.jpeg){: width="12%" }
 
 * **Internal** - Snapchat set the trend. You open the app not on a *feed* or *wall* like any other app you know, but on the camera view itself. And thereby creating an association in your mind between taking a photo and using Snapchat. Now this was an amazing move on Snap's part, but it was probably a bit too much for Instagram which could not pivot from their successful feed-of-posts strategy. Nonetheless, most of them offer the next best thing - Cloud backup and an option to save images locally too.
-<br><br>![](hooked-stories_images/snap_homepage.jpeg){: width="40%" }
-![](hooked-stories_images/insta_old_stories.jpeg){: width="40%" }
+<br><br>![Snapchat application screen](hooked-stories_images/snap_homepage.jpeg){: width="40%" }
+![Instagram story history](hooked-stories_images/insta_old_stories.jpeg){: width="40%" }
 
 ## 2. Action
-![](hooked-stories_images/hooked_action.jpg){: width="80%" }
+![hook model highlighting Action](hooked-stories_images/hooked_action.jpg){: width="80%" }
 
 Fogg behaviour model: **B=MAT** ➡ Behaviour is a function of **M**otivation, **A**bility, **T**rigger.
 The trigger has been talked about above, so lets look at :
@@ -82,27 +85,27 @@ Fogg describes 6 things that influence the difficulty of an action:
 
 Posting a story clicks all those boxes. There is almost no cognitive effort unlike uploading a *post* that would have multiple steps
 
-![](hooked-stories_images/insta_posting_stories.gif){: width="40%" }
-![](hooked-stories_images/insta_posting_posts.gif){: width="40%" }
+![Using instagram to publish a story.](hooked-stories_images/insta_posting_stories.gif){: width="40%" }
+![Using instagram to publish a post](hooked-stories_images/insta_posting_posts.gif){: width="40%" }
 
 
 ## 3. Variable Reward
-![](hooked-stories_images/hooked_variable_reward.jpg){: width="80%" }
+![Hook model highlighting variable reward](hooked-stories_images/hooked_variable_reward.jpg){: width="80%" }
 
 Again, just like motivation described above, the **variable reward**  is the same as all other social media platforms - you might get to see something interesting about someone/thing you care about. And this fits into *Reward of the tribe*. 
 
 Click to see a popular experiment related to this by psychologist BF Skinner ➡ [🐦](https://www.youtube.com/watch?v=1u07j0kOyzk){:target="_blank"}.
 
 ## 4. Investment
-![](hooked-stories_images/hooked_investment.jpg){: width="80%" }
+![Hook model highlighting Investment](hooked-stories_images/hooked_investment.jpg){: width="80%" }
 
 What brings the user back to the app?
 <br> The way you can react to a story on Instagram is an obvious way they keep the hooked loop going. The quick reaction options offer a way to react without having to put much thought into 'what to type'.
 
 Likewise Snapchat messages would disappear after being read, so you were incentivised to respond immediately.
 
-![](hooked-stories_images/insta_story_quick_response.jpeg){: width="40%" }
-![](hooked-stories_images/insta_story_quick_response_response.jpeg){: width="50%" }
+![Quick reactions to instagram stories](hooked-stories_images/insta_story_quick_response.jpeg){: width="40%" }
+![Instagram chat reflection a reaction made to the story](hooked-stories_images/insta_story_quick_response_response.jpeg){: width="50%" }
 
 <hr>
 ## Bonus
