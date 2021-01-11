@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Who has the money?</title>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="../assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+                <header id="header" class="alt">
+                    <a href="/index.html" class="logo"><strong>Tejaswa Gavankar</strong></a>
+                    <!-- <a href="/index.html" class="logo"><strong>Tejaswa Gavankar</strong> <span>Portfolio</span></a> -->
+                    <nav>
+                        <a href="#menu">Menu</a>
+                    </nav>
+                </header>
+
+				<!-- Menu -->
+                <nav id="menu">
+                    <ul class="links">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/blogs">Blogs</a></li>
+                    </ul>
+                    <!-- <ul class="actions stacked">
+                        <li><a href="#" class="button primary fit">Get Started</a></li>
+                        <li><a href="#" class="button fit">Log In</a></li>
+                    </ul> -->
+                </nav>
+
+                <section id="whyido">
+                    <div class="inner">
+                        <h1 class="display-1">Who has the money?</h1>
+<h1 id="finding-rich-ass-people-for-private-banking-and-wealth-management-businesses-of-big-banks">Finding rich-ass people for private banking and wealth management businesses of big banks</h1>
+<p>This was a team project for the FoB Hackathon 2020, ML Challenge. We were a group of 5.</p>
+
+<h2 id="the-use-case">The Use Case</h2>
+<ul>
+  <li>HNIs are defined as individuals having net worth of &gt; 5 million USD. These high profile individuals are still significant in number and are often in need of wealth management for their businesses or family offices.</li>
+  <li>Create an AI/ML based platform to enable identification of potential prospects for Wealth Management leveraging News &amp; Social Analytics.</li>
+  <li>Using NLP &amp; Clustering Techniques to identify topics of interests for a group of prospects</li>
+  <li>Profiling the prospects using Publicly Available Social Media Data.</li>
+  <li>Identify the Degree of Affinity of the prospects to the Trends.</li>
+</ul>
+
+<s>## Demo application - https://datastudio.google.com/s/qRyMPSH5YFQ</s>
+
+<h2 id="the-ml-motivation">The ML Motivation</h2>
+<ul>
+  <li>Utilize the affluence of data &amp; soaring social footprints of wealth creators, machine learning can be the motive force to gauge Social, Cognitive, Behavioural &amp; Cultural elements of individuals who could be our future prospects.</li>
+  <li>Drastically reduce the manual task of identification, analysis, profiling and segmentation of the leads generated.</li>
+</ul>
+
+<p><img src="prospekts_fob_hackathon/UI%20screenshots/screen2.jpg" alt="" width="80%" />
+<img src="prospekts_fob_hackathon/UI%20screenshots/screen5.jpg" alt="" width="80%" />
+<img src="prospekts_fob_hackathon/UI%20screenshots/screen6.jpg" alt="" width="80%" />
+<img src="prospekts_fob_hackathon/UI%20screenshots/screen7.jpg" alt="" width="80%" /></p>
+
+<h2 id="the-data-strategy">The Data Strategy</h2>
+<ul>
+  <li>Global Knowledge Graph (GKG): Starting point to filter data as per time series, countries, themes, etc eventually</li>
+  <li>Data Segmentation: Confirm data metrics, data scale-up and segment variable definition. followed by Profiling and interpretation.</li>
+  <li>Profiling: Building a profile map and perform social and news analytics</li>
+  <li>Network Graph: Networkx – Network Cascading Algorithm to simulate link associations in the network graph of prospects that have a social or business connection and a potential lead.</li>
+  <li>LinkedIn, Wikipedia, Twitter and Instagram were used for profiling and key-value extraction.</li>
+</ul>
+
+<h2 id="the-ml-model">The ML Model</h2>
+<ul>
+  <li>NLP : Stop Word Removal, Tokenisation, Stemming, Lemmatisation, N-Gram Modelling, TF-IDF to find out high-frequency n-grams</li>
+  <li>Latent Dirichlet Allocation (LDA): Generative statistical model that allowed us to use sets of observations in order to explain similar parts of data by unobserved groups thus facilitating Topic Modelling.</li>
+</ul>
+
+<p><img src="prospekts_fob_hackathon/People%20Network,%20t=3.png" alt="" /></p>
+
+<h2 id="the-pipeline">The Pipeline</h2>
+<p><img src="prospekts_fob_hackathon/pipeline.png" alt="" width="60%" /></p>
+
+<p>A loooot more could have ben done. Here are some of our half baked ideas:</p>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLgVwqxvfwdTPAbQPXJ8V3sk50lQP8rRL5pg4c2cDnU9O6JmM1rk3k9qdI46GfDU8JZ9rAGEckOPtp/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="1160" height="550"></iframe>
+
+<p><a href="https://databricks.com/notebooks/esg_notebooks/01_esg_report.html">Inspiration</a> for LDA topic modelling. See Stages 1-3.<br />
+<a href="https://github.com/mukut03/ESG-BERT" target="_blank">BERT ESG</a></p>
+
+<hr>
+
+
+<h3><a href="/blogs">Check out my other blog posts!🌟</a></h3>
+<!-- <br>I'd love to know to know what you thought of this  -->
+
+<br><br><div id="disqus_thread"></div>
+<script>   
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+        
+        // IMPORTANT: Replace EXAMPLE with your forum shortname!
+        s.src = 'https://tejaswag.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view the 
+    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+        comments powered by Disqus.
+    </a>
+</noscript>
+                    </div>
+                </section>
+
+				<!-- Footer -->
+                <footer id="footer">
+                    <div class="inner">
+                        <ul class="icons">
+                            <li><a href="https://www.linkedin.com/in/tejaswa/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/swahareddy" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                            <li><a href="https://www.instagram.com/tejaswagg/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                            <!-- <li><a href="https://twitter.com/khanakhilao" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
+                            <!-- <li><a href="https://www.facebook.com/reddyswaha/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+                            
+                        </ul>
+                        <ul class="copyright">
+                            <li>&copy; Tejaswa</li><!-- <li>Template: <a href="https://html5up.net">HTML5 UP</a></li> -->
+                        </ul>
+                    </div>
+                </footer>
+        </div>
+            
+            
+            
+        <!-- Scripts -->
+            <script src="../assets/js/jquery.min.js"></script>
+            <script src="../assets/js/jquery.scrolly.min.js"></script>
+            <script src="../assets/js/jquery.scrollex.min.js"></script>
+            <script src="../assets/js/browser.min.js"></script>
+            <script src="../assets/js/breakpoints.min.js"></script>
+            <script src="../assets/js/util.js"></script>
+            <script src="../assets/js/main.js"></script>
+
+        
+    </body>
+<html>
