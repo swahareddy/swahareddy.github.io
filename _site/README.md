@@ -1,3 +1,5 @@
+<!-- bundle exec jekyll serve --livereload -->
+
 This is an overview of how this site technically works. I'll be defining the components and the reasons for my choices and linking relevant tutorials at the end. After going through this you can probably clone my repo, delete couple of folders that have these posts and put in your own content.
 
 ### Where I was coming from?
@@ -44,7 +46,7 @@ In order to do this, you need to use a hosting service. To put it simply, it is 
    2. [Another option](https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1)
 
 ### 3. Domain name
-Now that you have converted `127.0.0.1:4000/about.html` ➡ `swahareddy.github.io/about.html`, you  might still want to convert `swahareddy.github.io/about.html` ➡ `swahareddy.com/about.html`.
+Now that you have converted `127.0.0.1:4000/about.html` ➡ `swahareddy.github.io/about.html`, you  might still want to convert `swahareddy.github.io/about.html` ➡ `tejaswa.me/about.html`.
 **This is purely optional**, and the only place you'll need to pay anything. 
 
 <s>I am yet to make this happen. I'll update it once its done. </s> As you'd have expected, this is the easiest thing. I followed [these](https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef) instructions to link GoDaddy and GitHub. I have booked tejaswa.me for 5 years at a rate of approximately Rs 1000 per annum. All the DNS providers were almost the same price. Don't be fooled by the first year cost, factor the cost of renewal in too.

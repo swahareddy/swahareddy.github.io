@@ -1,3 +1,5 @@
+<!-- bundle exec jekyll serve --livereload -->
+
 This is an overview of how this site technically works. I'll be defining the components and the reasons for my choices and linking relevant tutorials at the end. After going through this you can probably clone my repo, delete couple of folders that have these posts and put in your own content.
 
 ### Where I was coming from?
