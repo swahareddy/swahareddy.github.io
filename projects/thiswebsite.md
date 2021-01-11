@@ -51,13 +51,14 @@ In order to do this, you need to use a hosting service. To put it simply, it is 
 
 ### 3. Domain name
 Now that you have converted `127.0.0.1:4000/about.html` ➡ `swahareddy.github.io/about.html`, you  might still want to convert `swahareddy.github.io/about.html` ➡ `swahareddy.com/about.html`.
-**This is purely optional**, and the only place you'll need to pay anything. 
+**This is purely optional**, and the only place you'll need to pay $$. 
 
-I am yet to make this happen. I'll update it once its done. 
+<s>I am yet to make this happen. I'll update it once its done. </s> As you'd have expected, this is the easiest thing. I followed [these](https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef) instructions to link GoDaddy and GitHub. I have booked tejaswa.me for 5 years at a rate of approximately Rs 1000 per annum. All the DNS providers were almost the same price. Don't be fooled by the first year cost, factor the cost of renewal in too.
+
 
 ---
 
-If you have done Steps 1 and 2 from above, you can try more fun stuff like showing [PDFs](myspotify.html), [visualisation dashboards](whatsapp_analytics.md), [Google Sheets](/blogs/self_learning.html), [Presentations](/blogs/ait_macroeco.html), [Animations](/blogs), [GIFs](/blogs), [Instagram](/blogs/instagram_preview.html) etc
+If you have done Steps 1 and 2 from above, you can try more fun stuff like showing [PDFs](myspotify.html), [visualisation dashboards](whatsapp_analytics.md), [Google Sheets](/blogs/self_learning.html), [Presentations](/blogs/ait_macroeco.html), [Animations](/blogs), [GIFs](/blogs), [Instagram](/blogs/instagram_preview.html), favicons etc
 
 <p align="center"><img src="https://media.giphy.com/media/M33UV4NDvkTHa/giphy.gif" width="24%"/></p>
 <!-- <div style="width:10%;height:0;padding-bottom:58%;position:relative;"><iframe src="https://giphy.com/embed/M33UV4NDvkTHa" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div> -->
