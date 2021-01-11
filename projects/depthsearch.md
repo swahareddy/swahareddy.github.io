@@ -17,7 +17,7 @@ And why stop there. Why not go through all the links within those pages too!? Gr
 >* Depth=2 : Search through all pages linked in the all the pages that are linked to the home page
 >* ...
 
-Ofc, the first place I go for such tools is the Chrome Web Store (where I have found many amazing extensions. I might make a list of them too someday too). I found [this](https://chrome.google.com/webstore/detail/search-all-tabs/ndfnfhnlgoocpbbjjjfmiojdfcgcfomn), which kiiind of solves it, but not really.
+Of course, the first place I go for such tools is the Chrome Web Store (where I have found many amazing extensions. I might make a list of them too someday too). I found [this](https://chrome.google.com/webstore/detail/search-all-tabs/ndfnfhnlgoocpbbjjjfmiojdfcgcfomn), which kiiind of solves it, but not really.
 
 -----
 

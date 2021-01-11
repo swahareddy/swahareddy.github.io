@@ -13,7 +13,7 @@ This notebook takes your Whatsapp group chat and parses all the messages to show
 
 * It breaks up messages by group members
 ![MemberOverview](whatsapp_analytics_images/member_overview.png)
-* Analyzes sentiment of messages (and ofc at an aggregate level too)
+* Analyzes sentiment of messages (and of course at an aggregate level too)
 * Provides time-based analysis of conversation volumes and emotions (_using google's industry standard  cloud NLP API_)
 ![MemberOverview](whatsapp_analytics_images/timeseries1.png)
 * Seperates out emojis used

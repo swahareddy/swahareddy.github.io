@@ -1,6 +1,7 @@
 ---
-layout: blog
+layout: project
 title: Who has the money?
+github_repo: https://github.com/swahareddy/Prospekts
 ---
 # Finding rich-ass people for private banking and wealth management businesses of big banks
 This was a team project for the FoB Hackathon 2020, ML Challenge. We were a group of 5.
