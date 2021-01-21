@@ -1,0 +1,10 @@
+---
+layout: blog
+date: January, 2021
+title: My adventures
+---
+
+
+<iframe src="https://uploads.knightlab.com/storymapjs/86b641d8dab18249930bd311ff89241c/pune-treks/index.html" frameborder="0" width="100%" height="800"></iframe>
+
+These aren't meant to be reviews. If you want my opinion on any of these, do reach out.
