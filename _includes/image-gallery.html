@@ -19,10 +19,12 @@
         <!-- <img src="{{file.path}}/{{filename}}"/> -->
 
         <a href="{{ file.path }}" title="{{ filename }}">
-          <img src="//images.weserv.nl/?url=http://127.0.0.1:4000/blogs/{{ file.path }}/{{filename}}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ filename }}" />
+          <img src="//images.weserv.nl/?url=https://github.com/swahareddy/swahareddy.github.io/tree/master{{ file.path }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ filename }}" />
           <span>{{ filename }}</span>
         </a>
       {% endif %}
     {% endif %}
   {% endfor %}
   </div>
+
+  <!-- https://images.weserv.nl/?url=https://github.com/swahareddy/swahareddy.github.io/tree/master/blogs//blogs/adventure_images/bloreairport.jpg&w=300&h=300&output=jpg&q=50&t=square -->
