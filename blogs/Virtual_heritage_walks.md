@@ -8,8 +8,8 @@ Hey there,
 
 Those who know me, know how much of a history geek I am. Over the last few years I have explored the depths of old colonial Mumbai. Despite never having stayed in Mumbai, I know the backalleys of Rampart Row, the boulangeries in marine lines and the timings of fresh fish coming into Sasoon docks. 
 
-<img src="Virtual_heritage_walks_images/IMG_20180205_191548_BURST12-ANIMATION.gif" width="100%">
-<img src="Virtual_heritage_walks_images/khaki_walks.jpg" width="100%">
+<img src="Virtual_heritage_walks_images/IMG_20180205_191548_BURST12-ANIMATION.gif" width="70%">
+<img src="Virtual_heritage_walks_images/khaki_walks.jpg" width="50%">
 
 This is largely in credit to Khaki Tours. Since my college days I have attneded almost all their walks - Dalal street, Cooperage, Wodehouse, Azad Hind and Colaba Causeway. Pre-pandemic, I worked with similar advocacy groups, leading fellow nerds for such walks. And a few months into the lockdown, I realised how long it is going to be before we can do those again.
 
@@ -31,8 +31,8 @@ Let me try to illustrate. So first of all, I am not saying we just see photos/vi
 
 ![](Virtual_heritage_walks_images/legend.png) Street view (solid lines) is the navigable rout on which we can fly, while photo sphere (circles) is a 360* view from one place
 
-<img src="Virtual_heritage_walks_images/mumbai1.png" width="100%">
-<img src="Virtual_heritage_walks_images/mumbai2.png" width="100%">
+<img src="Virtual_heritage_walks_images/mumbai1.png" width="49%">
+<img src="Virtual_heritage_walks_images/mumbai2.png" width="49%">
 
 We can instantly compare different architectural styles like [IndoSaracenic](https://www.google.com/maps/@18.9263705,72.8323178,3a,49.5y,176.8h,95.41t/data=!3m8!1e1!3m6!1sAF1QipM-p-Rv-XLfSDJ5nz3QEWh90zSoIUO9TBQUymt4!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipM-p-Rv-XLfSDJ5nz3QEWh90zSoIUO9TBQUymt4%3Dw203-h100-k-no-pi-0-ya203.04417-ro-0-fo100!7i10240!8i5120?shorturl=1){:target="_blank"} or [Gothic](https://www.google.com/maps/@18.9399577,72.8347253,3a,57.5y,41.21h,117.59t/data=!3m8!1e1!3m6!1sAF1QipO48twSIfFkBv1K-DzF-0kBlR_bwRI9ExTwdapk!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipO48twSIfFkBv1K-DzF-0kBlR_bwRI9ExTwdapk%3Dw203-h100-k-no-pi-0-ya257.67154-ro0-fo100!7i6000!8i3000?shorturl=1){:target="_blank"}. And the [contrast between traditional architecture and modern art deco on reclaimed land](https://www.google.com/maps/@18.9297669,72.830083,3a,77.9y,90t/data=!3m8!1e2!3m6!1sAF1QipPBDNWbwCFFLXfc7fhAod76GBLbn4r4ZLBB5jbw!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPBDNWbwCFFLXfc7fhAod76GBLbn4r4ZLBB5jbw%3Dw203-h136-k-no!7i1075!8i721){:target="_blank"}.
 
@@ -46,20 +46,4 @@ There are also Google Earth's building renderings that can take you around in 3D
 <img src="Virtual_heritage_walks_images/gatewayofindia.png" width="100%">
 <img src="Virtual_heritage_walks_images/stthomascathedral.png" width="60%">
 
-<!-- ## Glimpses from my walks: -->
-<!-- {% include image-gallery.html folder="Virtual_heritage_walks_images" %} -->
-<!-- {% include image-gallery.html folder="adventure_images" %} -->
-
-<article class="example gallery-cols-3">
-    <figure>
-        <img src="Virtual_heritage_walks_images/mumuni.png" alt="Image 1">
-        <figcaption>Image 1</figcaption>
-    </figure>
-    <figure>
-        <a href="Virtual_heritage_walks_images/gatewayofindia.png">
-        <figcaption>Image 2</figcaption></a>
-    </figure>
-    <figure>
-        <img src="Virtual_heritage_walks_images/stthomascathedral.png" alt="">
-    </figure>
-</article>
+{% include image-gallery.html folder="Virtual_heritage_walks_images - Copy" %}
