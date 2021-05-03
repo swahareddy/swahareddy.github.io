@@ -1,7 +1,8 @@
 ---
 layout: blog
-title: Imapct of covid on globalisation
+title: Impact of covid on globalisation
 date: April, 2020
+updated_date: 5th May 2021 
 ---
 >Strangely, I don't hold President Trump fully accountable for the lack of supplies for hospitals. He may have been 6 weeks too late but die was cast long time ago.
 >
@@ -23,7 +24,7 @@ Let me know your thoughts [here](https://www.linkedin.com/posts/activity-6653831
 
 <hr>
 
-## Notes form 2021
+# Notes from 2021
 Fast forward one year - Attended a lecture on De-Globalization from [Prof. Witt, INSEAD](https://www.insead.edu/faculty-research/faculty/michael-a-witt){:target="_blank"}
 
 <img src="globalization_covid_images\fdi.png" alt="" width="100%"/>
@@ -35,7 +36,7 @@ Globalization cycle have always been driven by political trends.
 Free trade is always beneficial. Even if the counterpart is not a free-trader.
 Need  institutions to set rules (EU, WTO) or even hegemons (superpowers).
 Protectionism is a problem. Some examples:
-- Like Donald Trump backing out of agreements, Biden not sharing AstraZeneca and vaccine raw materials.
+- Donald Trump backing out of agreements, Biden not exporting AstraZeneca and sharing vaccine raw materials with India.
 - Yellow vest protests
 - Brexit
 - Was China ever a part of international institutions? <img src="globalization_covid_images\us_china.png" alt="" width="100%"/>
@@ -51,5 +52,6 @@ As a company in the new cold war, either you can:
 - Decentralize so much that you seem local
 - Hide your side (unsustainable)
 - ...
+(Can we find examples with MNCs moving assets after recent HongKong protests?)
 
-People need to feel like they will win if they agree to something. The problem with minimum global corporate income tax [as is being discusse today](https://economictimes.indiatimes.com/news/international/business/germany-hails-us-move-on-corporate-tax-as-great-step-forward/articleshow/81932849.cms?from=mdr){:target="_blank"} is that some people will dissproportianltely benefit. A redistribution of gains to compensate people who may not win but agree to come on board will help. 
+People need to feel like they will win if they agree to something. The problem with minimum global corporate income tax, [as is being discussed today](https://economictimes.indiatimes.com/news/international/business/germany-hails-us-move-on-corporate-tax-as-great-step-forward/articleshow/81932849.cms?from=mdr){:target="_blank"}, is that some people will dissproportianltely benefit. A redistribution of gains to compensate people who may not win but agree to come on board will help. 

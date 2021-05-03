@@ -6,6 +6,8 @@ layout: default
 <hr>
 {% if page.date!= null %}
 <i>Published: {{page.date}}</i>
+{% if page.updated_date!= null %}
+<i>Updated: {{page.updated_date}}</i>
 <br>
 {% endif %}
 
