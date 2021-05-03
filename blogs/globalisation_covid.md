@@ -20,3 +20,36 @@ We obviously know of US demanding hydroxychloroquine from India, Europe waiting 
 The stage was already set with Brexit, 'Make in India', 'Make America great again' and the growth of the nationalism rhetoric among world leaders. As mentioned below, it will almost certainly be a whole new world in the production and manufacturing space.
 
 Let me know your thoughts [here](https://www.linkedin.com/posts/activity-6653831007084609536-r_ES).
+
+<hr>
+
+## Notes form 2021
+Fast forward one year - Attended a lecture on De-Globalization from [Prof. Witt, INSEAD](https://www.insead.edu/faculty-research/faculty/michael-a-witt){:target="_blank"}
+
+<img src="globalization_covid_images\fdi.png" alt="" width="100%"/>
+
+Globalization cycle have always been driven by political trends. 
+<img src="globalization_covid_images\larger_historical_trends.png" alt="" width="100%"/>
+[Corn laws](https://www.britainexpress.com/History/victorian/corn-laws.htm#:~:text=The%20Corn%20Laws%20were%20a,end%20of%20the%20Napoleonic%20Wars.){:target="_blank"}, [Protectionism spiral](https://www.wikiwand.com/en/Smoot%E2%80%93Hawley_Tariff_Act){:target="_blank"}. Decrease in interdependence is often the reason for war.
+
+Free trade is always beneficial. Even if the counterpart is not a free-trader.
+Need  institutions to set rules (EU, WTO) or even hegemons (superpowers).
+Protectionism is a problem. Some examples:
+- Like Donald Trump backing out of agreements, Biden not sharing AstraZeneca and vaccine raw materials.
+- Yellow vest protests
+- Brexit
+- Was China ever a part of international institutions? <img src="globalization_covid_images\us_china.png" alt="" width="100%"/>
+
+
+<img src="globalization_covid_images\new_cold_war.png" alt="" width="100%"/>
+
+<img src="globalization_covid_images\staying_neutral_issues.png" alt="" width="100%"/>
+Even what happened with [NBA](https://www.npr.org/2019/10/08/768225490/nba-defends-freedom-of-speech-for-employees-as-china-moves-to-block-block-games){:target="_blank"}
+
+As a company in the new cold war, either you can:
+- Choose your side (blue/red)
+- Decentralize so much that you seem local
+- Hide your side (unsustainable)
+- ...
+
+People need to feel like they will win if they agree to something. The problem with minimum global corporate income tax [as is being discusse today](https://economictimes.indiatimes.com/news/international/business/germany-hails-us-move-on-corporate-tax-as-great-step-forward/articleshow/81932849.cms?from=mdr){:target="_blank"} is that some people will dissproportianltely benefit. A redistribution of gains to compensate people who may not win but agree to come on board will help. 
