@@ -1,12 +1,12 @@
 ---
 layout: blog
-date: 2020-05-18
+date: 18th May 2020
 title: Join me for a virtual heritage walk
 ---
 
 Hey there, 
 
-Those who know me, know how much of a history geek I am. Over the last few years I have explored the depths of old colonial Mumbai. Despite never having stayed in Mumbai, I know the backalleys of Rampart Row, the boulangeries in marine lines and the timings of fresh fish coming into Sasoon docks. 
+Those who know me, know how much of a history geek I am. Over the last few years I have explored the depths of old colonial Mumbai. Despite never having stayed in Mumbai, I know the back alleys of Rampart Row, the boulangeries in marine lines and the timings of fresh fish coming into Sasoon docks. 
 
 <img src="Virtual_heritage_walks_images/IMG_20180205_191548_BURST12-ANIMATION.gif" width="70%">
 <img src="Virtual_heritage_walks_images/khaki_walks.jpg" width="50%">

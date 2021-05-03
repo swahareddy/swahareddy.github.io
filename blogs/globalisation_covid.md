@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Impact of covid on globalisation
-date: April, 2020
+date: 15th April, 2020
 updated_date: 5th May 2021 
 ---
 >Strangely, I don't hold President Trump fully accountable for the lack of supplies for hospitals. He may have been 6 weeks too late but die was cast long time ago.
@@ -11,7 +11,7 @@ updated_date: 5th May 2021
 >After all, this did improve the profitability quite a bit but at it came at the expense of security. There are fewer hospital beds not than we had 20 years ago. all the spare capacity in the system got eliminated.
 >I see this pandemic serving notice that we went too far. We are going to have to build strategic reserves/stockpiles. We are going to have spare and local capacity to respond to emergencies.
 >Efficiencies will be achieved by other means. AI and Robotics will be speeded up. Flexibility of manufacturing will be at premium.
-><p style="text-align:right;"><a href="(https://www.linkedin.com/feed/update/urn:li:activity:6651681758091841537/">Kanwal Rekhi, RAND Corporation</a></p>
+><p style="text-align:right;"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6651681758091841537/">Kanwal Rekhi, RAND Corporation</a></p>
 
 
 And in addition to the lack of inventory, the second age of globalisation might face it's the biggest challenge yet due to the realisation of the dependence on global supply chains.
