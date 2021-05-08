@@ -17,7 +17,7 @@ layout: default
     <li><a href="us_history.html">10hrs learning about US History 🔎</a></li><br>
     <li><a href="instagram_preview.html">I do some photography 📸</a></li><br>
     <li><a href="books2020.html">What I'm reading in 2020 📚</a></li><br>
-    <li><a href="books2021.html">What I'm reading in 2021 📚</a></li><br>
+    <!-- <li><a href="books2021.html">What I'm reading in 2021 📚</a></li><br> -->
     <li><a href="self_learning.html">Here are my recommended youtube subscriptions 📼<lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_imyUMa.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player></a></li><br>
     <!-- <li><a href="memes.html">Addiction to memes 🍄</a></li><br> -->
     <!-- <li><a href="startsmall.html">#StartSmall ₹</a></li><br> -->
