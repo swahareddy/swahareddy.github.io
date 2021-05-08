@@ -46,4 +46,6 @@ There are also Google Earth's building renderings that can take you around in 3D
 <img src="Virtual_heritage_walks_images/gatewayofindia.png" width="100%">
 <img src="Virtual_heritage_walks_images/stthomascathedral.png" width="60%">
 
+
+## Image gallery
 {% include image-gallery.html folder="Virtual_heritage_walks_images/gallery" %}
