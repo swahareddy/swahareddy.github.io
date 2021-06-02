@@ -1,9 +1,9 @@
 ---
 layout: blog
 date: February, 2020
-title: My experience with teaching - Macroeconomics
+title: Teaching - Macroeconomics
 ---
->Credit Suisse, as part of its campus outreach conducts a 3+2 credit finance-technology electives in various colleges.  
+>Credit Suisse, as part of its campus outreach conducts a 3+2 credit FinTech electives in various colleges.  
 
 As part of this program, I taught macroeconomics to sophomore and junior students from computer science at the <u>Army Institute of Technology</u>. *The best part of this was to go from being a student of this course in 2018 during my senior year at [COEP](https://www.coep.org.in), to being a faculty in 2020 as an employee with the bank*
 
@@ -30,9 +30,11 @@ Here is the whole PPT
     </figure>
 </div>
 
-And the best part of all this is that now when I see an article or tweet about repo rate, quantitaive easing etc, I am able to follow the train of thought. I am not afraid of those articles anymore!
+And the best part of all this is that now when I see an article or tweet about repo rate, quantitative easing etc, I am able to follow the train of thought. I am not afraid of those articles anymore!
 
 <!-- <img src="ait_macroeco_images/class.jpeg" width="50%"> -->
+
+
 
 
 

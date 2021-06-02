@@ -54,4 +54,8 @@ As a company in the new cold war, either you can:
 - ...
 (Can we find examples with MNCs moving assets after recent HongKong protests?)
 
-People need to feel like they will win if they agree to something. The problem with minimum global corporate income tax, [as is being discussed today](https://economictimes.indiatimes.com/news/international/business/germany-hails-us-move-on-corporate-tax-as-great-step-forward/articleshow/81932849.cms?from=mdr){:target="_blank"}, is that some people will dissproportianltely benefit. A redistribution of gains to compensate people who may not win but agree to come on board will help. 
+People need to feel like they will win if they agree to something. The problem with minimum global corporate income tax, [as is being discussed today](https://economictimes.indiatimes.com/news/international/business/germany-hails-us-move-on-corporate-tax-as-great-step-forward/articleshow/81932849.cms?from=mdr){:target="_blank"}, is that some people will disproportionately benefit. A redistribution of gains to compensate people who may not win but agree to come on board will help. 
+
+
+Also check a great video by Wendover on this topic:
+<iframe width="1097" height="617" src="https://www.youtube.com/embed/b1JlYZQG3lI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

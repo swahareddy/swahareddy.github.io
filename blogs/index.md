@@ -10,14 +10,16 @@ layout: default
         <li><a href="iteach3.html">Life-skills</a></li><br>
         <li><a href="iteach4.html">College essays</a></li><br>
         <li><a href="ait_macroeco.html">Macroeconomics 📈</a></li><br>
+        <li><a href="fintech_agile.html">Agile</a></li><br>
     </ol>
     <li><a href="adventures.html">A map of my adventures 🏃</a></li><br>
+    <li><a href="hyderabad_menu.html">Hungry in Hyderabad</a></li><br>
     <li><a href="Virtual_heritage_walks.html">Join me at a heritage walk this month</a></li><br>
-    <li><a href="hooked-stories.html">How do Insta stories have us *Hooked*? An analysis</a></li><br>
+    <li><a href="hooked-stories.html">How do Insta stories have us *Hooked*? An analysis of behavioural science</a></li><br>
     <li><a href="us_history.html">10hrs learning about US History 🔎</a></li><br>
     <li><a href="instagram_preview.html">I do some photography 📸</a></li><br>
+    <li><a href="books2021.html">What I'm reading in 2021 📚</a></li><br>
     <li><a href="books2020.html">What I'm reading in 2020 📚</a></li><br>
-    <!-- <li><a href="books2021.html">What I'm reading in 2021 📚</a></li><br> -->
     <li><a href="self_learning.html">Here are my recommended youtube subscriptions 📼<lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_imyUMa.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player></a></li><br>
     <!-- <li><a href="memes.html">Addiction to memes 🍄</a></li><br> -->
     <!-- <li><a href="startsmall.html">#StartSmall ₹</a></li><br> -->

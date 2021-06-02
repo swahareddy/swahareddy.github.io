@@ -4,7 +4,7 @@ date: January 2021 (Last update)
 title: My reading list for 2020
 ---
 
-I am not writing reviews for these here, but if you'd still like to know what I think about any of the books please reach out to me on one of the social media links at the end of the page.
+I am not writing reviews for these here, but if you'd still like to know what I think about any of these books please reach out to me on one of the social media links at the end of the page.
 
 # Currently reading
 <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.in/kp/card?asin=B00H1TN050&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_8kn.FbNH2565T&tag=swahareddy-21&hideShare=true" ></iframe> Had to pause this halfway. Need to get back to it.
@@ -12,9 +12,6 @@ I am not writing reviews for these here, but if you'd still like to know what I 
 # Done
 <!-- Poona Company -->
 <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.in/kp/card?asin=B008V8HKLU&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_IrdBFbS0P3NB9&tag=swahareddy-21&hideShare=true" ></iframe>
-
-<!-- Hooked by Nir Eyal -->
-<iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.in/kp/card?asin=B00NW01MKM&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_GsdBFb5MKVAM7&tag=swahareddy-21&hideShare=true" ></iframe>
 
 <!-- Chaos Monkeys -->
 <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.in/kp/card?asin=B01DCYNHLO&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_TDetFbH8KVSEK&tag=swahareddy-21&hideShare=true" ></iframe>
@@ -32,8 +29,7 @@ I am not writing reviews for these here, but if you'd still like to know what I 
 <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.in/kp/card?asin=B06XY26S57&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_NiftFbDMNJZY2&tag=swahareddy-21&hideShare=true" ></iframe>
 
 <!-- Macroeconomics, NCERT -->
-<a href="ait_macroeco.html"><img src="books2020_images\macroeco_ncert.jpg" width="336" height="550"></a>
-
+<a href="ait_macroeco.html"><img src="books2020_images\macroeco_ncert.jpg" width="330" height="550"></a>
 <!-- India 2061 -->
-<a href="https://www.campaignindia.in/article/book-extract-india-2061-a-look-at-the-future-of-india/419274"><img src="books2020_images\india2061.jpg" width="336" height="550"></a>
+<a href="https://www.campaignindia.in/article/book-extract-india-2061-a-look-at-the-future-of-india/419274"><img src="books2020_images\india2061.jpg" width="330" height="550"></a>
 
