@@ -12,7 +12,7 @@ While our proposal was approved in India, it ultimately did not align with the b
 
 Note - All the data here is publically available. The work is mine, and not meant to represent Credit Suisse or any of its entities in any way. 
 
-Check out the India related posts that we played a part in featuring on the global page since then:
+Check out the [India related posts](https://www.instagram.com/nondescript_testpage/) that we played a part in featuring on the global page since then:
 
 ![](csinstaindia_images/1.jpg)
 ![](csinstaindia_images/2.jpg)

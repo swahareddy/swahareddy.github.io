@@ -49,3 +49,10 @@ There are also Google Earth's building renderings that can take you around in 3D
 
 ## Image gallery
 {% include image-gallery.html folder="Virtual_heritage_walks_images/gallery" %}
+
+<hr>
+July, 2021
+## 'This is Bombay' 
+A travel workshop I hosted for primary school students from rural areas exposing them to travel, cultures and history.
+
+<iframe width="760px" height="500px" src="https://sway.office.com/s/YygBGGa7eKAo8OSf/embed" frameborder="0" marginheight="0" marginwidth="0" max-width="100%" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" scrolling="no" style="border: none; max-width: 100%; max-height: 100vh" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
