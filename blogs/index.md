@@ -14,7 +14,7 @@ layout: default
     </ol>
     <li><a href="adventures.html">A map of my adventures 🏃</a></li><br>
     <li><a href="hyderabad_menu.html">Hungry in Hyderabad</a></li><br>
-    <li><a href="Virtual_heritage_walks.html">Join me at a heritage walk this month</a></li><br>
+    <li><a href="heritage-virtual.html">Join me at a heritage walk this month</a></li><br>
     <li><a href="hooked-stories.html">How do Insta stories have us *Hooked*? An analysis of behavioural science</a></li><br>
     <li><a href="csindiainsta.html">Experience with corporate social media</a></li><br>
     <li><a href="us_history.html">10hrs learning about US History 🔎</a></li><br>
