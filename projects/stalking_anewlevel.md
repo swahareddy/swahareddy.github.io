@@ -13,7 +13,7 @@ This was a team project (team of 5) for the FoB Hackathon 2020, ML Challenge.
 - Profiling the prospects using Publicly Available Social Media Data.
 - Identify the Degree of Affinity of the prospects to the Trends.
 
-<s>## Demo application - https://datastudio.google.com/s/qRyMPSH5YFQ</s>
+<!-- <s>## Demo application - https://datastudio.google.com/s/qRyMPSH5YFQ</s> -->
 
 ## The ML Motivation
 - Utilize the affluence of data & soaring social footprints of wealth creators, machine learning can be the motive force to gauge Social, Cognitive, Behavioural & Cultural elements of individuals who could be our future prospects.
