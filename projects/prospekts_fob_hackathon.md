@@ -4,7 +4,7 @@ title: Who has the money?
 github_repo: https://github.com/swahareddy/Prospekts
 ---
 # Finding wealthy people for private banking and wealth management businesses of big banks
-This was a team project (team o 5) for the FoB Hackathon 2020, ML Challenge.
+This was a team project (team of 5) for the FoB Hackathon 2020, ML Challenge.
 
 ## The Use Case
 - HNIs are defined as individuals having net worth of > 5 million USD. These high profile individuals are still significant in number and are often in need of wealth management for their businesses or family offices.
