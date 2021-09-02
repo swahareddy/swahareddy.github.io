@@ -3,7 +3,7 @@ layout: blog
 date: February, 2020
 title: Teaching - Agile
 ---
->Credit Suisse, as part of its campus outreach conducts a 3+2 credit FinTech electives in various colleges.  
+>Credit Suisse, as part of its campus outreach conducts a 3+2 credit FinTech electives in various colleges. Check out my other post on this <a href="https://tejaswa.me/blogs/ait_macroeco.html">here</a>.
 
 As part of this program, I taught the principles of the Agile methodology to sophomore and junior students from computer science at my alma matter,  <u>College of Engineering Pune</u>. *The best part of this was to go from being a student of this course in 2018 during my senior year, to being a faculty in 2020 as an employee of the bank*
 
