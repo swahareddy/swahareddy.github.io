@@ -7,6 +7,7 @@ title: Teaching - Agile
 
 As part of this program, I taught the principles of the Agile methodology to sophomore and junior students from computer science at my alma matter,  <u>College of Engineering Pune</u>. *The best part of this was to go from being a student of this course in 2018 during my senior year, to being a faculty in 2020 as an employee of the bank*
 
+<img src="ait_macroeco_images/class.jpeg" width="40%">
 
 We covered the need for Agile, asked students to share their own experiences and tried to understand how they could have done their projects better. Then we covered the original Agile manifesto and typical scrum and talked about the variants like SaFE and Kanban.
 
