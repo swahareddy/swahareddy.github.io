@@ -6,11 +6,11 @@ layout: default
 <ul class="links">
     <li>My experience in teaching:</li>
     <ol>
-        <li><a href="iteach1+2.html">STEM</a></li><br>
-        <li><a href="iteach3.html">Life-skills</a></li><br>
-        <li><a href="iteach4.html">College essays</a></li><br>
-        <li><a href="ait_macroeco.html">Macroeconomics 📈</a></li><br>
-        <li><a href="fintech_agile.html">Agile</a></li><br>
+        <li><a href="iteach1+2.html">iTeach - STEM Tutor</a></li><br>
+        <li><a href="iteach3.html">iTeach - Zoom Summer School</a></li><br>
+        <li><a href="iteach4.html">iTeach - Admissions Mentorship</a></li><br>
+        <li><a href="ait_macroeco.html">Credit Suisse - Macroeconomics 📈</a></li><br>
+        <li><a href="fintech_agile.html">Credit Suisse - Agile</a></li><br>
     </ol>
     <li><a href="adventures.html">A map of my adventures 🏃</a></li><br>
     <li><a href="hyderabad_menu.html">Hungry in Hyderabad</a></li><br>
