@@ -34,11 +34,11 @@ But breaking down just the essentials:
 Not just consumers, but stories have been amazing for brands too. The real-time engagement that you would earlier have had only on slowly aging Facebook or intellectual twitter is now possible on Instagram too, especially important since Instagram and Snapchat are clear winners in the 21-40 age demographic. 
 
 Where else would brands find such genuine free publicity? These would have never made it to '*posts*' that are well guarded.
-<br>![Story of Dairy milk chocolate on instagram being taged by a fan account](hooked-stories_images/cadbury_mention.jpeg){: width="49%" }
+<br>![Story of Dairy milk chocolate on Instagram being tagged by a fan account](hooked-stories_images/cadbury_mention.jpeg){: width="49%" }
 ![vGHC desk swag](hooked-stories_images/ghc_promotion_insta.jpeg){: width="49%" }
 
-# Now what is this 'Hooked' model?
-Its a model of how habits (or addictions) can be created, explained in (although not limited to) a technological context. This has been created by Nir Eyal, an industry veteran, author and lecturer who's work is a part of BSchool curriculums. You can find the preview and purchase link for the book [here](books2020.html)!
+# Now what is the 'Hooked' model?
+It's a model of how habits (or addictions) can be created, explained in (although not limited to) a technological context. This was created by Nir Eyal, an industry veteran, author, and lecturer whose work is a part of BSchool curriculums. You can find the preview and purchase link for the book [here](books2020.html)!
 
 <br>![Hook model representation, fours components as Trigger, Investment, Variable reward and Action ](hooked-stories_images/hook-model.png){: width="80%" }
 
