@@ -28,7 +28,8 @@ layout: default
     <!-- <ol>
         <li><a href="picture1000words.html">A picture can say a 1000 words 🖼</a></li><br>
     </ol> -->
-    <li><a href="globalisation_covid.html">Thoughts on Covid-19's impact on globalisation 📉 </a></li><br>    
+    <li><a href="globalisation_covid.html">Thoughts on Covid-19's impact on globalisation 📉 </a></li><br> 
+    <li><a href="mvc.html">Minimally Viable Communication</a></li><br>   
 
 </ul>
 
