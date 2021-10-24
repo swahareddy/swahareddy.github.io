@@ -24,12 +24,12 @@ layout: default
     <li><a href="self_learning.html">Here are my recommended youtube subscriptions 📼<lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_imyUMa.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player></a></li><br>
     <!-- <li><a href="memes.html">Addiction to memes 🍄</a></li><br> -->
     <!-- <li><a href="startsmall.html">#StartSmall ₹</a></li><br> -->
-
+    <li><a href="globalisation_covid.html">Thoughts on Covid-19's impact on globalisation 📉 </a></li><br> 
+    <li><a href="mvc.html">Minimally Viable Communication</a></li><br>   
     <!-- <ol>
         <li><a href="picture1000words.html">A picture can say a 1000 words 🖼</a></li><br>
     </ol> -->
-    <li><a href="globalisation_covid.html">Thoughts on Covid-19's impact on globalisation 📉 </a></li><br> 
-    <li><a href="mvc.html">Minimally Viable Communication</a></li><br>   
+    
 
 </ul>
 
