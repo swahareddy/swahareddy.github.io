@@ -6,9 +6,7 @@ layout: default
 <ul class="links">
     <li>My experience in teaching:</li>
     <ol>
-        <li><a href="iteach1+2.html">iTeach - STEM Tutor</a></li><br>
-        <li><a href="iteach3.html">iTeach - Zoom Summer School</a></li><br>
-        <li><a href="iteach4.html">iTeach - Admissions Mentorship</a></li><br>
+        <li><a href="iTeach_index.html">iTeach Schools (a series..)</a></li><br>
         <li><a href="ait_macroeco.html">Credit Suisse - Macroeconomics 📈</a></li><br>
         <li><a href="fintech_agile.html">Credit Suisse - Agile</a></li><br>
     </ol>
