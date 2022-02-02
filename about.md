@@ -57,4 +57,4 @@ Collaboration:  &nbsp; &nbsp; &nbsp;![](https://img.shields.io/badge/Collab-Jira
 *I'd love to hear from you at [gavankartejaswa@gmail.com](mailto:gavankartejaswa@gmail.com) or a DM on [LinkedIn](https://www.linkedin.com/in/tejaswa/)*
 
 
-<iframe src="https://drive.google.com/file/d/1GDbkZcTPpGto--un_8gbk0_8BmFmrWhz/preview" width="70%" height="500"></iframe>
+<!-- <iframe src="https://drive.google.com/file/d/1GDbkZcTPpGto--un_8gbk0_8BmFmrWhz/preview" width="70%" height="500"></iframe> -->
