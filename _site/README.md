@@ -25,7 +25,7 @@ github_repo: https://github.com/swahareddy/swahareddy.github.io
 Hey, this post is here to give an overview of how this site technically works. I'll be defining the components and the reasons for my choices and linking relevant tutorials at the end. After going through this you can probably clone my repo, delete couple of folders that have these posts and put in your own content.
 
 ### Where I was coming from?
-Although I am a developer, I have always worked o the back-end of stuff. Honestly, my experience with any front-end technology was as limited as just knowing `<HTML>` tags. But as I started doing mor..
+Although I am a developer, I have always worked on back-end of stuff. Honestly, my experience with any front-end technology was as limited as just knowing `<HTML>` tags. But as I started doing mor..
 .
 .
 ```

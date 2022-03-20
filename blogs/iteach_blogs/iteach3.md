@@ -8,8 +8,8 @@ title: My experience with teaching - iTeach
 
 [Check out my earlier experience](iteach1+2.html)
 
-<img src="iteach_images/iteachnewsletter.jpeg" alt="" width="49%"/>
-<img src="iteach_images/Career panel.jpeg" alt="" width="49%"/>
+<img src="/blogs/iteach_blogs/iteach_images/iteachnewsletter.jpeg" alt="" width="49%"/>
+<img src="/blogs/iteach_blogs/iteach_images/Career panel.jpeg" alt="" width="49%"/>
 
 # Part 3
 Due to the lockdowns, iTeach decided to pilot an online course from April. In a change from my earlier role, I was asked to mentor students who'd just completed their 12th and were now in limbo till their colleges would open.
@@ -20,7 +20,7 @@ In Phase 1 of this program, our gang of 10 students created *resumes, LinkedIn p
 
 In Phase 2 of this program, we did the really fun stuff. *Weekly news briefings with each 'anchor', interactive session on cyber security, time management techniques and a recap of post Independence Indian history*.
 
-<img src="iteach_images/pride.png" width="80%">
+<img src="/blogs/iteach_blogs/iteach_images/pride.png" width="80%">
 
 * LGBT Pride🌈 - Danish
 * Photography📸- Rishab
@@ -31,7 +31,7 @@ Thank you! your guest sessions were amazing ❤️️
 
 On this 74th Independence Day, I'd encourage you to check out our beautiful [**India After Independence timeline**](/projects/india_cplp_timeline.html) (15th August,1947-2020)
 
-<img src="iteach_images/timeline_reduced.png" width="100%">
+<img src="/blogs/iteach_blogs/iteach_images/timeline_reduced.png" width="100%">
 
 [All resources](https://bit.ly/cplp-online-docs). Please share it with any kids who might benefit!
 <iframe src="https://docs.google.com/document/d/e/2PACX-1vTtGNZdc7zpOicv0iL2Np0JnxaCZ3G3FDyW2AjDQ4gki5wd5RDp3z96McUPyl6ym81NNx49ienElbkh/pub?embedded=true" width="100%" height="300"></iframe>
