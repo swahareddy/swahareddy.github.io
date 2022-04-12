@@ -13,14 +13,14 @@
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 
-        <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
-        <link rel="manifest" href="../images/favicon/site.webmanifest">
-        <link rel="mask-icon" href="../images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="../images/favicon/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/images/favicon/site.webmanifest">
+        <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/images/favicon/favicon.ico">
         <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-config" content="../images/favicon/browserconfig.xml">
+        <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
 
 
@@ -58,13 +58,13 @@
                     <div class="inner">
                         <h1 class="display-1">Depth Search for Research Nerds 🤓</h1>
 
-<a href="https://github.com/swahareddy/DepthSearch" class="icon brands alt fa-github"><span class="label">GitHub</span> Check out the code on GitHub</a>
+<a href="https://github.com/swahareddy/DepthSearch" class="icon brands alt fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span> Check out the code on GitHub</a>
 <hr>
 <br><br>
 
 <p>Does your browser often look like this?
-<img src="/projects/depthsearch_images/toomaytabs.jpeg" alt="toomanytabs" />
-For me, often this was a consequence of me reading one important article and opening up many links within it <a href="https://chrome.google.com/webstore/detail/right-click-opens-link-ne/mhjkeimpgjokbjmioglhlngefbddppnn">in the background</a>.</p>
+<img src="/projects/depthsearch_images/toomaytabs.jpeg" alt="toomanytabs">
+For me, often this was a consequence of me reading one important article and opening up many links within it <a href="https://chrome.google.com/webstore/detail/right-click-opens-link-ne/mhjkeimpgjokbjmioglhlngefbddppnn" target="_blank" rel="noopener noreferrer">in the background</a>.</p>
 
 <p>I wondered if there is any way for me to know which links are important (Eg which wikipedia references are significant) without having to open them up. So basically a way of doing a <code class="language-plaintext highlighter-rouge">Ctrl + F</code> through all the links in a page, and not just the page itself. Not that hard right?</p>
 
@@ -80,23 +80,23 @@ For me, often this was a consequence of me reading one important article and ope
   </ul>
 </blockquote>
 
-<p>Of course, the first place I go for such tools is the Chrome Web Store (where I have found many amazing extensions. I might make a list of them too someday too). I found <a href="https://chrome.google.com/webstore/detail/search-all-tabs/ndfnfhnlgoocpbbjjjfmiojdfcgcfomn">this</a>, which kiiind of solves it, but not really.</p>
+<p>Of course, the first place I go for such tools is the Chrome Web Store (where I have found many amazing extensions. I might make a list of them too someday too). I found <a href="https://chrome.google.com/webstore/detail/search-all-tabs/ndfnfhnlgoocpbbjjjfmiojdfcgcfomn" target="_blank" rel="noopener noreferrer">this</a>, which kiiind of solves it, but not really.</p>
 
-<hr />
+<hr>
 
 <p>I wanted this tool to be a browser extension, because that’s the only practical way someone is going to use it. Hardly anyone is going to run a python script for a URL that interests them.</p>
 
-<p><img src="/projects/depthsearch_images/chrome_wireframe.jpg" alt="my vision" /></p>
+<p><img src="/projects/depthsearch_images/chrome_wireframe.jpg" alt="my vision"></p>
 
 <p>I was aware that it was going to have <strong>exponential time complexity (O(c<sup>n</sup>)</strong>, but I thought that the operations itself (text search) is not that expensive (<em>Boy was I wrong</em>), and almost no one will really need a depth&gt;2</p>
 
 <p>I started a tutorial on making extensions, but I quickly realised that I would not be able to do as good a job as needed in Javascript. So I got a friend onboard who said he would do the JS stuff if I did the exploration and came up with the logic.</p>
 
-<hr />
+<hr>
 
 <p>And spoiler alert, he could never get to the chrome extension as the exploration itself threw up concerns.</p>
 
-<p>It was never going to be a straightforward recursive because almost inevitably there are links at the header and footer and even advertisements that are unnecessary. I did my analysis using Beautiful Soup. Maybe I should have used <a href="https://github.com/scrapy/scrapy">Scrapy</a> or some other tool?</p>
+<p>It was never going to be a straightforward recursive because almost inevitably there are links at the header and footer and even advertisements that are unnecessary. I did my analysis using Beautiful Soup. Maybe I should have used <a href="https://github.com/scrapy/scrapy" target="_blank" rel="noopener noreferrer">Scrapy</a> or some other tool?</p>
 
 <p>My observations on all the cases I encountered:</p>
 <ul>
@@ -110,26 +110,26 @@ For me, often this was a consequence of me reading one important article and ope
     <p>Probably the <strong>biggest improvement</strong> (order of magnitude) in performance was pretty simple actually. I will ‘dive’ only into those articles that have non zero articles. Eg. If user has requested depth=2, and  only 56/105 links at depth=1 actually have any matches. Then only those 56 will be searched instead of all 105 as part of depth=2.</p>
   </li>
   <li>
-    <p><strong>Advertisements</strong> were not really a problem, for some reason they were not even showing up in my code’s extracted URLs. Maybe has something to do with the way they are rendered on front end? Idk. I still looked into some solutions and would have probably come up with something using a <a href="https://github.com/notracking/hosts-blocklists">mature list</a> and implemented using <a href="https://www.wikiwand.com/en/Bloom_filter">bloom filters</a>.</p>
+    <p><strong>Advertisements</strong> were not really a problem, for some reason they were not even showing up in my code’s extracted URLs. Maybe has something to do with the way they are rendered on front end? Idk. I still looked into some solutions and would have probably come up with something using a <a href="https://github.com/notracking/hosts-blocklists" target="_blank" rel="noopener noreferrer">mature list</a> and implemented using <a href="https://www.wikiwand.com/en/Bloom_filter" target="_blank" rel="noopener noreferrer">bloom filters</a>.</p>
   </li>
   <li>
-    <p>I was using a regex to pick stuff that looks like a URL. i.e starts with http, www etc.. But I later caught some links that were being left out <img src="/projects/depthsearch_images/runnersworld.jpg" alt="" /> So I made sure to catch them too.</p>
+    <p>I was using a regex to pick stuff that looks like a URL. i.e starts with http, www etc.. But I later caught some links that were being left out <img src="/projects/depthsearch_images/runnersworld.jpg" alt=""> So I made sure to catch them too.</p>
   </li>
 </ul>
 
-<hr />
+<hr>
 <h1 id="actual-use-of-all-this">Actual use of all this?</h1>
 
 <p>If you don’t mind, you can use this a locally or in Colab as a notebook. But as to the question of putting it in a browser extension, I am not sure how that will work.</p>
 
-<p>Since even Depth=1 can take a couple of minutes* <img src="/projects/depthsearch_images/notime.jpg" alt="" /> (when run through an IPython kernel on a 1.6Ghz 8GBRAM Windows 10 machine), its probably going to be even slower running as a chrome extension (If you know more about this, please reach out to me).</p>
+<p>Since even Depth=1 can take a couple of minutes* <img src="/projects/depthsearch_images/notime.jpg" alt=""> (when run through an IPython kernel on a 1.6Ghz 8GBRAM Windows 10 machine), its probably going to be even slower running as a chrome extension (If you know more about this, please reach out to me).</p>
 
 <p>So maybe server-side processing is the way to go rather than client side. Then I might be able to use better machines from GCE too. ^</p>
 
 <!-- ## But.. but...
 If you still see some use in having a python implementation of this idea I stumbled upon [this package](https://github.com/s0md3v/Photon) which looks pretty promising (It processed links orders of magnitude better than my notebook, but I was getting an encoding error at the last step). I did not look for this initially since I wanted to build a browser extension and not a python app. -->
 
-<hr />
+<hr>
 <h3 id="misc">Misc:</h3>
 <p>Additionally, bs4 is compatible with PDFs too, and as part of an academic solution (for research papers) this could be extended to PDFs too and not just webpages</p>
 
@@ -155,7 +155,7 @@ If you still see some use in having a python implementation of this idea I stumb
 </script>
 <noscript>
     Please enable JavaScript to view the 
-    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+    <a href="https://disqus.com/?ref_noscript" rel="noopener noreferrer" target="_blank">
         comments powered by Disqus.
     </a>
 </noscript>
@@ -167,15 +167,16 @@ If you still see some use in having a python implementation of this idea I stumb
                 <footer id="footer">
                     <div class="inner">
                         <ul class="icons">
-                            <li><a href="https://www.linkedin.com/in/tejaswa/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                            <li><a href="https://github.com/swahareddy" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-                            <li><a href="https://www.instagram.com/tejaswagg/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/tejaswa/" class="icon brands alt fa-linkedin-in" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/swahareddy" class="icon brands alt fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
+                            <li><a href="https://www.instagram.com/tejaswagg/" class="icon brands alt fa-instagram" target="_blank" rel="noopener noreferrer"><span class="label">Instagram</span></a></li>
                             <!-- <li><a href="https://twitter.com/khanakhilao" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
                             <!-- <li><a href="https://www.facebook.com/reddyswaha/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
                             
                         </ul>
                         <ul class="copyright">
-                            <li>&copy; Tejaswa</li><!-- <li>Template: <a href="https://html5up.net">HTML5 UP</a></li> -->
+                            <li>© Tejaswa</li>
+<!-- <li>Template: <a href="https://html5up.net">HTML5 UP</a></li> -->
                         </ul>
                     </div>
                 </footer>
@@ -192,6 +193,6 @@ If you still see some use in having a python implementation of this idea I stumb
             <script src="/assets/js/util.js"></script>
             <script src="/assets/js/main.js"></script>
 
-        
+
     </body>
-<html>
+</html>

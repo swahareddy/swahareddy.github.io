@@ -13,14 +13,14 @@
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 
-        <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
-        <link rel="manifest" href="../images/favicon/site.webmanifest">
-        <link rel="mask-icon" href="../images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="../images/favicon/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/images/favicon/site.webmanifest">
+        <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/images/favicon/favicon.ico">
         <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-config" content="../images/favicon/browserconfig.xml">
+        <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
 
 
@@ -59,10 +59,10 @@
                         <h1 class="display-1">A picture speaks a 1000 words 🖼 ℹ</h1>
 <p>I’m not go into the history or philosophy of this adage. And as for its meaning, it’s self explanatory.</p>
 <h2 id="how-did-i-get-here">How did I get here?</h2>
-<p>When I was playing with GPT2, <a href="https://github.com/swahareddy/gpt2AI_whatsapp_simulation">teaching it to talk like my friends</a>, I was feeding the untrained model random internet snippets. And some of the stuff it was dropping was mind blowing. I could see why OpenAI was worried about fake news like applications of this.</p>
+<p>When I was playing with GPT2, <a href="https://github.com/swahareddy/gpt2AI_whatsapp_simulation" target="_blank" rel="noopener noreferrer">teaching it to talk like my friends</a>, I was feeding the untrained model random internet snippets. And some of the stuff it was dropping was mind blowing. I could see why OpenAI was worried about fake news like applications of this.</p>
 
 <blockquote>
-  <p>I gave it the first sentence from <a href="https://www.wikiwand.com/en/Abhinandan_Varthaman">this</a> wikipedia page. Going forward, I will be <strong>denoting the input in bold</strong> and the text that follows will be the output.</p>
+  <p>I gave it the first sentence from <a href="https://www.wikiwand.com/en/Abhinandan_Varthaman" target="_blank" rel="noopener noreferrer">this</a> wikipedia page. Going forward, I will be <strong>denoting the input in bold</strong> and the text that follows will be the output.</p>
 </blockquote>
 
 <blockquote>
@@ -74,18 +74,18 @@ His name was Abhinandan, during the battle.In 1940, at the age of twelve, he wen
   <p>In 1946, during the Indian Army’s losses from an Indian plane crash, Abhinandan was given the task of flying a Apache and other AN-100/US/IM-100 aircraft. He was given the task of flying a AN-100 aircraft that was to carry up to 8 more squadrons of 8 aircraft, which consisted of 15 of the aircraft each, with the number of aircraft flown by all American and Russian Air Force, which included two of the planes being used by Mr. V.V.) Abhinandan had been assigned to the United States Air Force, and had been assigned to India from the Department of Defense’s Special Observership Program (FSPP).</p>
 </blockquote>
 
-<p>So I really wanted to be able to tell stories based off images. But I needed a few lines of text based on the image to feed as context to the model. And the Google cloud APIs I found were for <a href="https://cloud.google.com/vision/docs/labels">individual labels</a> and <a href="https://cloud.google.com/vision/docs/object-localizer">object detection</a>^. So I left it at that.</p>
+<p>So I really wanted to be able to tell stories based off images. But I needed a few lines of text based on the image to feed as context to the model. And the Google cloud APIs I found were for <a href="https://cloud.google.com/vision/docs/labels" target="_blank" rel="noopener noreferrer">individual labels</a> and <a href="https://cloud.google.com/vision/docs/object-localizer" target="_blank" rel="noopener noreferrer">object detection</a>^. So I left it at that.</p>
 
-<p>But recently I came across <a href="https://github.com/karpathy/neuraltalk2">this</a> open source model to auto-caption images. (<a href="https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.reveal">This</a> app by Google is also really cool) Unfortunately I was unable to install it due to my laptop (and google colab) being incompatible, but I am still documenting my non technical observations in this post.</p>
+<p>But recently I came across <a href="https://github.com/karpathy/neuraltalk2" target="_blank" rel="noopener noreferrer">this</a> open source model to auto-caption images. (<a href="https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.reveal" target="_blank" rel="noopener noreferrer">This</a> app by Google is also really cool) Unfortunately I was unable to install it due to my laptop (and google colab) being incompatible, but I am still documenting my non technical observations in this post.</p>
 
-<hr />
+<hr>
 
-<h2 id="using-actual-image-caption-pairs-from-the-neuraltalk2-model">Using actual <a href="https://cs.stanford.edu/people/karpathy/neuraltalk2/demo.html">image-caption pairs</a> from the NeuralTalk2 model.</h2>
+<h2 id="using-actual-image-caption-pairs-from-the-neuraltalk2-model">Using actual <a href="https://cs.stanford.edu/people/karpathy/neuraltalk2/demo.html" target="_blank" rel="noopener noreferrer">image-caption pairs</a> from the NeuralTalk2 model.</h2>
 
-<p>I used <a href="https://deepai.org/machine-learning-model/text-generator">this</a> tool to make the text predictions as it gives large outputs. A better one is <a href="https://transformer.huggingface.co/doc/gpt2-large">this</a> since GPT2 prediction parameters can be controlled, but it predicts only few words at a time. In reality I will want a combination of both like I have <a href="https://github.com/swahareddy/gpt2AI_whatsapp_simulation/blob/master/Whatsapp_Chat_simulation_by_OpenAI's_GPT_2.ipynb">done earlier</a>.</p>
+<p>I used <a href="https://deepai.org/machine-learning-model/text-generator" target="_blank" rel="noopener noreferrer">this</a> tool to make the text predictions as it gives large outputs. A better one is <a href="https://transformer.huggingface.co/doc/gpt2-large" target="_blank" rel="noopener noreferrer">this</a> since GPT2 prediction parameters can be controlled, but it predicts only few words at a time. In reality I will want a combination of both like I have <a href="https://github.com/swahareddy/gpt2AI_whatsapp_simulation/blob/master/Whatsapp_Chat_simulation_by_OpenAI's_GPT_2.ipynb" target="_blank" rel="noopener noreferrer">done earlier</a>.</p>
 
 <blockquote>
-  <p><img src="ideas_box_images\picture1000words\surfboard.jpg" width="20%" />
+  <p><img src="ideas_box_images%5Cpicture1000words%5Csurfboard.jpg" width="20%">
 <strong>a man riding a wave on top of a surfboard</strong> 
 I was riding high on a wave at Ormeau Surf and Rimming and Wetland. On the way, I stopped at the water board for a short delay.
 The guy who was riding in a wave tank was clearly a person from different parties, a lot like the one I was in Australia at the time.
@@ -98,7 +98,7 @@ I got out of the water and took a break to rest. When I came back on to the boar
 </blockquote>
 
 <blockquote>
-  <p><img src="ideas_box_images\picture1000words\umbrella.jpg" width="15%" />
+  <p><img src="ideas_box_images%5Cpicture1000words%5Cumbrella.jpg" width="15%">
 <strong>a man walking down a street holding an umbrella</strong> 
 He was wearing a gray cap. Asked why did something that made police say that he was wearing them, the man said that he saw someone wearing a light-blue shirt.</p>
 
@@ -108,7 +108,7 @@ The incident in which a man was killed last year as another suspect was being he
 </blockquote>
 
 <blockquote>
-  <p><img src="ideas_box_images\picture1000words\food.jpg" width="15%" />
+  <p><img src="ideas_box_images%5Cpicture1000words%5Cfood.jpg" width="15%">
 <strong>a group of people standing around a table with food</strong> 
 , beer—food was distributed, but no dough. They asked me, “What are you making?” I answered, “We’re from Mars.”
 There’s a great story here. In 2013, NASA released the Mars Reconnaissance Orbiter. The mission was a cooperative effort between NASA, the European Space Agency and several European member states.</p>
@@ -117,7 +117,7 @@ There’s a great story here. In 2013, NASA released the Mars Reconnaissance Orb
 </blockquote>
 
 <blockquote>
-  <p><img src="ideas_box_images\picture1000words\dog.jpg" width="15%" />
+  <p><img src="ideas_box_images%5Cpicture1000words%5Cdog.jpg" width="15%">
 <strong>a woman is sitting on a bed with a dog</strong>
 I was born with three different minds: a two-headed dog, my two-headed cat, and I
 The man who sent me to the hospital told a girl I don’t like cats because she thinks they are animals — a malevolent sort of dog that just can’t be trusted.</p>
@@ -127,7 +127,7 @@ His mom, Beth, told me an adult had come there recently to take me to her son’
 </blockquote>
 
 <blockquote>
-  <p><img src="ideas_box_images\picture1000words\giraffe.jpg" width="15%" />
+  <p><img src="ideas_box_images%5Cpicture1000words%5Cgiraffe.jpg" width="15%">
 <strong>a group of giraffe standing next to each other on a field</strong> at the Taroomba River near Nairobi.
 The three giraffe guards are one, the head and a man who has an open air rifle with a “good eye”, who is a member of the local chapter of the International Union for Conservation of Nature.</p>
 
@@ -135,7 +135,7 @@ The three giraffe guards are one, the head and a man who has an open air rifle w
 </blockquote>
 
 <blockquote>
-  <p><img src="ideas_box_images\picture1000words\kidsuit.jpg" width="15%" />
+  <p><img src="ideas_box_images%5Cpicture1000words%5Ckidsuit.jpg" width="15%">
 <strong>a man in a suit and tie standing in a room</strong> with his laptop and electronic device, according to a report.
 The report was forwarded to the Department of Justice by State Attorney Bill Montgomery on an afternoon Monday. Montgomery said the FBI had no comment.</p>
 
@@ -144,8 +144,8 @@ A lawyer for the FBI, Robert Burton, said he was unaware of the internal investi
 During a conference call on Friday, Burton told aides: “I’m not supposed to talk to this individual right now.”</p>
 </blockquote>
 
-<hr />
-<p>As you can see the outputs are not what anyone would have liked. But I still have not given up hope because the issue with using NeuralTalk type models is that are trained on the <a href="https://cocodataset.org/#explore">COCO dataset</a> which <strong>gives crisp outputs that are not sufficient context for a good GPT output.</strong></p>
+<hr>
+<p>As you can see the outputs are not what anyone would have liked. But I still have not given up hope because the issue with using NeuralTalk type models is that are trained on the <a href="https://cocodataset.org/#explore" target="_blank" rel="noopener noreferrer">COCO dataset</a> which <strong>gives crisp outputs that are not sufficient context for a good GPT output.</strong></p>
 
 <p><em>I want to try a more raw NLP approach like comparing the embeddings of a group of ^detected labels/ objects with that of wikipedia or some other very large corpus to find well written sentence(s) that can be fed instead of crisp captions.</em></p>
 
@@ -171,10 +171,13 @@ During a conference call on Friday, Burton told aides: “I’m not supposed to 
 </script>
 <noscript>
     Please enable JavaScript to view the 
-    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+    <a href="https://disqus.com/?ref_noscript" rel="noopener noreferrer" target="_blank">
         comments powered by Disqus.
     </a>
 </noscript>
+
+
+
                     </div>
                 </section>
 
@@ -182,15 +185,16 @@ During a conference call on Friday, Burton told aides: “I’m not supposed to 
                 <footer id="footer">
                     <div class="inner">
                         <ul class="icons">
-                            <li><a href="https://www.linkedin.com/in/tejaswa/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                            <li><a href="https://github.com/swahareddy" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-                            <li><a href="https://www.instagram.com/tejaswagg/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/tejaswa/" class="icon brands alt fa-linkedin-in" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/swahareddy" class="icon brands alt fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
+                            <li><a href="https://www.instagram.com/tejaswagg/" class="icon brands alt fa-instagram" target="_blank" rel="noopener noreferrer"><span class="label">Instagram</span></a></li>
                             <!-- <li><a href="https://twitter.com/khanakhilao" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
                             <!-- <li><a href="https://www.facebook.com/reddyswaha/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
                             
                         </ul>
                         <ul class="copyright">
-                            <li>&copy; Tejaswa</li><!-- <li>Template: <a href="https://html5up.net">HTML5 UP</a></li> -->
+                            <li>© Tejaswa</li>
+<!-- <li>Template: <a href="https://html5up.net">HTML5 UP</a></li> -->
                         </ul>
                     </div>
                 </footer>
@@ -207,6 +211,6 @@ During a conference call on Friday, Burton told aides: “I’m not supposed to 
             <script src="/assets/js/util.js"></script>
             <script src="/assets/js/main.js"></script>
 
-        
+
     </body>
-<html>
+</html>

@@ -13,14 +13,14 @@
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 
-        <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
-        <link rel="manifest" href="../images/favicon/site.webmanifest">
-        <link rel="mask-icon" href="../images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="../images/favicon/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/images/favicon/site.webmanifest">
+        <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/images/favicon/favicon.ico">
         <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-config" content="../images/favicon/browserconfig.xml">
+        <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
 
 
@@ -58,14 +58,14 @@
                     <div class="inner">
                         <h1 class="display-1">Chatbot for your favorite GIFs</h1>
 
-<a href="https://github.com/swahareddy/Ask-me-to-make-you-GIFs" class="icon brands alt fa-github"><span class="label">GitHub</span> Check out the code on GitHub</a>
+<a href="https://github.com/swahareddy/Ask-me-to-make-you-GIFs" class="icon brands alt fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span> Check out the code on GitHub</a>
 <hr>
 <br><br>
 
 <blockquote class="blockquote">
     <p class="mb-0"><i>Oh, it is on, like a prawn who yawns at dawn.</i></p>
     <p style="text-align:right;">- Andy Bernard</p>
-    <center><img src="gifgenerator_images\prawnwhoridesatdawn.gif" /></center>
+    <center><img src="gifgenerator_images%5Cprawnwhoridesatdawn.gif"></center>
 </blockquote>
 
 <h2 id="prepare-the-sitcom">Prepare the sitcom</h2>
@@ -93,14 +93,14 @@
 ...
 </code></pre></div></div>
 
-<p><img src="/projects/gifgenerator_images/folder_struct.gif" alt="folder structure" /></p>
+<p><img src="/projects/gifgenerator_images/folder_struct.gif" alt="folder structure"></p>
 
 <ol>
   <li>We don’t really need any specific file nomenclature. Only that each season’s folder has alphabetical video files and alphabetical subtitle files.</li>
   <li>Put all these season folders into one ‘Sitcom Name’ folder</li>
 </ol>
 
-<p><img src="/projects/gifgenerator_images/haevyouprep.gif" alt="" /></p>
+<p><img src="/projects/gifgenerator_images/haevyouprep.gif" alt=""></p>
 
 <p>I’ve use <code class="language-plaintext highlighter-rouge">.mp4</code> and <code class="language-plaintext highlighter-rouge">.srt</code> here, but they can be other formats too.</p>
 
@@ -108,9 +108,9 @@
 
 <p>3 episodes in the GIF above were about 45,000 rows/subtitles.</p>
 
-<p><img src="/projects/gifgenerator_images/bq_schema.jpg" alt="bq schema" /> BigQuery table schema</p>
+<p><img src="/projects/gifgenerator_images/bq_schema.jpg" alt="bq schema"> BigQuery table schema</p>
 
-<hr />
+<hr>
 
 <h1 id="ask-for-the-gif">Ask for the GIF</h1>
 <blockquote>
@@ -118,30 +118,32 @@
   <ol>
     <li>Just set the variable name <code class="language-plaintext highlighter-rouge">selected_dialogue</code> as the word/dialog you want to search for.</li>
     <li>You will be asked which dialog you want to base your GIF on.
-<img src="/projects/gifgenerator_images/dialog_options.jpg" alt="dialog options" /></li>
+<img src="/projects/gifgenerator_images/dialog_options.jpg" alt="dialog options">
+</li>
   </ol>
 </blockquote>
 
 <ol>
   <li>Based on your selection and its corresponding timestamps, a video is cut, the text is overlayed and the gif is saved.
-<img src="/projects/gifgenerator_images/gif_gen.gif" alt="generated GIF" /></li>
+<img src="/projects/gifgenerator_images/gif_gen.gif" alt="generated GIF">
+</li>
 </ol>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/btR2OAGXCCU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
-<hr />
+<hr>
 
 <h1 id="ask-for-it-on-your-mobile-">Ask for it on your mobile! 📲</h1>
 
 <p>Check out <code class="language-plaintext highlighter-rouge">jeevz.py</code> where I made a chat bot to ask for GIFs!</p>
 
-<p><img src="/projects/gifgenerator_images/jeevz_chat_bot.jpeg" alt="chat bot screenshot" /></p>
+<p><img src="/projects/gifgenerator_images/jeevz_chat_bot.jpeg" alt="chat bot screenshot"></p>
 
-<p>I used <a href="https://www.youtube.com/watch?v=5nhdxpoicW4">this</a> and <a href="https://pypi.org/project/telegram-send/">this</a> to make the chatbot. You should probably write your own, mine breaks easily.</p>
+<p>I used <a href="https://www.youtube.com/watch?v=5nhdxpoicW4" target="_blank" rel="noopener noreferrer">this</a> and <a href="https://pypi.org/project/telegram-send/" target="_blank" rel="noopener noreferrer">this</a> to make the chatbot. You should probably write your own, mine breaks easily.</p>
 
-<p><img src="/projects/gifgenerator_images/putmanuredown.gif" alt="manure" /></p>
+<p><img src="/projects/gifgenerator_images/putmanuredown.gif" alt="manure"></p>
 
-<hr />
+<hr>
 
 <h2 id="future-scope">Future Scope</h2>
 <p>These are easy enough to offer:</p>
@@ -180,7 +182,7 @@
 </script>
 <noscript>
     Please enable JavaScript to view the 
-    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+    <a href="https://disqus.com/?ref_noscript" rel="noopener noreferrer" target="_blank">
         comments powered by Disqus.
     </a>
 </noscript>
@@ -192,15 +194,16 @@
                 <footer id="footer">
                     <div class="inner">
                         <ul class="icons">
-                            <li><a href="https://www.linkedin.com/in/tejaswa/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                            <li><a href="https://github.com/swahareddy" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-                            <li><a href="https://www.instagram.com/tejaswagg/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/tejaswa/" class="icon brands alt fa-linkedin-in" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/swahareddy" class="icon brands alt fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
+                            <li><a href="https://www.instagram.com/tejaswagg/" class="icon brands alt fa-instagram" target="_blank" rel="noopener noreferrer"><span class="label">Instagram</span></a></li>
                             <!-- <li><a href="https://twitter.com/khanakhilao" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
                             <!-- <li><a href="https://www.facebook.com/reddyswaha/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
                             
                         </ul>
                         <ul class="copyright">
-                            <li>&copy; Tejaswa</li><!-- <li>Template: <a href="https://html5up.net">HTML5 UP</a></li> -->
+                            <li>© Tejaswa</li>
+<!-- <li>Template: <a href="https://html5up.net">HTML5 UP</a></li> -->
                         </ul>
                     </div>
                 </footer>
@@ -217,6 +220,6 @@
             <script src="/assets/js/util.js"></script>
             <script src="/assets/js/main.js"></script>
 
-        
+
     </body>
-<html>
+</html>

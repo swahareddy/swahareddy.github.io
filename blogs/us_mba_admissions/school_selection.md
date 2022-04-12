@@ -9,7 +9,7 @@ TL:DR; There is no answer. It's intuition.
 
 I had all kinds of questions:
 Should I apply to Stanford? Admissions say that review is holistic, I can probably get in. Surely my essay will be special.
-Should I apply to Marshall? Will I even get in? Is T20 too ambitious? Should I apply to Vanderbilt Owen instead?
+Should I apply to Marshall? Will I even get in? Is T20^ too ambitious? Should I apply to Vanderbilt Owen instead?
 
 ![](media/mit_smarties.png){: width="60%" }
 
@@ -18,9 +18,12 @@ I playfully created this comparison of reputation that might have some legitimac
 | India | US | 
 | --- | --- |
 | IIM A | Harvard, Stanford, Wharton| 
-| IIM B, C| M7/M8 | 
-| IIM LKI, ISB | T15 | 
+| IIM B, C| M7/M8* | 
+| IIM LKI, ISB | T15^ | 
 
+*M7 refers to the premier group of top 7 schools
+
+^T10/15/20 refers to a generally top 10/15/20 categorization of schools according to rankings.
 
 - GMATClub created this tool: [Link](https://gmatclub.com/forum/what-are-my-chances-profile-evaluation-tool-309854.html) (fill advanced parameters too). Can't comment on it's accuracy.
 - At the start of my process, I reached out to some big admission consultants ([mba mission](https://www.mbamission.com/consult/mba-admissions/) , [Accepted](accepted.com/mba/free-admissions-consultation, fortunaadmissions.com/free_consult/) ) for their 30min conversations where I got their opinion on the matter. I'd recommend this. They're good and it's free, nothing to lose. In case you choose to work with them (more on that later), you also got a feel of a potential consultant.
