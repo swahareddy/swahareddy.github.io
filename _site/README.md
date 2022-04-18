@@ -2,7 +2,7 @@
 
 This is an overview of how this site technically works. I'll be defining the components and the reasons for my choices and linking relevant tutorials at the end. After going through this you can probably clone my repo, delete couple of folders that have these posts and put in your own content.
 
-### Where I was coming from?
+### Where I was coming from
 Although I am a developer, I have always worked o the back-end of stuff. Honestly, my experience with any front-end technology was as limited as just knowing `<HTML>` tags. But as I started doing more and more projects for fun, I realised that I do not want to be shy about this going forward.
 
 But at the same time I felt that it would be a shame for a professional developer to use Wordpress, Wixsite etc, although they are great solutions. And now that I have built this, I think it is as easy as any of these tools!
