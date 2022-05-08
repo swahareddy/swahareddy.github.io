@@ -10,6 +10,12 @@ This was a paid opportunity facilitated by Paragon One. Throughout the program, 
 
 I took part in this externship while I was still in India, a couple of months before I moved to LA. So it was a looot of long nights to coordinate with everyone in the US. But I'm glad I did it because I got to work with a kick-ass team. **I finished in the top 20% of the cohort, with an 'Outstanding' review and was invited for further 1-on-1 conversations with the folks at Meta** to discuss how I could continue to contribute.
 
+I'm often on the implementation and delivery side of products at Credit Suisse, hence wearing a PMM hat for this extenrship was a very interesting contrast. 
+What I learnt: 
+- The right way to about competitive analysis for variety of products and features.
+- Syntheiszing a mountain of findings into actionable insights
+- **PM prioritization frameworks**. We discovered so many possibilities! But in order to leave the Meta executives with takeaways, we had to thrice funnel our reccomendations. A painful but super-critical step.
+
 > There's been a growing trend towards more real-time communication in the world of social media. People want more honesty and candid conversations that are expected to pass through lesser 'filters'. Mimicking the real-world through features like metaverse, video, audio etc help achieve this. But not just these, there are also interesting emerging apps like Dispo, Dialup, and RealMe that are bringing forth a new trend in the way GenZ communicates.
 
 > Non-text mediums are not just better for enagegment, but also improve accessibility by removing the text constraint of supporting limited keyboard languages. It also allows people who aren’t comfortable typing at length to play a deep role in the conversation. Lastly, it avoids misunderstandings caused by vocabulary, inability to convey tone etc.
