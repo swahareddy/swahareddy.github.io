@@ -76,5 +76,5 @@ Here is a small sample of what I extracted for tweets from a congress party spok
 You can find the notebook to do this over [here](https://github.com/swahareddy/political_polarisation).
 I'm retiring this project due to time constraints but *if you'd like to complete this project, the main steps remaining are #4, #5 and #6, data science related.*
 
-### Comments
-As I have read more about this, I have come to understand that using the concepts of right and left in India is not meaningful. If we have to we can do a pro-vs-anti government scale.
+<!-- ### Comments
+As I have read more about this, I have come to understand that using the concepts of right and left in India is not meaningful. If we have to we can do a pro-vs-anti government scale. -->
