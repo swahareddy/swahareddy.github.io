@@ -36,3 +36,7 @@ Here is our feature analysis matrix:
 
 Here are our case studies:
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTnuCWjRToQ5jhuFH1dQWAeGvQUDNBNnOfy5RmkkLMDxhcdas706Unw9DKkVjSaxPAk6p8xs02qG075/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="300px"></iframe>
+
+
+<br><br>
+[Certificate of Outstanding Completion! 📃](https://portfolio.paragonone.com/p/fa374020a3757f0dceba4c5d8ba509e705b09e97/4996)

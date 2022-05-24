@@ -3,7 +3,7 @@ layout: default
 ---
 # My Projects
 
-<!-- * [Feature reccomendations for Meta <img src="misc_images\meta.png" width="4%">](meta_sync_comm)<br><br> -->
+* [Feature reccomendations for Meta <img src="misc_images\meta.png" width="4%">](meta_sync_comm)<br><br>
 * [Whatsapp: I fine tuned one of the world's best natural language models to talk like my friends 📲](gpt2Whatsapp.md)<br><br>
 * [Whatsapp: How much did we talk? When were we happiest? Who shares the most memes? 📲](whatsapp_analytics.html)<br><br>
 * [A pretty timeline of all major events in India since independence  &nbsp;](india_cplp_timeline.html)<img src="\images\Flag_of_India.svg" width="3%"><br><br>

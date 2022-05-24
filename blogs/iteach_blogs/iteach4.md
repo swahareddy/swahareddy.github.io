@@ -1,7 +1,7 @@
 ---
 layout: blog
 date: 2021-01-11
-title: First-generation college  students
+title: First-generation college students
 ---
 
 The thing that I love about iTeach, apart from the students of course, is that I get to learn so much and try new things. <br>
@@ -109,3 +109,45 @@ limited. I used to do well in the bubble of my school, but education beyond a po
 >
 >It's not that I did not 'know' about any of these problems myself. But having a female peer's perspective just made it all so real. Since then I have been able to appreciate the accomplishments of women around me much more and this has also taught me the value of a diverse perspective.
 <!-- ******************************* -->
+
+**Money** <br>
+<!-- **The language of a person influences their understanding of the world. Pick your favourite word from any language and tell us why this word is special to you, and how it has impacted you. (150 words)** -->
+
+>My favourite word is money. This might seem selfish, but I do not come from a family of many means. Infact my father, an auto driver, is our sole earner. During the lockdown, we could not even afford ration and were forced to move back to our village. Money offers the luxury to dream and hope. It may not buy happiness, but it can keep you safe, educate your children and keep a roof over your head.
+>
+>I want to earn enough to keep my family happy. I want to earn enough to support people in need like my community. I want to earn enough to leave the world around me in a better condition than I found it. I believe Ashoka will give me the skills and maturity to achieve these goals. I’m looking forward to working on community development through business with the Enactus team at Ashoka.
+
+
+**An incident that changed my approach to life** <br>
+<!-- **What is your personal story and how would studying at KREA help you become the person you want to be? (750 words)** -->
+
+>I was not a very sincere student during primary school. I was in a government school and neither my classmates not teachers were serious about academics. Rather than studying I used to sketch or play football the whole day. Football was the only thing I took seriously.
+>
+>In 2018 however an incident happened that changed our family forever. We were returning from a family trip and my younger brother was having a hard time on the drive back. What we thought was motion sickness turned out to be a blood tumour. He spent the next few weeks battling multiple surgeries, brain swelling, and paralysis. We weren’t in good financial shape to begin with, and the medical bills had left us in immense debt. My father was laid off since he was in the hospital all the time, unable to work. Even today he’s burning the candles on both ends paying off those loans, finding it hard to find good employment because of his lack of education.
+>
+>This experience left me determined never to see my family in such a situation again. I’ve been serious about academics since then, taking a genuine interest in my subjects. I started working hard in classes, asked for extra work, attended extra classes and asked a whole lot of questions which helped me improve my performance drastically. I was still as passionate about football and rose up the ranks there too. Waking for 5am practice in cold winter mornings, exercising regularly.. It all paid off and I rose from a substitute player to vice-captain and eventually captain too. I attribute a lot of my confidence and success off the field to football too. I became more confident and responsible. The improvement in my communication skills as the captain helped me qualify for many debates. It showed me how the whole is more than the sum of it’s parts,
+and thus how valuable a team is when it works well. Football has taught me values of discipline,
+teamwork and how to take both success and failure in the same stride.
+>
+>This was especially important for me in the next few years when my father lost his job again due to Covid. We were a low-income family of six, of which my brother was paralysed. So alongside my grade 11th and 12th I’ve been working as a salesman in a sports store to supplement our family income.
+>
+>What could have helped us a lot over these years was health insurance. My brother had 2 brain surgeries and a month in the ICU with long-term treatment after that. If we were more aware of the benefits we were entitled to, like the Rashtriya Swasthya Bima Yojana insurance, we could have saved a lot of money. It’s not just us, but millions of poor families in India that do not realize the rights and benefits they are entitled to. I want to simplify and spread awareness of such schemes in ways that even illiterate people can understand. I would also like to extend this to provide support to those that are harassed by the police or more priveleged since they belong to a certain class, caste or gender.
+>
+>Krea has a very strong reputation in addressing developmental challenges. I am particularly drawn to the LEAD centre’s work in a very similar space. There has already been policy-related work in finance, food security, and family planning. There is also Landesa, where Krea students have interned to study women’s land rights. All of these and much more when interwoven with the flexibility of the liberal arts curriculum will strongly position me to accomplish my goals after graduating.
+>
+>I’m determined never to let families go through what I went through. I’ve done everything I could to secure a safer future. I raised my grades, got into Pune’s best junior college, worked part-time, and now I’m applying to the nation’s best university: Krea. I hope I get this opportunity that will let me turn lives around for myself and people around me.
+
+**True independence and grit 🌟** <br>
+<!-- **Reflect on a belief or opinion held by you, which you questioned and examined. What initiated your questioning?** -->
+
+>My mother passed away when I was four, leaving me and my younger sister, Riya, with my father. Dad did his best to take care of us, but for the most part it was the two of us looking after ourselves. He eventually remarried and had two sons. I was happy to welcome two more siblings to my family, but my stepmother now felt that she had her own family. One that did not include me and Riya.
+>
+>We were regularly scolded, beaten, and food was withheld from us. Rather than supporting us, my father would toe the line between supporting his wife and his daughters. This went on for over a decade until two pivotal events happened together: Covid and my 10th Grade. We were always financially weak, but the lockdown forced us to move to our village. According to most people in my community, I had studied as much as I needed to. It was now time for me to get married. After all, my stepmother married my father when she was 16. Despite my protests, they set the wheels in motion with photos of me in traditional clothes being circulated, enquiries of grooms being made. And how I protested! I discussed, argued, begged and cried for months. I refused to have my pictures clicked. I refused to meet men who were 10 years older than me. After all this we arrived at a “compromise”. They would back off on the marriage. But if I was not going to listen to them, they would not listen to me either. This meant that they would not support my dreams of studying further.
+>
+>I thanked my father for all that he had done, and contacted my teachers in Pune. Fortunately my teachers from iTeach Schools did not just teach me trigonometry or history, but they were my second family. They not only helped me apply to junior colleges, but also arranged scholarships making it possible for me to attend one of the best colleges in Pune. My uncle was travelling back to Pune then and he agreed to take us along. I found a job as an assistant at a jewellery store and was able to afford a place to stay for me and my sister. For the last two years my life has been college online from 8 to 12 followed by work from 12 to 9. I had to travel to new neighbourhoods to visit clients, and was harassed on multiple occasions while travelling back alone. Work was hard, and knowing that I didn’t have an alternative, my employer regularly overworked me.
+>
+>Despite all these obstacles, I look at my life as a series of victories. I won when I postponed my marriage. I won when I got into junior college. I won when I became self-sufficient and could provide for me and my sister. I won when I made a presentation to our client in the UK who placed a large reorder. But I’ve made it so far due to the kindness of strangers. My grandparents sent me money the first few months. My uncle took me to the doctor. My employer’s wife would give me food. My teachers set me on this path to junior college and beyond.
+>
+>When I graduate from Krea, I want to create opportunities to help people who’ve been dealt a bad hand by fate. I was often compared to students from private schools who had access to the most amazing teachers and facilities to pursue their interests both in academics and otherwise. I plan to build a platform for students from low-income families where they can be introduced to music, new sports, robotics, and learn about business practically. They should not be denied a chance to discover their passion because of their circumstances. As a student leader at iTeach currently, I help arrange academic and career support for my peers. This is just the tip of the iceberg. I want to help a lot more students and scale this across schools too!
+>
+>Krea is one of the strongest colleges in India for careers in social impact. I’ve been inspired by Krea alumni around me at iTeach. In addition to iTeach, there are various organisations like Pratham and TFI that interest me since they focus on developing life-skills. I also plan to be involved in the LEAD centre’s IWWAGE, STREE programs on women empowerment. As an aspiring social impact entrepreneur, I will be pursuing the Social studies major with a business studies minor.
