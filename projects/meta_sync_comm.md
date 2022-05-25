@@ -3,9 +3,9 @@ layout: blog
 title: Feature reccomendations for Meta 
 date: 9 May 2022
 ---
-<img src="misc_images\meta.png" width="18%">
+<img src="misc_images\meta.png" width="12%">
 
-I recently completed my practicum with Meta. We were a cohort of masters students tasked with recommending features for synchronous communication to Meta, to be applied for Facebook Groups <img src="misc_images\fb_groups.png" width="4%">.
+I recently completed my practicum with Meta. We were a cohort of masters students tasked with recommending features for synchronous communication to Meta, to be applied for Facebook Groups <img src="misc_images\fb_groups.png" width="2%">.
 
 This was a paid opportunity facilitated by Paragon One. Throughout the program, we got to interact with program managers, PMMs, UX researchers and even senior executives like [Nicola Mendelsohn](https://www.linkedin.com/in/nicolamendelsohn1/) and [Alvin Bowles](https://www.linkedin.com/in/alvinbowles/).
 
