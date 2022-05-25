@@ -1,8 +1,9 @@
 ---
 layout: blog
-title: Feature reccomendations for Meta <img src="misc_images\meta.png" width="18%">
+title: Feature reccomendations for Meta 
 date: 9 May 2022
 ---
+<img src="misc_images\meta.png" width="18%">
 
 I recently completed my practicum with Meta. We were a cohort of masters students tasked with recommending features for synchronous communication to Meta, to be applied for Facebook Groups <img src="misc_images\fb_groups.png" width="4%">.
 
