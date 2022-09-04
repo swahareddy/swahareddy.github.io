@@ -21,7 +21,7 @@ Since there is no formula to knowing which school you can end up in, the only wa
 
 | Status                | School                                                                                          |
 |-----------------------|-------------------------------------------------------------------------------------------------|
-| Admitted              | Marshall                                                                                        |
+| Admitted              | Marshall, Tepper                                                                                        |
 | Rejected w/ interview | Fuqua, Booth                                                                                    |
 | WL w/ interview       | Haas, Fuqua                                                                                     |
 | Interviewed           | Fuqua, Booth, Gouizueta                                                                         |
