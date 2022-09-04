@@ -1,6 +1,6 @@
 ---
 layout: project
-title: A panda storyline
+title: Debu the panda
 ---
 I just got access to OpenAI's Dall·E after being on the waitlist since July!
 I've seen examples, I've read about it, but there is nothing like playing with the app yourself!!
