@@ -4,12 +4,12 @@ layout: default
 # Blog Posts
 
 <ul class="links">
-    <li>My experience in teaching:</li>
-    <ol>
+    <li>My experience in teaching:
+    <ol><ol>
         <li><a href="iteach_blogs">iTeach Schools (a series..)</a></li><br>
         <li><a href="ait_macroeco.html">Credit Suisse - Macroeconomics 📈</a></li><br>
-        <li><a href="fintech_agile.html">Credit Suisse - Agile</a></li><br>
-    </ol>
+        <li><a href="fintech_agile.html">Credit Suisse - Agile</a></li>
+    </ol></ol></li><br>
     <li><a href="us_mba_admissions">US MBA Admissions</a></li><br>
     <li><a href="adventures.html">A map of my adventures 🏃</a></li><br>
     <li><a href="hyderabad_menu.html">Hungry in Hyderabad</a></li><br>
