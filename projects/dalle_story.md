@@ -42,4 +42,4 @@ What is it? Put simply, it's an AI that makes an image from a prompt. With GPT3 
 ![](dalle_story/8.png){: width="25%" }
 
 That's all folks! <br>
-![](giphy.gif){: width="40%" }
+![](dalle_story/giphy.gif){: width="40%" }
