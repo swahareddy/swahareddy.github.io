@@ -14,6 +14,6 @@ We covered the need for Agile, asked students to share their own experiences and
 <img src="ait_macroeco_images/agile-manifesto.png" width="68%">
 <img src="ait_macroeco_images/agile-planning-poker.jpg" width="30%">
 
-The class concluded with a game of planning poker simulating sprint planning the features of a stock trading application and a recap form every engineer's favourite show - Silicon Valley.
+The class concluded with a game of planning poker simulating sprint planning the features of a stock trading application and a recap from every engineer's favourite show - Silicon Valley.
 
 <iframe width="100%" height="617" src="https://www.youtube.com/embed/Ps4nSgyieIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
