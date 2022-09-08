@@ -1,7 +1,7 @@
 plugins:
   - jekyll-relative-links
   - jekyll-target-blank
-  - jekyll-pdf-embed
+  # - jekyll-pdf-embed
 markdown: kramdown  
 # kramdown:
 #   input: GFM
