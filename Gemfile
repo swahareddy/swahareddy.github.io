@@ -11,7 +11,8 @@ gem 'jekyll-relative-links'
 gem 'wdm'
 gem 'eventmachine', '1.2.7', git: 'https://github.com/eventmachine/eventmachine.git', tag: 'v1.2.7'
 gem 'jekyll-target-blank'
+gem 'jekyll-pdf-embed'
 
-group :jekyll_plugins do
-    gem "jekyll-pdf-embed"
-  end
+# group :jekyll_plugins do
+#     gem "jekyll-pdf-embed"
+#   end

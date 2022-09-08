@@ -3,7 +3,7 @@ layout: default
 ---
 # My Projects
 ## Strategy
-* [Feature reccomendations for Meta <img src="misc_images\meta.png" width="4%">](meta_sync_comm)<br>
+* [Feature reccomendations for Meta (official) <img src="misc_images\meta.png" width="4%">](meta_sync_comm)<br>
 * [Strategic analysis of Twitch with recommendations](marshall_projects/twitch_strategy_analysis)<br>
 * [Porter's overview of EV industry 🚙](marshall_projects/ev_strat)
 
