@@ -25,7 +25,7 @@ By then the draw of ISB started fading for me. The absolute numbers are impressi
 
 Of course, this option is only for someone who has studied something related in undergrad that lets them keep up with an MS CS. 
 
-I'd given my GRE in my final year of engineering with the intention of applying for MS like everyone around me. But a part of me knew I did not want to stay an SDE for long. After successful campus placements I decided to put the MS plans on hold.  I'm glad I took this decision because after about 4 years of working, I know that I want to explore a lot more breadth and not gin depth as a developer or a system architect.
+I'd given my GRE in my final year of engineering with the intention of applying for MS like everyone around me. But a part of me knew I did not want to stay an SDE for long. After successful campus placements I decided to put the MS plans on hold.  I'm glad I took this decision because after about 4 years of working, I know that I want to explore a lot more breadth and not gain depth as a developer or a system architect.
 
 But what is undeniable is the RoI of an MS CS degree. It's much much better than an MBA. If you are really ambiguous about your aspiration, this is the best and safest option Why?
 - You can get in as a fresher.
