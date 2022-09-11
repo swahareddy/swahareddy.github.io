@@ -49,4 +49,20 @@ I asked GPT-3 to extend this story in a dark theme. The text in italics is the g
 
 | Debu packs a travel suitcase. Debu gets some overpriced coffee at the airport. Debu got the window seat because he’s so cute. Debu hijacks the plane. Debu’s jet gets shot by a fighter jet. Debu escapes with a chute. However choppers pick him up. _Debu’s interrogated, and they want to know why he hijacked the plane. Debu snaps at them and is taken away._
 | _Debu is placed in a room with a window. Debu contemplates jumping out of said window, but instead he takes off his shirt and cries. Debu’s interrogated again. Debu tells them that he’s a man that loves his wife, but she no longer loves him. Debu wants to die because he doesn’t want to continue living with this shame and pain._
-| _The officer in charge of the operation, Captain Tetsuya Ogawa (Shintaro Katsu) asks the doctor in charge (Shigeru Amachi) if Debu has been evaluated. The doctor says that Debu is mentally unstable. However, Captain Ogawa thinks that Debu could be faking it._x  
+| _The officer in charge of the operation, Captain Tetsuya Ogawa (Shintaro Katsu) asks the doctor in charge (Shigeru Amachi) if Debu has been evaluated. The doctor says that Debu is mentally unstable. However, Captain Ogawa thinks that Debu could be faking it._
+
+---
+
+# Additional prompts:
+
+![](dalle_story/dalle1.png){: width="40%" }
+A three story building with wooden walls giraffe statue on top in pink color
+
+![](dalle_story/dalle2.png){: width="40%" }
+Boy with an elephant head
+
+![](dalle_story/dalle3.png){: width="40%" }
+An office space on a beach
+
+![](dalle_story/dalle4.png){: width="40%" }
+A red trojan working in an office with a white horse next to him
