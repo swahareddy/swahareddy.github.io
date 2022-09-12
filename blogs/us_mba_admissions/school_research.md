@@ -25,7 +25,7 @@ Visit these sections of the schools you're interested in:
 
 Feed this data into a master sheet that you will sue throughout your process when deciding where to apply, when deciding which admit to choose..
 [Here is one](https://coepac-my.sharepoint.com/:x:/g/personal/tejaswaljg14_comp_coep_ac_in/EeDMIc9SU2hAqSuZtxr7C5IBV1JXXaigxe5wjGmmGkkvkQ?e=JqFemL) that I painstakingly created, note the number of columns. The data fed was what was available in Dec 2020, so consider refreshing it. But even if you don't its a good place to start.
-Sign up for updates / fill form to ask for an e-brochure. One way or the other the school asks your email ID to send promotional emails and events. 
+Sign up for updates / fill form to ask for an e-brochure. One way or the other the school asks for your email ID to send promotional emails and events. 
 This is enough for now. You'll need to visit the school website 2 more times as I'll elaborate in the next steps. 
 
 ## Step 2: Make your own wikis for each school.
