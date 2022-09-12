@@ -25,7 +25,7 @@ I graduated in Computer Engineering from the College of Engineering Pune in 2018
 I'm always upto [something fun](/blogs) outside work. Over the last year I have been seriously engaged with [educational non-profits](/blogs/iteach1+2.html) and I also do some other [projects](/projects) to stay sharp. -->
 
 
-<iframe src="https://drive.google.com/file/d/1Oz8MN-LdFwx42GKWd26Kj36xOQoJzL9M/preview" width="100%" height="500"></iframe>
+<iframe src="https://drive.google.com/file/d/1gw6--o6ZjUeETdRIvnb-zdEZl8OdMm3u/preview" width="100%" height="500"></iframe>
 
 # Technical Skills
 <!-- ### Environment -->
