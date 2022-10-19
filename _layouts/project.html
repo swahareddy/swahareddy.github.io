@@ -9,6 +9,15 @@ layout: default
 {% endif %}
 {{content}}
 <hr>
+{% if page.date!= null %}
+<i>Published: {{page.date}}</i>
+<br>
+{% endif %}
+{% if page.updated_date!= null %}
+<i>Updated: {{page.updated_date}}</i>
+<br>
+{% endif %}
+
 <h3><a href="/projects">Check out my other projects!🌟</a></h3>
 <br>I'd love to know what you thought of this 
 

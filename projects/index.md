@@ -4,8 +4,10 @@ layout: default
 # My Projects
 ## Strategy
 * [Feature reccomendations for Meta (official) <img src="misc_images\meta.png" width="4%">](meta_sync_comm)<br>
-* [Strategic analysis of Twitch with recommendations](marshall_projects/twitch_strategy_analysis)  [_New_ ⭐]<br>
+* [Strategic analysis of Twitch with recommendations](marshall_projects/twitch_strategy_analysis) <br>
 * [Porter's overview of EV industry 🚙](marshall_projects/ev_strat)
+* [Banking solutions for the underbanked](marshall_projects/fintech_inclusion)
+* [Vitalis - Amazon's future in healthcare](marshall_projects/amazon_vitalis) [_New_ ⭐]
 
 ## Analytics
 * [Whatsapp: How much did we talk? When were we happiest? Who shares the most memes? 📲](whatsapp_analytics.html)<br>

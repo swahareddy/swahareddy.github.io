@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: project
 title: Twitch analysis and recommendations
 date: 7 Sep 2022
 ---
