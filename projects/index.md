@@ -9,6 +9,7 @@ layout: default
 * [Porter's overview of EV industry 🚙](marshall_projects/ev_strat)
 * [Banking solutions for the underbanked](marshall_projects/fintech_inclusion)
 * [Vitalis - Amazon's future in healthcare](marshall_projects/amazon_vitalis) [_New_ ⭐]
+* [VC Investor Presentation - Clypp](marshall_projects/hptv_clypp)
 
 ## Analytics
 * [Whatsapp: How much did we talk? When were we happiest? Who shares the most memes? 📲](whatsapp_analytics.html)<br>
@@ -16,9 +17,9 @@ layout: default
 * [Feeling depressed by reading news? 😓 I might be able to help](news_negativity.html)<br>
 
 ## Technical:
-* [An visual AI generated story of a panda on vacation 🐼](dalle_story.md) [_New_ ⭐]<br>
+* [An visual AI generated story of a panda on vacation 🐼](dalle_story.md)<br>
 * [Finding Affluent Prospects🔍](stalking_anewlevel.html)<br>
-* [Feeling depressed by reading news? 😓 I might be able to help](news_negativity.html)<br>
+* [Feeling depressed by reading news? I might be able to help](news_negativity.html)<br>
 * [Whatsapp: I fine tuned one of the world's best natural language models to talk like my friends 📲](gpt2Whatsapp.md)<br>
 * [My bachelor's thesis that got accepted into IEEE! 🤓](ieee_discover.html)<br>
 * [Dealing with #TooManyTabs?  &nbsp; ℹ](depthsearch.html)<br>
