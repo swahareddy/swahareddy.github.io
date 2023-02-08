@@ -10,6 +10,8 @@ layout: default
 * [Banking solutions for the underbanked](marshall_projects/fintech_inclusion)
 * [Vitalis - Amazon's future in healthcare](marshall_projects/amazon_vitalis) [_New_ ⭐]
 * [VC Investor Presentation - Clypp](marshall_projects/hptv_clypp)
+* [City selection for Uber to pivot to self-driving](marshall_projects/city_selection)
+* [Generative AI - Stock pitch for NVIDIA](marshall_projects/nvidia_stock_pitch)
 
 ## Analytics
 * [Whatsapp: How much did we talk? When were we happiest? Who shares the most memes? 📲](whatsapp_analytics.html)<br>
