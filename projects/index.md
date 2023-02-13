@@ -8,10 +8,10 @@ layout: default
 * [Marketing strategy for StitchFix 🎁](marshall_projects/stitch_fix_marketing) <br>
 * [Porter's overview of EV industry 🚙](marshall_projects/ev_strat)
 * [Banking solutions for the underbanked](marshall_projects/fintech_inclusion)
-* [Vitalis - Amazon's future in healthcare](marshall_projects/amazon_vitalis) [_New_ ⭐]
+* [Vitalis - Amazon's future in healthcare](marshall_projects/amazon_vitalis)
 * [VC Investor Presentation - Clypp](marshall_projects/hptv_clypp)
-* [City selection for Uber to pivot to self-driving](marshall_projects/city_selection)
-* [Generative AI - Stock pitch for NVIDIA](marshall_projects/nvidia_stock_pitch)
+* [City selection for Uber to pivot to self-driving](marshall_projects/city_selection) [_New_ ⭐]
+* [Generative AI - Stock pitch for NVIDIA](marshall_projects/nvidia_stock_pitch) [_New_ ⭐]
 
 ## Analytics
 * [Whatsapp: How much did we talk? When were we happiest? Who shares the most memes? 📲](whatsapp_analytics.html)<br>
