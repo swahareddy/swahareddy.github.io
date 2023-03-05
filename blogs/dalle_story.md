@@ -13,36 +13,36 @@ What is it? Put simply, it's an AI that makes an image from a prompt. With GPT3 
 
 | Debu packs a travel suitcase
 
-![](dalle_story/1.png){: width="25%" }
+![](/blogs/dalle_story/1.png){: width="25%" }
 
 | Debu gets some overpriced coffee at the airport
 
-![](dalle_story/2.png){: width="25%" }
+![](/blogs/dalle_story/2.png){: width="25%" }
 
 | Debu got the window seat because he's so cute
 
-![](dalle_story/3.png){: width="25%" }
+![](/blogs/dalle_story/3.png){: width="25%" }
 
 | Debu hijacks the plane (what?)
 
-![](dalle_story/4.png){: width="25%" }
-![](dalle_story/5.png){: width="25%" }
-![](dalle_story/6.png){: width="25%" }
+![](/blogs/dalle_story/4.png){: width="25%" }
+![](/blogs/dalle_story/5.png){: width="25%" }
+![](/blogs/dalle_story/6.png){: width="25%" }
 
 | Debu's jet gets shot by a fighter jet
 
-![](dalle_story/6b.png){: width="25%" }
+![](/blogs/dalle_story/6b.png){: width="25%" }
 
 | Debu escapes with a chute
 
-![](dalle_story/7.png){: width="25%" }
+![](/blogs/dalle_story/7.png){: width="25%" }
 
 | However choppers pick him up
 
-![](dalle_story/8.png){: width="25%" }
+![](/blogs/dalle_story/8.png){: width="25%" }
 
 That's all folks! <br>
-![](dalle_story/giphy.gif){: width="40%" }
+![](/blogs/dalle_story/giphy.gif){: width="40%" }
 
 Well not really.
 I asked GPT-3 to extend this story in a dark theme. The text in italics is the generated text:
@@ -55,14 +55,14 @@ I asked GPT-3 to extend this story in a dark theme. The text in italics is the g
 
 # Additional prompts:
 
-![](dalle_story/dalle1.png){: width="40%" }
+![](/blogs/dalle_story/dalle1.png){: width="40%" }
 A three story building with wooden walls giraffe statue on top in pink color
 
-![](dalle_story/dalle2.png){: width="40%" }
+![](/blogs/dalle_story/dalle2.png){: width="40%" }
 Boy with an elephant head
 
-![](dalle_story/dalle3.png){: width="40%" }
+![](/blogs/dalle_story/dalle3.png){: width="40%" }
 An office space on a beach
 
-![](dalle_story/dalle4.png){: width="40%" }
+![](/blogs/dalle_story/dalle4.png){: width="40%" }
 A red trojan working in an office with a white horse next to him

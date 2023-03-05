@@ -3,7 +3,7 @@ layout: project
 title: Potential for constellations of small satellites 
 ---
 
-As part of our _Communication for Management_ class I had to pick a topic that interests me and present to an external audience. I focused on big-picture storytelling and trying to move the audience towards my new technology. The audience is supposed to be a room full of CTOs or other C suit execs from all industries (Travel, avaition, government, logistics, etc)
+As part of our _Communication for Management_ class I had to pick a topic that interests me and present to an external audience. I focused on big-picture storytelling and trying to move the audience towards my new technology. The audience is supposed to be a room full of CTOs or other C suite execs from all industries (Travel, avaition, government, logistics, etc)
 
 A large focus of this was was vocal, but I'm having trouble uploading the video. Here is the slide deck meanwhile:
 
