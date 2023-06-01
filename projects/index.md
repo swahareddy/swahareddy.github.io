@@ -20,6 +20,9 @@ layout: default
  3. [Porter's overview of EV industry 🚙](marshall_projects/ev_strat)
  4. [Generative AI - Stock pitch for NVIDIA](marshall_projects/nvidia_stock_pitch) [_New_ ⭐]
  5. [Pretending to be Musk - Pitching small satellites](starlink.html)
+ 6. [LinkedIn Trust](marshall_projects/LinkedIn_Trust)
+ 7. [Threats facing Google in 2023](marshall_projects/competition_google)
+ 7. [Valuing Netflix](marshall_projects/netflix_valuation)
 
 ## Analytics
 * [Whatsapp: How much did we talk? When were we happiest? Who shares the most memes? 📲](whatsapp_analytics.html)<br>
