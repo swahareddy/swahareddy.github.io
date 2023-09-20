@@ -7,18 +7,19 @@ date: 19 September, 2023
 If you know me, you know that the last two years of my life have been all about consulting and technology. So, when the “Navigating the Jagged Technological Frontier” paper came out yesterday, I was really excited! 
 Some of the findings like enhanced productivity and AI confabulations feel obvious. Especially for an MBA student that turns in strategic recommendations for class projects every other week. But of course, a study co-authored by organizations like BCG, HBS, and MIT helps validate them (yet to be peer-reviewed), and more importantly quantify them. 
 
-The paper has many insights that interested me, and hopefully you find them valuable too. Before I share those, here’s the paper's abstract if you're not familiar with it yet:
+The paper has many insights that interested me, and hopefully you find them valuable too. Before I share those, go through the paper's abstract (Page 4) if you're not familiar with it yet:
 
+<iframe src="https://drive.google.com/file/d/1CZH4zlJ5PkK5AsOeVUp7XJd1RkdfLXXq/preview" width="70%" height="500" allow="autoplay"></iframe>
 <!-- <object data="jaggedfrontier_images/SSRN-id4573321.pdf" width="70%" height="500" type='application/pdf' class="center-image"/><br> -->
 <!-- <img src="jaggedfrontier_images\SSRN_cover_page.jpg" width="40%" /> -->
 <!-- <img src="jaggedfrontier_images\paper_authors.png" width="50%" /> -->
-
+<!---
 > We examine the performance implications of AI on realistic, complex, and knowledge-intensive tasks. The pre-registered experiment involved 758 consultants comprising about 7% of the individual contributor-level consultants at the company. After establishing a performance baseline on a similar task, subjects were randomly assigned to one of three conditions: no AI access, GPT-4 AI access, or GPT-4 AI access with a prompt engineering overview. 
 >
 > We suggest that the capabilities of AI create a “jagged technological frontier” where some tasks are easily done by AI, while others, though seemingly similar in difficulty level, are outside the current capability of AI. For each one of a set of 18 realistic consulting tasks within the frontier of AI capabilities, consultants using AI were significantly more productive (they completed 12.2% more tasks on average, and completed tasks 25.1% more quickly), and produced significantly higher quality results (more than 40% higher quality compared to a control group). Consultants across the skills distribution benefited significantly from having AI augmentation, with those below the average performance threshold increasing by 43% and those above increasing by 17% compared to their own scores. For a task selected to be outside the frontier, however, consultants using AI were 19 percentage points less likely to produce correct solutions compared to those without AI. 
 >
 > Further, our analysis shows the emergence of two distinctive patterns of successful AI use by humans along a spectrum of human AI integration. One set of consultants acted as “Centaurs,” like the mythical half horse/half-human creature, dividing and delegating their solution-creation activities to the AI or to themselves. Another set of consultants acted more like “Cyborgs,” completely integrating their task flow with the AI and continually interacting with the technology.
-
+-->
 The paper is availble [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321), but if you are looking for a more digestable summary, [here's a blog post](https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged) on it by Ethan Mollick, one of the authors.
 
 # Identifying the frontier
