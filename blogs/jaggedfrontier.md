@@ -5,7 +5,7 @@ date: 19 September, 2023
 ---
 
 If you know me, you know that the last two years of my life have been all about consulting and technology. So, when the “Navigating the Jagged Technological Frontier” paper came out yesterday, I was really excited! 
-Some of the findings like enhanced productivity and confabulations feel obvious. Especially for an MBA student that turns in strategic recommendations for class projects every other week. But of course, a study co-branded by professional organizations like BCG, HBS, and MIT helps validate those (yet to be peer-reviewed), and more importantly quantify them.
+Some of the findings like enhanced productivity and AI confabulations feel obvious. Especially for an MBA student that turns in strategic recommendations for class projects every other week. But of course, a study co-authored by organizations like BCG, HBS, and MIT helps validate them (yet to be peer-reviewed), and more importantly quantify them.
 
 <img src="jaggedfrontier_images\SSRN_cover_page.jpg" width="40%" />
 <img src="jaggedfrontier_images\paper_authors.png" width="50%" />
