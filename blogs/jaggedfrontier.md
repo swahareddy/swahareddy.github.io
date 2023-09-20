@@ -20,7 +20,8 @@ The paper has many insights that interested me, and hopefully you find them valu
 >
 > Further, our analysis shows the emergence of two distinctive patterns of successful AI use by humans along a spectrum of human AI integration. One set of consultants acted as “Centaurs,” like the mythical half horse/half-human creature, dividing and delegating their solution-creation activities to the AI or to themselves. Another set of consultants acted more like “Cyborgs,” completely integrating their task flow with the AI and continually interacting with the technology.
 -->
-The paper is availble [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321), but if you are looking for a more digestable summary, [here's a blog post](https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged) on it by Ethan Mollick, one of the authors.
+
+if you are want a more digestable summary, [here's a blog post](https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged) on it by Ethan Mollick, one of the authors.
 
 # Identifying the frontier
 <img src="jaggedfrontier_images\frontier.png" width="60%" class="center-image"/>
