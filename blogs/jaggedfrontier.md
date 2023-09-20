@@ -23,7 +23,7 @@ o	Comparing contrasting pieces of information against each other
 
 # Retainment
 I’m glad that the study examined retainment. Simply put, it reflects how much consultants blindly trust the AI’s output. 
-<IMAGE>
+![](jaggedfrontier_images\retainment.png)
 
 You might have thought that those who duplicated AI’s responses to a larger extent might get trapped with incorrect answers, but interestingly those who choose to retain AI outputs to a relatively high degree produced significantly better answers on average.
 
@@ -36,7 +36,7 @@ The study demonstrates how LLMs act as a leveler of skills. Apart with the infog
 1.	The bottom-half consultants saw twice as much absolute improvement as compared to their peers in the top-half.
 2.	The top-half consultants went from being 28% better than the bottom-half to being just 5% better than the bottom-half.
 
-<IMAGE>
+![](jaggedfrontier_images\insidethefrontier-bottom_top_half.png)
 <TABLE?>
  
 # AIs impact on talent development
@@ -50,8 +50,8 @@ What LLMs solve for that’s distinct from AI so far is creativity. To me creati
 While subjects using AI produce ideas of higher quality, as discussed in the previous sections, there is a marked reduction in the variability of these ideas compared to those not using AI. This suggests that while GPT-4 aids in generating superior content, it might lead to more homogenized outputs. There is a whole appendix section dedicated to this topic of ‘Collective Variation’.
 
 The quality distributions are the most popular, but I the similarity distributions were what surprised me. And something that I’ll keep in mind now when thinking about when/how much to use generative AI.
-<IMAGE>
-<IMAGE>
+![](jaggedfrontier_images\performance_distribution-inside_frontier.png)
+![](jaggedfrontier_images\similarity_distribution.png)
   
 The paper suggests that companies that want to maximize exploration and innovation as opposed ot consistently high average outputs should maintain a diverse AI ecosystem, possibly multiple LLMs, or increased human-only involvement to counteract homogenization.
 
