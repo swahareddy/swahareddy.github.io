@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Observations from the Jagged Frontier paper
+title: Observations - The Jagged Frontier
 date: 19 September, 2023
 ---
 
@@ -79,7 +79,8 @@ In a competitive landscape where many are leveraging AI, outputs generated witho
 Nothing too surprising here, but a reminder for me to continue incorporating prompt engineering in my own use too. Since last week, I began using custom instruction I’ll report back on my experience once I have spent more time with it. I am curious to know what training was given to the BCG consultants for this study. 
 
 ## Note
-The paper refers to some natural language processing techniques like Google’s Universal Sentence Encoder (USE) and Restricted Damerau-Levenshtein distance (RDL). If you’d like to understand what those terms mean, I’d be happy to explain them in simple terms since I used to use them in the products we built at Credit Suisse. 
+The paper refers to some natural language processing techniques like Google’s Universal Sentence Encoder (USE) and Restricted Damerau-Levenshtein distance (RDL). If you’d like to understand what those terms mean, I’d be happy to explain them in simple terms since I used to use them in the products we built at Credit Suisse.
+
 If you really grasp the tables that list the results of the regression models, let me know. I’d like some clarity on interpreting those :)
 
 <style>
