@@ -9,7 +9,7 @@ Some of the findings like enhanced productivity and AI confabulations feel obvio
 
 The paper has many insights that interested me, and hopefully you find them valuable too. Before I share those, here’s the paper's abstract if you're not familiar with it yet:
 
-<object data="jaggedfrontier_images/SSRN-id4573321.pdf" width="70%" height="500" type='application/pdf' class="center-image"/><br>
+<!-- <object data="jaggedfrontier_images/SSRN-id4573321.pdf" width="70%" height="500" type='application/pdf' class="center-image"/><br> -->
 <!-- <img src="jaggedfrontier_images\SSRN_cover_page.jpg" width="40%" /> -->
 <!-- <img src="jaggedfrontier_images\paper_authors.png" width="50%" /> -->
 
