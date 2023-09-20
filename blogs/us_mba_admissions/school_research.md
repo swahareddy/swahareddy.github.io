@@ -19,7 +19,7 @@ There are YouTube channels too. I did not check them for all schools, but for th
 ## Step 2: School websites: Part A
 Visit these sections of the schools you're interested in:
 - [Class profile](https://www.fuqua.duke.edu/programs/daytime-mba/class-profile)   
-- [Career report](https://www.fuqua.duke.edu/sites/www1.fuqua.duke.edu/files/media/programs/daytime/revised_employment_report_2020_4_9_21.pdf) 
+- [Career report](https://www.fuqua.duke.edu/sites/www1.fuqua.duke.edu/files/media/programs/daytime/revised_employment_report_2020_4_9_21.) 
 - [Deadlines](https://www.fuqua.duke.edu/programs/daytime-mba/admissions-facts-dates)
 - [Costs](https://www.fuqua.duke.edu/programs/daytime-mba/tuition-costs)
 
