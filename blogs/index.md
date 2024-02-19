@@ -4,6 +4,7 @@ layout: default
 # Blog Posts
 
 <ul class="links">
+    <li><a href="harvardindiacon">Harvard India Conference</a></li><br>
     <li><a href="jaggedfrontier">Observations on BCG and HBS' paper on GenAI in consulting</a></li><br>
     <li><a href="dalle_story">A visual AI generated story of a panda on vacation 🐼</a></li><br>
     <li>My experience in teaching:
