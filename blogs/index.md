@@ -4,7 +4,13 @@ layout: default
 # Blog Posts
 
 <ul class="links">
-    <li><a href="harvardindiacon">Harvard India Conference</a></li><br>
+    <li>India viewed form the US:
+    <ol><ol>
+        <li><a href="nitinsharma_indiasaas">Niting Sharma (Antler) on India SaaS</a></li><br>
+        <li><a href="kunalshah_lenny">Kunal Shah (Cred, Freecharge) on Lenny's Podcast</a></li><br>
+        <li><a href="harvardindiacon">Harvard India Conference</a></li><br>
+    </ol></ol></li><br>
+    <li><a href="sxsw2024">South by Southwest 2024 - AI and XR</a></li><br>
     <li><a href="jaggedfrontier">Observations on BCG and HBS' paper on GenAI in consulting</a></li><br>
     <li><a href="dalle_story">A visual AI generated story of a panda on vacation 🐼</a></li><br>
     <li>My experience in teaching:
@@ -17,7 +23,7 @@ layout: default
     <li><a href="adventures.html">A map of my adventures 🏃</a></li><br>
     <li><a href="hyderabad_menu.html">Hungry in Hyderabad</a></li><br>
     <!-- <li><a href="heritage-virtual.html">Join me at a heritage walk this month</a></li><br> -->
-    <li><a href="hooked-stories.html">How do Insta stories have us *Hooked*? An analysis of behavioural science</a></li><br>
+    <li><a href="hooked-stories.html">How do Insta stories have us "hooked"?</a></li><br>
     <li><a href="csindiainsta.html">Experience with corporate social media</a></li><br>
     <li><a href="us_history.html">10hrs learning about US History 🔎</a></li><br>
     <li><a href="instagram_preview.html">I do some photography 📸</a></li><br>

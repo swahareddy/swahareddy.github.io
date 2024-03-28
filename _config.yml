@@ -2,7 +2,7 @@ plugins:
   - jekyll-relative-links
   - jekyll-target-blank
   # - jekyll-pdf-embed
-markdown: kramdown  
+markdown: kramdown
 # kramdown:
 #   input: GFM
 #   hard_wrap: false
