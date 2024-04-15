@@ -110,7 +110,7 @@ title: Harvard India Conference
 - Government is the only long-term funder and needs to take a leadership role for these organizations. What is needed is _Political Will + Executive Skill_.
 - Right to Education (RTE) mandates 25% of seats in private schools be reserved for economically weaker sections (EWS). What is it were the other way around i.e. 25% of seats in government schools has middle-class students. The parents of those students would have held teachers accountable, raising those schools more than what board policy can.
 - There’s a massive difference in student:teacher rations in India. It can be 1:16 in a good private school and 1:200 in a bad private one.
-- Unfortunately, the discussion on education in India revolves around Accessibility, Affordability, and Availability. What’s get lost (and can be explained by Maslow’s hierarchy of needs) is quality.
+- Unfortunately, the discussion on education in India revolves around Accessibility, Affordability, and Availability. What gets lost (and can be explained by Maslow’s hierarchy of needs) is quality.
 - “From each according to their ability, and to each according to their needs” – We charge higher from students from higher income families and use that to subsidize those that cannot afford education.
 - Building citizenship is very important to our education mission. 40% of Akanksha grads contribute time or money to social impact in the first 2 years of their graduation. Study Hall teaches equality by addressing feminism and caste mentality at the early school level.
 

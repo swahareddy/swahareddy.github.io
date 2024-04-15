@@ -4,13 +4,15 @@ layout: default
 # Blog Posts
 
 <ul class="links">
-    <li>India viewed form the US:
+    <li><a href="genai_classroom">GenAI in my Classrooms</a></li><br>
+    <li>India viewed from the US:
     <ol><ol>
         <li><a href="harvardindiacon">Harvard India Conference</a></li><br>
         <li><a href="kunalshah_lenny">Kunal Shah (Cred, Freecharge) on Lenny's Podcast</a></li><br>
         <li><a href="nitinsharma_indiasaas">Niting Sharma (Antler) on India SaaS</a></li><br>
     </ol></ol></li><br>
     <li><a href="sxsw2024">South by Southwest 2024 - AI and XR</a></li><br>
+    <li><a href="seo_genai">SEO and Generative AI</a></li><br>
     <li><a href="jaggedfrontier">Observations on BCG and HBS' paper on GenAI in consulting</a></li><br>
     <li><a href="dalle_story">A visual AI generated story of a panda on vacation 🐼</a></li><br>
     <li>My experience in teaching:

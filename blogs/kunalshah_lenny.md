@@ -3,7 +3,7 @@ layout: blog
 title: Lenny's Podcast - Kunal Shah
 date: 27 March, 2024
 ---
-# **on winning in India, second-order thinking, the philosophy of startups, and more**
+# ... on winning in India, second-order thinking, the philosophy of startups, and more
 
 [Spotify Link](https://open.spotify.com/episode/0a9CTwGoLPMm7E6bVHl5ZL?si=e1c531a681e84994), [Transcript](https://www.lennysnewsletter.com/p/kunal-shah-on-winning-in-india-second)
 - Developing economies like India do not have state institutions to enforce trust in industry and people, thus the power or word-of-mouth and reputation (brands) goes much further in India. This is probably why conglomerates like Tata can exist that work in automobiles, F&B, telecom, IT etc.
