@@ -22,7 +22,12 @@ layout: default
  5. [Pretending to be Musk - Pitching small satellites](starlink.html)
  6. [LinkedIn Trust](marshall_projects/LinkedIn_Trust)
  7. [Threats facing Google in 2023](marshall_projects/competition_google)
- 7. [Valuing Netflix](marshall_projects/netflix_valuation)
+ 8. [Valuing Netflix](marshall_projects/netflix_valuation)
+ 9. [Investment Fund](marshall_projects/sif)
+ 10. [Spotify Brand Strategy](marshall_projects/spotify_BSP)
+ 11. [Vision Pro - Innovation at Apple](marshall_projects/avp_apple_innovation)
+ 12. [Loreal's Aesop Acquisition](marshall_projects/aesop_loreal_alliance)
+ 13. [OpenAI Microsoft Alliance - A case I authored](marshall_projects/microsoft_openai_partnership)
 
 ## Analytics
 * [Whatsapp: How much did we talk? When were we happiest? Who shares the most memes? 📲](whatsapp_analytics.html)<br>
