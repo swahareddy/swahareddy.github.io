@@ -4,6 +4,7 @@ layout: default
 # Blog Posts
 
 <ul class="links">
+    <li><a href="business_movies">Business Movies</a></li>
     <li><a href="board_games">Board Games for Business Strategy</a></li>
     <!-- <li><a href="genai_classroom">GenAI in my Classrooms</a></li> -->
     <li>India viewed from the US:
