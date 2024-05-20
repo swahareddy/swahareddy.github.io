@@ -26,21 +26,20 @@ A group of outsiders predict the housing market crash and make a killing. It's a
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3hG4X5iTK8M?si=QGLef3ophgiFF_0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br>
 
-### Moneyball 
- The true story of how data analytics transformed baseball team management. A lesson in innovation, resource optimization, and challenging the status quo.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/unGSY5l76YQ?si=_NEjd7_wIpV_U43u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<br>
-
 ### Silicon Valley
 I can testify to the nerdy SDE jokes in this series. But even beyond that, multiple founders and VCs that I met during my MBA in California spoke to the reality of the valley's tech culture depicted in the show and strong parallels to real leaders.
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rtfl-EiTCFQ?si=ekKx0GxxscGhmXXq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br>
 
 ### Super Pumped
 The rise and fall of Uber, focusing on the ambitious and controversial leadership of its CEO. It's a short (7-episode) but wild ride through startup culture, disruptive innovation, and the cost of hypergrowth. Infamous stories from this phase of Uber were used in my very first MBA class on Leading People, Teams, and Organizations. I remeber feeling like some of these episodes should have been assigned as reading for the class on 'Ethically Leading Yourself and Your Organization'. But if Travis Kalanick was not as stubborn and ambitious as he was, would Uber have made it past those initial hurdles? Would ride hailing be what we know it to be today?
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VEhJMeWt8-o?si=aB6RcVSVbYUh9xMZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-Click into the video to open it on YouTube. The creator had disabled embedded previews.
+<!-- Click into the video to open it on YouTube. The creator had disabled embedded previews. -->
+<br>
+
+### Moneyball 
+The true story of how data analytics transformed baseball team management. A lesson in innovation, resource optimization, and challenging the status quo. A fundamental course in amy MBA program is statistics where you learn how to question the significance of data, make decisions in ambiguity and make simple predictions of the future (regression). There are also elective courses on Monte Carlo simulation, advanced regression, and time series forecasting. I took one of the advanced courses on Probablity and Decision Making, and was surprised with the number of applications such models have in business - Recommendation engines whether on Netflix, Amazon, or Instagram, all use similar models; Dynamic pricing on Uber; Spam filtering on Gmail; and trend recognition on Twitter (now X).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/unGSY5l76YQ?si=_NEjd7_wIpV_U43u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br>
 
 ### Worth
@@ -84,6 +83,7 @@ Palmer Luckey strikes me as a modern-day Jonah Hill. The DoD's solution to stagn
 ### Up in the Air
 A man with a million frequent flyer miles professionally delivers bad news and questions his nomadic lifestyle. This one does not have many business lessons, but if you too work in a field like consulting where flying is part of the lifestyle and occaasionally for downsizing projects, you'll appreciate the nomadic scenes and the meaningless chase for status and loyalty.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Gj_5Pgy-eVQ?si=CpSR6r6b5BahEsPH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br>
 
 ### Blackberry
 The story of the rise and fall of the iconic smartphone that once dominated the business world. It's a tale of innovation, market disruption, and the challenges of staying relevant in tech.
@@ -94,13 +94,17 @@ BlackBerry's downfall is a textbook case of The Innovator's Dilemma I learnt in 
 
 Some other movies I enjoyed:
 - **Comey Rule**<br>
-    Keeping our political view aside, it is a depiction of office politics at the highest level. Also sheds light on navigating ethical dilemmas and managing your public image as a leader.
+    Keeping our political views aside, it is a depiction of office politics at the highest level. The series also sheds light on navigating ethical dilemmas and managing one's public image as a leader.
+
 - **Flamin' Hot**<br>
     The story of how a janitor at Frito-Lay invented Flamin' Hot Cheetos and revolutionized snack food. It's an inspiring tale and introduces the concept of cultural marketing. Frito's inside-out lab innovation was not working for them. What they needed was marketing insight to drive product development.
+
 - **Dumb Money**<br>
     Not one of my favorites, but if you trade yourself or work in finance, you'll enjoy it just because of the infamous $GME saga. Infact, just last week (as I write this blog), years after the original incident, stocks rallied 200-300% on a meme shared by roaring kitty. Frustrating to see such movement that lacks fundamentals, but I was able to cut a loser I held in the rally, so I'm not complaining.
+
 - **Intern**<br>
     A 70-year-old widower becomes an intern at an online fashion retailer, bringing wisdom and experience to the youthful team. It's a charming look at intergenerational workplace dynamics and mentorship.
+    
 - **The Internship**<br>
     Two out-of-work salesmen land internships at Google and compete against tech-savvy millennials. It's a comedic take on adapting to the digital age, teamwork, and career reinvention. Something that MBAs looking to pivot can watch to understand how transferrable skills would work. It also depicts the value of diversity of thought in teams. This movie itself is a spin off of the romcom 'Wedding Crashers' which is gold too.
 
@@ -110,5 +114,5 @@ Movies I want to watch:
 - Godfather (it's been a while)
 - Steve Jobs
 
-I might make a similar list for Bollywood movies. I am thinking of Guru, The Big Bull, Swades and Chak de India. Do you have any suggestions?
+I might make a similar list for Bollywood movies. I am thinking of Guru, The Big Bull, Swades, and Chak de India. Do you have any suggestions?
 
