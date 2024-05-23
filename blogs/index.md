@@ -4,6 +4,7 @@ layout: default
 # Blog Posts
 
 <ul class="links">
+    <li><a href="aws_summit_la24">AWS Summit 2024</a></li>
     <li><a href="business_movies">Business Movies</a> [New ⭐]</li>
     <li><a href="board_games">Board Games for Business Strategy</a> [New ⭐]</li>
     <!-- <li><a href="genai_classroom">GenAI in my Classrooms</a></li> -->
