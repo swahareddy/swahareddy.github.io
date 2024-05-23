@@ -22,14 +22,14 @@ In the course of getting to our GenAI-in-everything future, here are 5 things th
 2. Start with pervasive and efficient experimentation
 - [AWS Bedrock](https://aws.amazon.com/bedrock/)
 - Use cases
-    - Summarization
-    - Analysis
-    - Reasoning
-    - Code interpretation
+        - Summarization
+        - Analysis
+        - Reasoning
+        - Code interpretation
 - Factors
-    - Speed
-    - Cost
-    - Quality / intelligence
+        - Speed
+        - Cost
+        - Quality / intelligence
 - It measures metrics such as Accuracy, Robustness, and Toxicity. Add also has the features to get the same feedback from relevant experts in the organization.
 3. Mix and match models to your use case
 4. Consistency, Coherency and Control are delivered through data
