@@ -4,8 +4,8 @@ layout: default
 # Blog Posts
 
 <ul class="links">
-    <li><a href="business_movies">Business Movies</a></li> [New ⭐]
-    <li><a href="board_games">Board Games for Business Strategy</a></li> [New ⭐]
+    <li><a href="business_movies">Business Movies</a> [New ⭐]</li>
+    <li><a href="board_games">Board Games for Business Strategy</a> [New ⭐]</li>
     <!-- <li><a href="genai_classroom">GenAI in my Classrooms</a></li> -->
     <li>India viewed from the US:
     <ol><ol>
@@ -14,7 +14,7 @@ layout: default
         <li><a href="nitinsharma_indiasaas">Niting Sharma (Antler) on India SaaS</a></li>
     </ol></ol></li>
     <li><a href="sxsw2024">South by Southwest 2024 - AI and XR</a></li>
-    <li><a href="seo_genai">SEO and Generative AI</a></li> [New ⭐]
+    <li><a href="seo_genai">SEO and Generative AI</a> [New ⭐]</li>
     <li><a href="jaggedfrontier">Observations on BCG and HBS' paper on GenAI in consulting</a></li>
     <li><a href="dalle_story">A visual AI generated story of a panda on vacation 🐼</a></li>
     <li>My experience in teaching:
