@@ -101,5 +101,5 @@ _Hanging out with the cool kids_
         3. Creative courage.
 <iframe type="text/html" sandbox="allow-scripts allow-same-origin allow-popups" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B0BD4H3SPX&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_S01KSW57THC811MTQ42N&hideBuy=true&hideShare=true" ></iframe>
 
-The book behinf this little TED talk.
+The book behind this talk.
 

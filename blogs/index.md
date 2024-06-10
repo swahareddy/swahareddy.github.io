@@ -5,7 +5,7 @@ layout: default
 
 <ul class="links">
     <li><a href="networking.html">Advice on small talk</a></li>
-    <!-- <li><a href="rice24/rice.html">Retail magic 💫</a> [New ⭐]</li> -->
+    <li><a href="rice24/rice.html">Retail magic 💫</a> [New ⭐]</li>
     <li><a href="same_as_ever.html">Life Lessons from Grandpa</a> [New ⭐]</li>
     <li><a href="books.html">Books I'm reading 📚</a></li>
     <li><a href="aws_summit_la24">AWS Summit 2024</a></li>

@@ -8,4 +8,4 @@ date: 19 Oct 2022
 
 This was a group project with 2 others. Reach out to me if you'd like to connect with them!
 
-<iframe src="https://drive.google.com/file/d/1RBT3XN--1ni6MmVPi_xO4yj5oi-L9tdM/preview" width="840" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1RBT3XN--1ni6MmVPi_xO4yj5oi-L9tdM/preview" width="100%" height="480" allow="autoplay"></iframe>

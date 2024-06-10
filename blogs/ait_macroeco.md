@@ -15,7 +15,7 @@ I studied a couple of online resources, and most importantly the [NCERT Macroeco
 <br>
 Here is the whole PPT
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSOjGzIWyjB_PiS4lEaYDx2d6lwgG2xtY0pFwVchAp0olclFGdrHNZpCKDQXMxpBdshM0czEiFkZrdh/embed?start=true&loop=true&delayms=2000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTplPyHGtoRpSodpX9FBZV5BhKPcqNvq_S_9NC5DbR3B2dvDJvSMU4RtbtCKOvafg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <br>
 <!-- ![](blogs/ait_macroeco_images/meme_macro.jpeg) -->

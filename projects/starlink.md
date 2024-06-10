@@ -7,7 +7,7 @@ As part of our _Communication for Management_ class I had to pick a topic that i
 
 A large focus of this was was vocal, but I'm having trouble uploading the video. Here is the slide deck meanwhile:
 
-<iframe src="https://coepac-my.sharepoint.com/personal/tejaswaljg14_comp_coep_ac_in/_layouts/15/Doc.aspx?sourcedoc={c088ee53-7830-4475-a2d5-e5c65f186955}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="676px" height="488px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQjiHSGvE2PkrsJPLWCXES1VYiejnVVXmpN6RrRjlRhdt4sqyMCCoiIIBvZrQpP9Q/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 This will be followed by a variation that is meant for internal stakeholders.
 
@@ -18,4 +18,4 @@ This will be followed by a variation that is meant for internal stakeholders.
 <br>
 
 ### Research sources
-<div width="676px" height="488px"><div id="notion2embed" class="cleanslate"></div><script src="https://notion2embed.com/v1/s4w45eiv" width="676px" height="488px"></script></div>
+<div width="100%" height="488px"><div id="notion2embed" class="cleanslate"></div><script src="https://notion2embed.com/v1/s4w45eiv" width="100%" height="488px"></script></div>

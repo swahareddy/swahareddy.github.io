@@ -24,19 +24,18 @@ What I learnt:
 > Video is great, and we speak about live streaming and related features. But video is high maintenance (not just in terms of appearances but hardware and bandwidth usage too). Enter audio. The human-like conversations without the pressure.
 
 Our presentation:
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRC4-DX3sN3YDJJ3mXVovC7S7e8xEP8EkO-jpmWDECAAnQXVuKlrLh3B2wOtHKJOAF9rssiDv66-vLL/embed?start=false&loop=false&delayms=1000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTvaB3vKaRt3c7e5nTmoZrT5sanArBIkKZkb90_sI8Db50racnlKQVm8OvMM3C8VhV6oMEfWJX_fdA8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 A dry-run:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/M9N3AxUdshQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+<!-- 
 Here is our feature analysis matrix:
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS8rCHcUlHNAE-0f6n_FinA7Sk0_2WooUSmZwwHGtka5YOsdXaEqBO3up8u6iA4lAYm-S_lDqlK9Ott/pubhtml?gid=769982255&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="500px"></iframe>
 
 
 Here are our case studies:
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTnuCWjRToQ5jhuFH1dQWAeGvQUDNBNnOfy5RmkkLMDxhcdas706Unw9DKkVjSaxPAk6p8xs02qG075/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="300px"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTnuCWjRToQ5jhuFH1dQWAeGvQUDNBNnOfy5RmkkLMDxhcdas706Unw9DKkVjSaxPAk6p8xs02qG075/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="300px"></iframe> -->
 
 
 <br><br>
