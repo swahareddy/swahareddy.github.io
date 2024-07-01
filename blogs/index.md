@@ -4,6 +4,7 @@ layout: default
 # Blog Posts
 
 <ul class="links">
+    <li><a href="spirit/spirit.html">Flying Cattle Class</a></li>
     <li><a href="networking.html">Advice on small talk</a></li>
     <li><a href="rice24/rice.html">Retail magic 💫</a> [New ⭐]</li>
     <li><a href="same_as_ever.html">Life Lessons from Grandpa</a> [New ⭐]</li>
