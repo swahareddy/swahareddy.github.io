@@ -17,7 +17,7 @@ Meet the national runner-up team of _Everyone's Business Global Case Competition
 My focus in this competition was to experiment with communication techniques. I've lost case competitions where we had great content, but fell short on delivery. This time our team focused on starting with a bang ("_$5 Trillion. That's trillion with a T..._"), bringing contagious energy (listening to pump-up songs before we went on stage), seamless handoffs, embedding UBS's own phrasing in the pitch, and a pinch of drama here and there. I had a lot of fun in those last 24h where we prepped our pitch.
 
 How could we have placed first? 
-A stronger defence - We should have had mock QnA sessions so that we could anticipate common Qs and have them embedded in the appendix. I had done detailed financial modelling that I defended well, but similarly, we should needed exhibits for qualitative questions.
+A stronger defence - We should have had mock Q&A sessions so that we could anticipate common Qs and embed them in the appendix. I had done detailed financial modelling that I defended well, but similarly, we should have had exhibits for qualitative questions.
 
 Building an technology proposal for UBS brought back fond memories of my time at Finance Innovation at Credit Suisse. Fun fact - their HQs in Paradeplatz, Zurich are across the street from each other and our Pune EON offices were in the same building too.
 
