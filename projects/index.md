@@ -3,6 +3,7 @@ layout: default
 ---
 # My Projects
 ## Strategy
+* [Mixed Reality - Advertiser's Paradise](marshall_projects/neely)<br>
 * [Feature reccomendations for Meta (official) <img src="misc_images\meta.png" width="4%">](meta_sync_comm)<br>
 * [Strategic analysis of Twitch with recommendations](marshall_projects/twitch_strategy_analysis) <br>
 * [VC Investor Presentation - Clypp](marshall_projects/hptv_clypp)
