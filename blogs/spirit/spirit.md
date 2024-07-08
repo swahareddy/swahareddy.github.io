@@ -32,12 +32,12 @@ Over time, I've discovered these Spirit hacks. Are they all ethical? Probably no
 7. **Gate seats** - I've seen exit row seats for a 6 hour flight available for as low as $12 at the gate.
 8. **Savers' Club** - Annual $70 membership that unlocks $10-20 discounts on flights, plus other benefits. No brainer if you are taking more than 3 budget trips a year.
 9. **Entertainment** - There are no in-flight entertainment screens, so consider investing in a phone cover that can hold itself up on the seat card pocket. Don't kid yourself that you're going to get work done in that legroom. Leave your laptop in the bag.
-10. **Think and pack** - Stop being so picky. Count the number of clothes you need for a long weekend. You don't need 8 pairs of underwear. The shoes you are wearing are sufficient. The hotel gives you a shampoo.
+10. **Think, then pack** - Stop being so picky. Count the number of clothes you need for a long weekend. You don't need 8 pairs of underwear. The shoes you are wearing are sufficient. The hotel gives you a shampoo.
 
 ---
 
 I believe in Spirit's mission. Charge less, keep costs down, and reduce turnaround time. 
-> Like an eco-conscious shopper who does their part by bringing their own bag to the store, I shut the window shade while leaving to keep the cabin cool and gather any trash so the cabin can be refreshed faster.
+> Like an eco-conscious shopper who does their part by bringing their own bag to the store, I shut the window shade while leaving to keep the cabin cool and gather my trash so the cabin can be refreshed faster.
 
 So I was frustrated with the FTC's decision to block the much needed JetBlue-Spirit merger on anti trust grounds. Not just because this led to my Spirit stock plummeting from $16 to $6 faster than the door on Alaska Airlines, but because it made no sense to me. Any company can be a monopoly if you define their industry narrowly enough. They had a combined market share of 8%. The big airlines probably lobbied for this, and soon after added a cheaper than cheap economy class that was badly executed. 👀 Looking at you @United, that makes me check-in in-person and puts me in boarding group 9.
 
