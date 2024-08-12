@@ -4,6 +4,7 @@ layout: default
 # Blog Posts
 
 <ul class="links">
+    <li><a href="fun_with_flags/wavin_flags.html">Wavin' Flags 🚩</a></li>
     <li><a href="summaries/gaming_psych/gaming_psych.html">Evil Gamers</a></li>
     <li><a href="spirit/spirit.html">Flying Cattle Class</a></li>
     <li><a href="networking.html">Advice on small talk</a></li>
