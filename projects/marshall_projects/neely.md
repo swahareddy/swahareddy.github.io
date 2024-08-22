@@ -10,6 +10,10 @@ The idea of personalized advertising is nothing new, but it is limited to your s
 
 This work was culmination of discussions with academics from policy and engineering, visits to startups working on technologies you wouldn’t believe exist, attending conferences around the country on retail, culture, and technology, and conversations with Prof Becker and the other fellows in the program.
 
+Here's a recording and a copy of my presentation:
+
+<iframe width="80%" height="315" src="https://www.youtube.com/embed/tkk17Kr2-BQ?si=4SkrLYFqwNvcXY2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS8krvsgdc73XuurwGwZNZEDa0FH2Pe3L0aNMH3XD2NKhd9GTsIKgJ3neH9Dxck1A/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 Overview of the event - [here](https://www.marshall.usc.edu/posts/neely-fellows-xr-research-tackles-ethical-impact)

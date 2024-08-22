@@ -3,7 +3,7 @@ layout: default
 ---
 # My Projects
 ## Strategy
-* [Mixed Reality - Advertiser's Paradise](marshall_projects/neely)<br>
+* [Mixed Reality - Advertiser's Paradise](marshall_projects/neely)<br> [_New_ ⭐]
 * [Feature reccomendations for Meta (official) <img src="misc_images\meta.png" width="4%">](meta_sync_comm)<br>
 * [Strategic analysis of Twitch with recommendations](marshall_projects/twitch_strategy_analysis) <br>
 * [VC Investor Presentation - Clypp](marshall_projects/hptv_clypp)
@@ -12,7 +12,7 @@ layout: default
 * Case Competitions
  1. [Banking solutions for the underbanked](marshall_projects/fintech_inclusion)
  2. [Vitalis - Amazon's future in healthcare](marshall_projects/amazon_vitalis)
- 3. [City selection for Uber to pivot to self-driving](marshall_projects/city_selection) [_New_ ⭐]
+ 3. [City selection for Uber to pivot to self-driving](marshall_projects/city_selection) 
  4. [Unlock by UBS - Sales strategy for wealth management](marshall_projects/ubs_unlock)
  4. [Aromazza - Pizza operations](marshall_projects/aromazza_ey_casecomp)<br><br>
 
@@ -25,7 +25,7 @@ layout: default
  6. [LinkedIn Trust](marshall_projects/LinkedIn_Trust)
  7. [Threats facing Google in 2023](marshall_projects/competition_google)
  8. [Valuing Netflix](marshall_projects/netflix_valuation)
- 9. [Investment Fund](marshall_projects/sif)
+ 9. [Investment Fund](marshall_projects/sif) [_New_ ⭐]
  10. [Spotify Brand Strategy](marshall_projects/spotify_BSP)
  11. [Vision Pro - Innovation at Apple](marshall_projects/avp_apple_innovation) [_New_ ⭐]
  12. [Loreal's Aesop Acquisition](marshall_projects/aesop_loreal_alliance)

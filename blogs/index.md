@@ -4,16 +4,16 @@ layout: default
 # Blog Posts
 
 <ul class="links">
-    <li><a href="fun_with_flags/wavin_flags.html">Wavin' Flags 🚩</a></li>
+    <li><a href="fun_with_flags/wavin_flags.html">Wavin' Flags 🚩</a> [New ⭐]</li>
     <li><a href="summaries/gaming_psych/gaming_psych.html">Evil Gamers</a></li>
     <li><a href="spirit/spirit.html">Flying Cattle Class</a></li>
     <li><a href="networking.html">Advice on small talk</a></li>
-    <li><a href="rice24/rice.html">Retail magic 💫</a> [New ⭐]</li>
+    <li><a href="rice24/rice.html">Retail magic 💫</a></li>
     <li><a href="same_as_ever.html">Life Lessons from Grandpa</a> [New ⭐]</li>
     <li><a href="books.html">Books I'm reading 📚</a></li>
     <li><a href="aws_summit_la24">AWS Summit 2024</a></li>
-    <li><a href="business_movies">Business Movies</a> [New ⭐]</li>
-    <li><a href="board_games">Board Games for Business Strategy</a> [New ⭐]</li>
+    <li><a href="business_movies">Business Movies</a></li>
+    <li><a href="board_games">Board Games for Business Strategy</a></li>
     <!-- <li><a href="genai_classroom">GenAI in my Classrooms</a></li> -->
     <li>India viewed from the US:
     <ol><ol>
