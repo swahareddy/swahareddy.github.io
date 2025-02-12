@@ -6,6 +6,15 @@ title: My Library
 
 I am not writing reviews for these here, but if you'd still like to know what I think about any of these books please reach out to me on one of the social media links at the end of the page.
 
+# 2025
+
+Hopefully back to a book a month again
+
+<!-- Unreasonable Hospitality -->
+<a href="https://a.co/d/1Tva3jG"><img src="books_images\unreasonable_hospitality.jpg" width="330" ></a>
+<!-- Lilliput Land -->
+<a href="https://a.co/d/fQGaMy9"><img src="books_images\lilliput_land.jpg" width="330" ></a>
+
 # 2024
 Okay, I graduated this May. I have a tall stack of BSchool stuff that I haven't read yet, but I really needed to get back to books.
 
@@ -15,8 +24,19 @@ Okay, I graduated this May. I have a tall stack of BSchool stuff that I haven't 
 <!-- Winner Takes All -->
 <iframe type="text/html" sandbox="allow-scripts allow-same-origin allow-popups" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B077WZRBV2&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_XP7GR7P6EE450Q97FSQC&hideShare=true" ></iframe>
 
+<!-- Goras and Desis -->
+<a href="https://a.co/d/3hJYxoC"><img src="books_images\goras_and_desis.jpg" width="330" ></a>
+<!-- Made to Stick -->
+<a href="https://a.co/d/iapESFi"><img src="books_images\made_to_stick.jpg" width="330" ></a>
+<!-- Unshackled (Immigration) -->
+<a href="https://a.co/d/4YPcBuo"><img src="books_images\unshackled.jpg" width="330" ></a>
+<!-- Rich Dad Poor Dad -->
+<a href="https://a.co/d/gU5v1CU"><img src="books_images\rdpd.jpg" width="330" ></a>
+<!-- Ogilvy on Advertising -->
+<a href="https://a.co/d/gU5v1CU"><img src="books_images\ogilvy.jpg" width="330" ></a>
+
 # 2023
-Read another 100+ business school cases. By now I'd started auditing other's classes and borrowing cases to read too!
+Read another 100+ business school cases. By now I've started auditing other's classes and borrowing cases to read too.
 
 # 2022
 Read 50+ business school cases, enjoyed every one of those.
@@ -61,7 +81,8 @@ Prepared for the GMAT :(
 <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.in/kp/card?asin=B06XY26S57&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_NiftFbDMNJZY2&tag=swahareddy-21&hideShare=true" ></iframe>
 
 <!-- Macroeconomics, NCERT -->
-<a href="ait_macroeco.html"><img src="books2020_images\macroeco_ncert.jpg" width="330" height="550"></a>
+<a href="ait_macroeco.html"><img src="books_images\macroeco_ncert.jpg" width="330" height="550"></a>
+
 <!-- India 2061 -->
-<a href="https://www.campaignindia.in/article/book-extract-india-2061-a-look-at-the-future-of-india/419274"><img src="books2020_images\india2061.jpg" width="330" height="550"></a>
+<a href="https://www.campaignindia.in/article/book-extract-india-2061-a-look-at-the-future-of-india/419274"><img src="books_images\india2061.jpg" width="330" height="550"></a>
 
