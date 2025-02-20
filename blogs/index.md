@@ -17,7 +17,8 @@ layout: default
     <!-- <li><a href="genai_classroom">GenAI in my Classrooms</a></li> -->
     <li>India viewed from the US:
     <ol><ol>
-        <li><a href="harvardindiacon">Harvard India Conference</a></li>
+        <li><a href="harvardindiacon2025">India Conference at Harvard 2025</a></li>
+        <li><a href="harvardindiacon2024">India Conference at Harvard 2024</a></li>
         <li><a href="kunalshah_lenny">Kunal Shah (Cred, Freecharge) on Lenny's Podcast</a></li>
         <li><a href="nitinsharma_indiasaas">Niting Sharma (Antler) on India SaaS</a></li>
     </ol></ol></li>
