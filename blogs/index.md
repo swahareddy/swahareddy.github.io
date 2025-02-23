@@ -4,6 +4,7 @@ layout: default
 # Blog Posts
 
 <ul class="links">
+    <li><a href="unreasonable_hospitality">Unreasonable Hospitality</a></li>
     <li><a href="books.html">Books I'm reading 📚</a></li>
     <li><a href="fun_with_flags/wavin_flags.html">Wavin' Flags 🚩</a> [New ⭐]</li>
     <li><a href="summaries/gaming_psych/gaming_psych.html">Evil Gamers</a></li>

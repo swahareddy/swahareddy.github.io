@@ -12,7 +12,7 @@ This year was ❄🧊
 # Sabyasachi Mukherjee
 - Grew up in a family of educationists, where education was highly valued. Considered the black sheep of the family due to his creative inclinations.
 - He has operated Sabyasachi as a business from Day1, rather than treating it as art, where it is unfashionable to think about money. 
-- He aims to increase the brand's valuation to $2B and spoke about how Aditya Birla has been a great partner so far, and he insisted on Birlas having a controlling stake since he wanted the brand to have institutional longevity rather than inheritance (he has no kids). He sees corporate backing as a way to expand, professionalize operations, and ensure business continuity.
+- He aims to increase the brand's valuation to $2B and spoke about how Aditya Birla has been a great partner so far, and he insisted on Birlas having a controlling stake since he wants the brand to have institutional longevity rather than inheritance (he has no kids). He sees corporate backing as a way to expand, professionalize operations, and ensure business continuity.
 - India has historically been a source of inspiration and production for global luxury brands. Believes Indian luxury should not be reduced to tokenism—India has a deep cultural heritage that deserves global recognition.
 - His go-to-market strategy has been to start at the top of the value and exclusivity pyramid and then foray into lower markets like fragrances and skincare that Sabyasachi is just beginning.
 - Described anecdotes where sales staff in luxury stores would drop their lunch to cater to middle eastern customers since they represented money. Today they do the same for Indians who walk in.
@@ -36,9 +36,9 @@ Her daughter Isha Ambani was in the audience too, under whom Reliance Retail has
 > Devanshu Gandhi, MD, Vadilal Industries Limited
 > Vikram Gandhi, Professor, Harvard Business School
 
-All speakers on the panel were second or third generation leaders in succesful family businesses and were figuring out how to balance heritage and innovation. They spoke about generational shift from older/savers to younger/experience-spenders. Luxurious expenses today need to be authentic or personalized. Opulence alone does not cut it. It was pleasure to hear how they are working towards ESG, whether privately or publically owned.
+All speakers on the panel were second or third generation leaders in succesful family businesses and were figuring out how to balance heritage and innovation. They spoke about generational shift from older/savers to younger/experience-spenders. Luxurious expenses today need to be authentic or personalized. **Opulence alone does not cut it**. It was pleasure to hear how they are working towards ESG, whether privately or publically owned.
 
-# Private Capital fueling Innovation
+# Private Capital Fueling Innovation
 > Manish Kejriwal, Founder and Managing Partner, Kedaara Capital
 > Deep Nishar, Managing Director - General Catalyst
 > Akriti Dokania, Partner, Ridge Ventures
@@ -75,6 +75,7 @@ Ladakh & Melting Glaciers: Himalayan glaciers, which act as water batteries, are
 - Developed Countries Are Not Sharing the Burden: Climate finance for the Global South is insufficient. India has received little to no financial support from global climate funds.
 - School education needs to have flexibility for local context. Empower teachers to personalize curriculum in context of their enviroments. For instance, students in desert regions could work on capstone projects related to rainwater harvesting, while students in mountainous areas might focus on the link between deforestation and landslides.
 
+<img src="harvardindiacon_images\sustainability.jpeg" width="60%">
 ---
 
 And that's a wrap! [Last year](/blogs/harvardindiacon2024) I geeked out more last year and felt the conversations were richer, but that might just be first-time bias. Will I return next year? Maybe...
