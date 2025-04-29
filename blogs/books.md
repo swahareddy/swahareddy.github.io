@@ -1,6 +1,6 @@
 ---
 layout: blog
-date: Feb 2025 (Last update)
+date: April 2025 (Last update)
 title: My Library
 ---
 
@@ -10,10 +10,19 @@ I am not writing reviews for these here, but if you'd still like to know what I 
 
 Hopefully back to a book a month again
 
+<!-- Tryst with Prosperity -->
+<a href="https://a.co/d/7FCWL52"><img src="books_images\TrystWithProsperity.jpg" width="330" ></a>
+<!-- Wild in Seattle -->
+<a href="https://a.co/d/eSpXVwV"><img src="books_images\WildInSeattle.jpg" width="330" ></a>
+<!-- Human + Machine -->
+<a href="https://a.co/d/iuoIDVv"><img src="books_images\Human+Machine.jpg" width="330" ></a>
 <!-- Unreasonable Hospitality -->
 <a href="https://a.co/d/1Tva3jG"><img src="books_images\unreasonable_hospitality.jpg" width="330" ></a>
+<!-- Carmageddon -->
+<a href="https://a.co/d/9vjteDq"><img src="books_images\Carmageddon.jpg" width="330" ></a>
 <!-- Lilliput Land -->
 <a href="https://a.co/d/fQGaMy9"><img src="books_images\lilliput_land.jpg" width="330" ></a>
+
 
 # 2024
 Okay, I graduated this May. I have a tall stack of BSchool stuff that I haven't read yet, but I really needed to get back to books.
@@ -60,6 +69,7 @@ Prepared for the GMAT :(
 <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.in/kp/card?asin=B00JUOY4HW&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_BJ4F34TNMHYSAK3F3C4V&tag=swahareddy-21&hideShare=true" ></iframe>
 
 # 2020
+
 <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.in/kp/card?asin=B00H1TN050&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_8kn.FbNH2565T&tag=swahareddy-21&hideShare=true" ></iframe> Had to pause this halfway. Need to get back to it.
 
 <!-- Poona Company -->

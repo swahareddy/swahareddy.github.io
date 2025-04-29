@@ -6,12 +6,12 @@ layout: default
 <ul class="links">
     <li><a href="unreasonable_hospitality">Unreasonable Hospitality</a></li>
     <li><a href="books.html">Books I'm reading 📚</a></li>
-    <li><a href="fun_with_flags/wavin_flags.html">Wavin' Flags 🚩</a> [New ⭐]</li>
+    <li><a href="fun_with_flags/wavin_flags.html">Wavin' Flags 🚩</a> [RECOMMENDED ⭐]</li>
     <li><a href="summaries/gaming_psych/gaming_psych.html">Evil Gamers</a></li>
     <li><a href="spirit/spirit.html">Flying Cattle Class</a></li>
-    <li><a href="networking.html">Advice on small talk</a></li>
+    <li><a href="networking.html">Advice on small talk [RECOMMENDED ⭐]</a></li>
     <li><a href="rice24/rice.html">Retail magic 💫</a></li>
-    <li><a href="same_as_ever.html">Life Lessons from Grandpa</a></li>
+    <li><a href="same_as_ever.html">Life Lessons from Grandpa [RECOMMENDED ⭐]</a></li>
     <li><a href="aws_summit_la24">AWS Summit 2024</a></li>
     <li><a href="business_movies">Business Movies</a></li>
     <li><a href="board_games">Board Games for Business Strategy</a></li>
