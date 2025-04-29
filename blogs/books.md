@@ -16,10 +16,12 @@ Hopefully back to a book a month again
 <a href="https://a.co/d/eSpXVwV"><img src="books_images\WildInSeattle.jpg" width="330" ></a>
 <!-- Human + Machine -->
 <a href="https://a.co/d/iuoIDVv"><img src="books_images\Human+Machine.jpg" width="330" ></a>
-<!-- Unreasonable Hospitality -->
-<a href="https://a.co/d/1Tva3jG"><img src="books_images\unreasonable_hospitality.jpg" width="330" ></a>
 <!-- Carmageddon -->
 <a href="https://a.co/d/9vjteDq"><img src="books_images\Carmageddon.jpg" width="330" ></a>
+<!-- The Technology Fallacy -->
+<a href="https://a.co/d/2j78m1F"><img src="books_images\TechnologyFallacy.jpg" width="330" ></a>
+<!-- Unreasonable Hospitality -->
+<a href="https://a.co/d/1Tva3jG"><img src="books_images\unreasonable_hospitality.jpg" width="330" ></a>
 <!-- Lilliput Land -->
 <a href="https://a.co/d/fQGaMy9"><img src="books_images\lilliput_land.jpg" width="330" ></a>
 
