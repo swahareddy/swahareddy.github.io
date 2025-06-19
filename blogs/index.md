@@ -4,6 +4,7 @@ layout: default
 # Blog Posts
 
 <ul class="links">
+    <li><a href="great_indian_parent_migration">The Great Parent Migration</a></li>
     <li><a href="unreasonable_hospitality">Unreasonable Hospitality</a></li>
     <li><a href="books.html">Books I'm reading 📚</a></li>
     <li><a href="fun_with_flags/wavin_flags.html">Wavin' Flags 🚩</a> [RECOMMENDED ⭐]</li>
