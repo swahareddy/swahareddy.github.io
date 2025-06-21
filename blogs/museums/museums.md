@@ -1,7 +1,7 @@
 ---
 layout: blog
 date: 14 June 2025
-title: Museums 
+title: Museums
 ---
 
 A short blog about me questioning a museum's purpose. Arguing that they should worry visitor education instead of boasting of their balance sheet. 

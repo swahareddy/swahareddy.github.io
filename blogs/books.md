@@ -1,6 +1,6 @@
 ---
 layout: blog
-date: April 2025 (Last update)
+date: June 2025 (Last update)
 title: My Library
 ---
 
@@ -8,8 +8,10 @@ I am not writing reviews for these here, but if you'd still like to know what I 
 
 # 2025
 
-Hopefully back to a book a month again
-
+<!-- Globemakers -->
+<a href="https://a.co/d/89PH1lg"><img src="books_images\globemakers.jpg" width="330" ></a>
+<!-- Five Types of Wealth -->
+<a href="https://a.co/d/jjO9RQK"><img src="books_images\5_types_of_wealth.jpg" width="330" ></a>
 <!-- Tryst with Prosperity -->
 <a href="https://a.co/d/7FCWL52"><img src="books_images\TrystWithProsperity.jpg" width="330" ></a>
 <!-- Wild in Seattle -->
@@ -35,6 +37,8 @@ Okay, I graduated this May. I have a tall stack of BSchool stuff that I haven't 
 <!-- Winner Takes All -->
 <iframe type="text/html" sandbox="allow-scripts allow-same-origin allow-popups" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B077WZRBV2&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_XP7GR7P6EE450Q97FSQC&hideShare=true" ></iframe>
 
+<!-- Consulting Demons -->
+<a href="https://a.co/d/gPnTG8G"><img src="books_images\consulting_demons.jpeg" width="330" ></a>
 <!-- Goras and Desis -->
 <a href="https://a.co/d/3hJYxoC"><img src="books_images\goras_and_desis.jpg" width="330" ></a>
 <!-- Made to Stick -->
