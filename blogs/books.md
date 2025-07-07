@@ -8,6 +8,8 @@ I am not writing reviews for these here, but if you'd still like to know what I 
 
 # 2025
 
+<!-- How to Hide an Empire -->
+<a href="https://www.goodreads.com/book/show/40121985-how-to-hide-an-empire"><img src="books_images\how_to_hide_an_empire.jpg" width="330" ></a>
 <!-- Globemakers -->
 <a href="https://a.co/d/89PH1lg"><img src="books_images\globemakers.jpg" width="330" ></a>
 <!-- Five Types of Wealth -->
