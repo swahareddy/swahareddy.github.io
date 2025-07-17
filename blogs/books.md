@@ -1,6 +1,6 @@
 ---
 layout: blog
-date: June 2025 (Last update)
+date: July 2025 (Last update)
 title: My Library
 ---
 
@@ -8,6 +8,8 @@ I am not writing reviews for these here, but if you'd still like to know what I 
 
 # 2025
 
+<!-- The Monopolists -->
+<a href="https://www.goodreads.com/book/show/17978108-the-monopolists"><img src="books_images\monopolists.jpg" width="330" ></a>
 <!-- How to Hide an Empire -->
 <a href="https://www.goodreads.com/book/show/40121985-how-to-hide-an-empire"><img src="books_images\how_to_hide_an_empire.jpg" width="330" ></a>
 <!-- Globemakers -->
