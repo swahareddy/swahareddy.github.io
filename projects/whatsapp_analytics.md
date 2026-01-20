@@ -16,8 +16,8 @@ This notebook takes your Whatsapp group chat and parses all the messages to show
 * Analyzes sentiment of messages (and of course at an aggregate level too)
 * Provides time-based analysis of conversation volumes and emotions (_using google's industry standard  cloud NLP API_)
 ![MemberOverview](whatsapp_analytics_images/timeseries1.png)
-* Seperates out emojis used
-* Seperates out individuals _tagged_ in messages
+* Separates out emojis used
+* Separates out individuals _tagged_ in messages
 * Handle emoticons and common contractions
 
 ![MemberOverview](whatsapp_analytics_images/filter.png)
@@ -61,16 +61,16 @@ Export chats from Whatsapp mobile application. This will give you a file with a 
 ## Comments  
 > The cleaned message is the one sent to Google's natural language API for classification. Thus, that's what sentiment score and magnitude are based on.  
 _Cleaned message + (Links + Emoticons + Emojis* + Tagged people + Garbage characters) = Original message_
-*Emojis are conected to their text equivalent in the cleaned message. Eg: 😓 --> downcast_face_with_sweat
+*Emojis are connected to their text equivalent in the cleaned message. Eg: 😓 --> downcast_face_with_sweat
 
 * Removed system messages like _'..has left the group', '.. changed the description', '.. changed the group icon'_ etc..
-* Ignored `<media ommitted>` that corresponds to images ad GIFs
+* Ignored `<media omitted>` that corresponds to images and GIFs
 * Extract URLs, emojis, emoticons from message. 
 
 ## Future scope
 * _Tagged_ members are mentioned by mobile number. Eg `Hey @919167023114, are you going for the party?`. A simple function to map this number to your mobile's contacts [(export as csv)](https://contacts.google.com/) can reveal name of the person and provide another interesting dimension to the analysis about who tags whom etc.
 
 ## Limitations
-* Whatsapp does not provide _'reply context'_. i.e. if a message B is in a repsonse to message A, there is no information about this in the `.txt` that you can export.
+* WhatsApp does not provide _'reply context'_. i.e. if a message B is in a response to message A, there is no information about this in the `.txt` that you can export.
 * Only recent media can be exported. Cannot perform straightforward analysis of media. (Might need to export directly from Whatsapp's mobile storage) and tie it up with `chat.txt`.
 * A significant number of messages are _hindi_ words described in English. These cannot be analysed for sentiment (Although if this can be converted into devnagiri script, then it is easily possible)

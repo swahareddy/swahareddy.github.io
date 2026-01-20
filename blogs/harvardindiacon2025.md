@@ -36,7 +36,7 @@ Her daughter Isha Ambani was in the audience too, under whom Reliance Retail has
 > Devanshu Gandhi, MD, Vadilal Industries Limited
 > Vikram Gandhi, Professor, Harvard Business School
 
-All speakers on the panel were second or third generation leaders in succesful family businesses and were figuring out how to balance heritage and innovation. They spoke about generational shift from older/savers to younger/experience-spenders. Luxurious expenses today need to be authentic or personalized. **Opulence alone does not cut it**. It was pleasure to hear how they are working towards ESG, whether privately or publically owned.
+All speakers on the panel were second or third generation leaders in successful family businesses and were figuring out how to balance heritage and innovation. They spoke about generational shift from older/savers to younger/experience-spenders. Luxurious expenses today need to be authentic or personalized. **Opulence alone does not cut it**. It was a pleasure to hear how they are working towards ESG, whether privately or publicly owned.
 
 # Private Capital Fueling Innovation
 > Manish Kejriwal, Founder and Managing Partner, Kedaara Capital
@@ -54,7 +54,7 @@ All speakers on the panel were second or third generation leaders in succesful f
     - Drones & Robotics: Expected to boom in the next decade.
     - Sustainable Infrastructure: Green energy and climate tech have long-term value.
 - Lesson for Entrepreneurs - Think Global from Day One: Build businesses that can **compete internationally, especially in B2B** sectors. The Indian startup ecosystem is becoming more ambitious and outward-looking.
-- Indian startup ecosystem is now seeing the wave of succesful startup employees returning for another attempt. For instance, people who had a lot of success in exits and IPOs in the last few years (1) are now looking for new venutres and (2) inspiring those around them to take risks with startups.
+- Indian startup ecosystem is now seeing the wave of successful startup employees returning for another attempt. For instance, people who had a lot of success in exits and IPOs in the last few years (1) are now looking for new venutres and (2) inspiring those around them to take risks with startups.
 - Manish was quite an entertaining character, stirring up controversy and contrarian views-sometimes just for fun. Note to self: Look up his interviews on YouTube
 
 # Community and Climate
@@ -73,7 +73,7 @@ Ladakh & Melting Glaciers: Himalayan glaciers, which act as water batteries, are
 - Modern cities and culture are isolating, leading to preferences for independence over shared resources. Traditional Indian villages thrived on shared economies—we need to rebuild local sharing networks for sustainability.
 - Wealth vs. Happiness (Easterlin’s Paradox): Happiness increases with wealth up to a point, but beyond that, wealth does not bring greater joy. Society must redefine success, prioritizing sufficiency over excess. Diminishing Marginal Utility & Conscious Consumption.
 - Developed Countries Are Not Sharing the Burden: Climate finance for the Global South is insufficient. India has received little to no financial support from global climate funds.
-- School education needs to have flexibility for local context. Empower teachers to personalize curriculum in context of their enviroments. For instance, students in desert regions could work on capstone projects related to rainwater harvesting, while students in mountainous areas might focus on the link between deforestation and landslides.
+ - School education needs to have flexibility for local context. Empower teachers to personalize curriculum in context of their environments. For instance, students in desert regions could work on capstone projects related to rainwater harvesting, while students in mountainous areas might focus on the link between deforestation and landslides.
 
 <img src="harvardindiacon_images\sustainability.jpeg" width="60%">
 ---

@@ -1,7 +1,7 @@
----
+gig---
 layout: blog
 date: 7 July 2024
-title: Pschology in Gaming
+title: Psychology in Gaming
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xNjI03CGkb4?si=TjOeuR5MWLVKnnyN&amp;start=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -43,7 +43,7 @@ This is not a technique detailed in the video, but Torulf makes a passing refere
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SWWOzY_tnpA?si=9idNCkCUhX8L44kE" title="YouTube video - player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Thinking Fast
-From Daniel Kahneman's behavioral psychology - Provide opportunities for immediate gratification in a time crunch. Eg - A 10 second opportunity to respawn from where you just failed. This proves more succesful than providing users with a variety of options before beginning because then they can analyze their options and decide against it.
+From Daniel Kahneman's behavioral psychology - Provide opportunities for immediate gratification in a time crunch. Eg - A 10 second opportunity to respawn from where you just failed. This proves more successful than providing users with a variety of options before beginning because then they can analyze their options and decide against it.
 
 ## Loss Aversion
 Taking away something hurts far more than giving something of the same value. Give users possessions while they play and threaten to take it away at the end if they don't pay to retain it.
@@ -94,6 +94,6 @@ Incentivize reciprocity among players. This will increase transactions. I believ
 
 # Conclusion
 
-I found it alarming that at the end of the speech, no one had any questions for him. The video has half a million views and thousands of comments, especially around the ethics of deploying such techniques. But in that room at the Monetize Retain Acquire conference, no one worried about this. I believe they are good people, but it is so easy to change your perspective based on your environment. As Torulf says, replying on sheeple and anchoring expectations are proven techniques of manipulation!
+	relying on sheeple and anchoring expectations are proven techniques of manipulation!
 
 PS: I did not understand the Subscription technique with the Clash of Clans Builder example. If you did, let me know and I'll add it to this list.

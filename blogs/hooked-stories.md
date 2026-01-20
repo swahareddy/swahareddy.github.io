@@ -108,7 +108,7 @@ Likewise Snapchat messages would disappear after being read, so you were incenti
 
 <div class="et_pb_text_inner"><p style="text-align:center;"><iframe style="border: 1px solid #CCC; border-width: 1px; margin-bottom: 5px; max-width: 100%;" src="//www.slideshare.net/slideshow/embed_code/46975966" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe></p></div>
 
-This is an amazing PPT about what works for Snapchat. One thing that I don't see anyone mentioning are 'streaks'. 🔥 **Snapstreaks** 🔥 were such an addictive way to keep users coming back every day. I myself would maintain streaks sometimes, and in hindsight, its such a value-less feature who's purpose is almost exclusively to build MAUs, a marvel of user behaviour engineering if there ever was one!
+This is an amazing PPT about what works for Snapchat. One thing that I don't see anyone mentioning are 'streaks'. 🔥 **Snapstreaks** 🔥 were such an addictive way to keep users coming back every day. I myself would maintain streaks sometimes, and in hindsight, it's such a valueless feature whose purpose is almost exclusively to build MAUs — a marvel of user behaviour engineering if there ever was one!
 <hr>
 References:
 * A neat infographic [summary](https://www.dailyinfographic.com/wp-content/uploads/2018/05/Rise-of-the-Social-Story-Format.png){:target="_blank"}

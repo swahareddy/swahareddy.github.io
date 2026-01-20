@@ -4,7 +4,7 @@ title: Select a city for Uber to pilot self-driving cars
 date: 30 Jan 2023
 ---
 
-This was a second round take-home assignment that I recieved for a corportae strategy internship. I was invited to the next round to talk about my approach, so I thought it's worth sharing. 
+This was a second round take-home assignment that I received for a corporate strategy internship. I was invited to the next round to talk about my approach, so I thought it's worth sharing. 
 
 ## Prompt: 
 

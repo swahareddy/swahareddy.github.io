@@ -104,7 +104,7 @@ I will also occasionally add points that stand out to me from the author's [Coll
 # Career
 - The only way to know where the top is, is to experience the decline. Quit while you are ahead.
 - Peter principle: Talented workers will keep getting promoted intil they are in over their head, when they will fail.
-- Most succesful people are just a walking anxiety disorder harnessed for productivity.
+ - Most successful people are just a walking anxiety disorder harnessed for productivity.
 - Ask yourself - Who has the right answer, but I ignore because they are inarticulate.
 - The secret to doing good research is being a little underemployed. Most people come back from vacation with new ideas and energy for their work, because if your job requires thinking, it does not stop at 5pm. But we've normalized a culture of 'hustle porn' where people think being busy all the time is noble.
 - Not maximizing your potential is actually a sweet spot in a world where perfecting one skill compromises another. 

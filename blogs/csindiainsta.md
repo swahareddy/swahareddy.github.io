@@ -10,7 +10,7 @@ Based on our work with the [creditsuisse_careers global page](https://www.instag
 
 While our proposal was approved in India, it ultimately did not align with the broader social media strategy of our global organisation. Nonetheless, it was a lot of fun researching and putting this together.
 
-Note - All the data here is publically available. The work is mine, and not meant to represent Credit Suisse or any of its entities in any way. 
+Note - All the data here is publicly available. The work is mine, and not meant to represent Credit Suisse or any of its entities in any way. 
 
 Check out the [India related posts](https://www.instagram.com/nondescript_testpage/) that we played a part in featuring on the global page since then:
 
