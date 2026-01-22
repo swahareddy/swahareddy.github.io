@@ -6,7 +6,7 @@ layout: default
 <ul class="links">
     <li><a href="great_indian_parent_migration">The Great Parent Migration [RECOMMENDED ⭐]</a></li>
     <li><a href="unreasonable_hospitality">Unreasonable Hospitality</a></li>
-    <li><a href="books.html">Books I'm reading 📚</a></li>
+    <li><a href="books">Books I'm reading 📚</a></li>
     <li><a href="fun_with_flags/wavin_flags.html">Wavin' Flags 🚩</a> </li>
     <li><a href="gaming_psych/gaming_psych.html">Evil Gamers</a></li>
     <li><a href="spirit/spirit.html">Flying Cattle Class</a></li>
