@@ -35,9 +35,9 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
+    jekyll-feed (0.17.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
-    jekyll-pdf-embed (1.1.2.1)
-      jekyll
     jekyll-relative-links (0.6.1)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (2.1.0)
@@ -81,8 +81,8 @@ PLATFORMS
 DEPENDENCIES
   eventmachine (= 1.2.7)!
   jekyll
+  jekyll-feed
   jekyll-paginate
-  jekyll-pdf-embed
   jekyll-relative-links
   jekyll-target-blank
   wdm

@@ -5,7 +5,7 @@ title: Debu the panda
 I just got access to OpenAI's Dall·E after being on the waitlist since July!
 I've seen examples, I've read about it, but there is nothing like playing with the app yourself!!
 
-Last year I had experimented with their GPT-3, training a bot to imitate a [group chat with my friends](https://tejaswa.me/projects/gpt2Whatsapp.html). GPT3 however was a lot more technical; Dall·E is sooo simple.
+Last year I had experimented with their GPT-3, training a bot to imitate a [group chat with my friends](/projects/gpt2Whatsapp.html). GPT3 however was a lot more technical; Dall·E is sooo simple.
 
 What is it? Put simply, it's an AI that makes an image from a prompt. With GPT3 we could create life-like text, essays and stories from AI. Dall·E brings visual CREATION to the world of AI.
 

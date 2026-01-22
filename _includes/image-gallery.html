@@ -1,4 +1,4 @@
-<!-- This thing is hardcoded to look for images in a folder on the internet within tejaswa.me 
+<!-- This thing is hardcoded to look for images in a folder on the internet within {{ site.url }} 
 So referencing a folder that is in local but not pushed to repo will not give results 
 Even after that it takes a long time, be patient before breaking your head over it-->
 
@@ -23,7 +23,7 @@ Even after that it takes a long time, be patient before breaking your head over 
         <!-- <img src="{{file.path}}"/> -->
 
         <a href="{{ file.path }}" title="{{ filename }}">
-          <img src="//images.weserv.nl/?url=https://tejaswa.me{{ file.path }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ filename }}" />
+          <img src="//images.weserv.nl/?url={{ site.url }}{{ file.path }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ filename }}" />
           <span>{{ filename }}</span>
         </a>
       {% endif %}

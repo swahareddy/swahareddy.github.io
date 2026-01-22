@@ -3950,3 +3950,16 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+/* Progress Bar */
+#progress-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 6px;
+	background: #ecedee;
+	border-bottom: 1px solid #0056b3;
+	z-index: 9999;
+	transition: width 0.25s ease-out;
+}

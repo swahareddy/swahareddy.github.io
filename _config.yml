@@ -1,7 +1,9 @@
 plugins:
   - jekyll-relative-links
   - jekyll-target-blank
+  - jekyll-feed
   # - jekyll-pdf-embed
+url: https://tejaswag.in
 markdown: kramdown
 # kramdown:
 #   input: GFM

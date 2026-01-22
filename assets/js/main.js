@@ -332,4 +332,12 @@
 
 			});
 
+	// Progress Bar
+		$window.on('scroll', function() {
+			var scrollTop = $window.scrollTop();
+			var docHeight = $(document).height() - $window.height();
+			var scrollPercent = (scrollTop / docHeight) * 100;
+			$('#progress-bar').css('width', scrollPercent + '%');
+		});
+
 })(jQuery);

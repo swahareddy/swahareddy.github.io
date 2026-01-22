@@ -9,7 +9,7 @@ If any of these interest you and you want to bounce ideas (even without actually
 
 Business
 * [Heat map of mobile data 📶](mobile_data_map)<br><br>
-* [App based newspaper delivery 📰](newspaper_app_based_delivery)<br><br>
+* [App based newspaper delivery 📰](newspaper_app_based_delivery/newspaper_app_based_delivery)<br><br>
 
 Technical
 * [A picture can say a 1000 words 🖼](picture1000words.html)<br><br>

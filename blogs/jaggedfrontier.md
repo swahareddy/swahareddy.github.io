@@ -9,7 +9,9 @@ Some of the findings like enhanced productivity and AI confabulations feel obvio
 
 The paper has many insights that interested me, and hopefully you find them valuable too. Before I share those, go through the paper's abstract (Page 4) if you're not familiar with it yet:
 
-<iframe src="https://drive.google.com/file/d/1CZH4zlJ5PkK5AsOeVUp7XJd1RkdfLXXq/preview" width="70%" height="500" allow="autoplay"></iframe>
+<object data="jaggedfrontier_images/SSRN-id4573321.pdf" type="application/pdf" width="70%" height="500px">
+  <p>Your browser does not support PDFs. <a href="jaggedfrontier_images/SSRN-id4573321.pdf">Download the PDF</a> instead.</p>
+</object>
 <!-- <object data="jaggedfrontier_images/SSRN-id4573321.pdf" width="70%" height="500" type='application/pdf' class="center-image"/><br> -->
 <!-- <img src="jaggedfrontier_images\SSRN_cover_page.jpg" width="40%" /> -->
 <!-- <img src="jaggedfrontier_images\paper_authors.png" width="50%" /> -->
@@ -91,5 +93,10 @@ If you really grasp the tables in the paper that list the results of the regress
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  object {
+    width: 100%;
+    height: 600px;
+    max-width: 100%;
   }
 </style>
