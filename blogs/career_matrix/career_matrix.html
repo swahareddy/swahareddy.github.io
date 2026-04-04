@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Career Matrix</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #F5F2EC;
+    --ink: #1A1A18;
+    --ink-light: #6B6B60;
+    --accent: #C84B31;
+    --accent2: #2D5F8A;
+    --grid: #D6D2C8;
+    --card-bg: #FFFFFF;
+    --tag-bg: #EDEAE3;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    min-height: 100vh;
+    padding: 32px 24px 48px;
+  }
+
+  header {
+    margin-bottom: 32px;
+  }
+
+  header h1 {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+    margin-bottom: 6px;
+  }
+
+  header p {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.3;
+    max-width: 480px;
+  }
+
+  header p span {
+    font-weight: 500;
+    border-bottom: 1.5px solid var(--accent);
+  }
+
+  .controls {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+  }
+
+  .filter-btn {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    padding: 5px 12px;
+    border-radius: 2px;
+    border: 1px solid var(--grid);
+    background: transparent;
+    color: var(--ink-light);
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .filter-btn:hover, .filter-btn.active {
+    background: var(--ink);
+    color: var(--bg);
+    border-color: var(--ink);
+  }
+
+  .matrix-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+  }
+
+  .axis-label-y {
+    position: absolute;
+    left: -36px;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+    white-space: nowrap;
+  }
+
+  .axis-label-x {
+    text-align: center;
+    margin-top: 14px;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+  }
+
+  .matrix {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    border: 1.5px solid var(--ink);
+    background: var(--card-bg);
+  }
+
+  .matrix-inner {
+    position: absolute;
+    inset: 0;
+  }
+
+  /* Quadrant lines */
+  .matrix::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0; bottom: 0;
+    width: 1px;
+    background: var(--grid);
+    z-index: 0;
+  }
+
+  .matrix::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0; right: 0;
+    height: 1px;
+    background: var(--grid);
+    z-index: 0;
+  }
+
+  /* Quadrant labels */
+  .q-label {
+    position: absolute;
+    font-family: 'DM Mono', monospace;
+    font-size: 9.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--grid);
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .q-label.tl { top: 10px; left: 12px; }
+  .q-label.tr { top: 10px; right: 12px; text-align: right; }
+  .q-label.bl { bottom: 10px; left: 12px; }
+  .q-label.br { bottom: 10px; right: 12px; text-align: right; }
+
+  /* Axis ticks */
+  .tick-low-x {
+    position: absolute;
+    bottom: -22px; left: 4px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--ink-light);
+  }
+  .tick-high-x {
+    position: absolute;
+    bottom: -22px; right: 4px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--ink-light);
+  }
+  .tick-low-y {
+    position: absolute;
+    left: -52px; bottom: 4px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--ink-light);
+  }
+  .tick-high-y {
+    position: absolute;
+    left: -52px; top: 4px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--ink-light);
+  }
+
+  /* Role dots */
+  .role {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .role-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--accent2);
+    border: 2px solid var(--card-bg);
+    box-shadow: 0 0 0 1.5px var(--accent2);
+    margin: auto;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+
+  .role:hover .role-dot {
+    transform: scale(1.5);
+    box-shadow: 0 0 0 2px var(--accent2), 0 2px 8px rgba(0,0,0,0.15);
+  }
+
+  .role-dot.cat-product { background: #2D5F8A; box-shadow: 0 0 0 1.5px #2D5F8A; }
+  .role:hover .role-dot.cat-product { box-shadow: 0 0 0 2px #2D5F8A, 0 2px 8px rgba(0,0,0,0.15); }
+
+  .role-dot.cat-consulting { background: #C84B31; box-shadow: 0 0 0 1.5px #C84B31; }
+  .role:hover .role-dot.cat-consulting { box-shadow: 0 0 0 2px #C84B31, 0 2px 8px rgba(0,0,0,0.15); }
+
+  .role-dot.cat-others { background: #3A7D5A; box-shadow: 0 0 0 1.5px #3A7D5A; }
+  .role:hover .role-dot.cat-others { box-shadow: 0 0 0 2px #3A7D5A, 0 2px 8px rgba(0,0,0,0.15); }
+
+  .role-label {
+    font-size: 10px;
+    font-weight: 400;
+    white-space: nowrap;
+    color: var(--ink);
+    margin-top: 4px;
+    text-align: center;
+    pointer-events: none;
+    line-height: 1.2;
+  }
+
+  .role.faded .role-dot { opacity: 0.12; }
+  .role.faded .role-label { opacity: 0.12; }
+
+  /* Tooltip */
+  .tooltip {
+    display: none;
+    position: fixed;
+    background: var(--ink);
+    color: var(--bg);
+    padding: 12px 16px;
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 1.5;
+    max-width: 220px;
+    z-index: 100;
+    pointer-events: none;
+  }
+
+  .tooltip.visible { display: block; }
+
+  .tooltip strong {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .tooltip .tt-cat {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  .tooltip .tt-depth {
+    display: block;
+    margin-top: 8px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    opacity: 0.7;
+  }
+
+  /* Legend */
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 36px;
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 12px;
+    color: var(--ink-light);
+    cursor: pointer;
+    transition: color 0.15s;
+  }
+
+  .legend-item:hover { color: var(--ink); }
+
+  .legend-dot {
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .note {
+    max-width: 780px;
+    margin: 24px auto 0;
+    font-size: 11.5px;
+    color: var(--ink-light);
+    line-height: 1.6;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Career Navigation Matrix</h1>
+  <p>Where roles sit on <span>environment volatility</span> and <span>role fluidity</span></p>
+</header>
+
+<div class="controls" id="controls"></div>
+
+<div class="matrix-wrap" style="margin-left: 100px;">
+  <span class="axis-label-y">Role Fluidity</span>
+  <span class="tick-high-y">High</span>
+  <span class="tick-low-y">Low</span>
+  <div style="position:absolute; left:-88px; top:0; bottom:0; display:flex; align-items:center; pointer-events:none;">
+    <div style="writing-mode:vertical-rl; transform:rotate(180deg); font-family:'DM Mono',monospace; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:#1A1A18; white-space:nowrap; font-weight:500;">Role Fluidity ↑</div>
+  </div>
+
+  <div class="matrix" id="matrix">
+    <div class="matrix-inner">
+      <span class="q-label tl">Fluid role · Stable env</span>
+      <span class="q-label tr">Fluid role · Volatile env</span>
+      <span class="q-label bl">Defined role · Stable env</span>
+      <span class="q-label br">Defined role · Volatile env</span>
+    </div>
+  </div>
+
+  <span class="tick-low-x">Low</span>
+  <span class="tick-high-x">High</span>
+  <div class="axis-label-x">Environment Volatility</div>
+</div>
+
+<div class="legend" id="legend"></div>
+
+<p class="note">Dot size = specialization depth. Placements are approximate and debatable — that's the point. Hover any role for reasoning.</p>
+
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+const roles = [
+  // Product
+  { name: "Product Manager", x: 42, y: 62, cat: "product", depth: 3, note: "Wears many hats daily — data, stakeholders, strategy, execution. Moved into the fluid role quadrant; the environment stays moderate." },
+  { name: "UX Researcher", x: 40, y: 58, cat: "product", depth: 3, note: "Methods are relatively stable but applies them across different products, users, problems — moderate fluidity." },
+  { name: "Designer (Product)", x: 38, y: 50, cat: "product", depth: 3, note: "Tools and trends shift (AI design tools), but craft is consistent. Environment depends on company stage." },
+  { name: "Software Engineer", x: 20, y: 20, cat: "product", depth: 8, note: "Vertical depth in a specific stack. Environment (codebase, product) changes slowly. Core skills stable year over year." },
+  { name: "Data Scientist", x: 30, y: 45, cat: "product", depth: 7, note: "Methods evolve (ML tooling, LLMs entering the stack), but environment is usually internal and relatively controlled." },
+  { name: "ML Engineer", x: 38, y: 52, cat: "product", depth: 7, note: "Field is moving fast. What's expected of you is shifting — LLM ops, agent systems. Environment is volatile too." },
+
+  // Consulting
+  { name: "Strategy Consultant", x: 68, y: 80, cat: "consulting", depth: 2, note: "Every engagement is a different industry, problem, stakeholder set. High fluidity by design." },
+  { name: "Management Consultant", x: 62, y: 72, cat: "consulting", depth: 2, note: "Switches context rapidly across clients and domains. Role is broad by definition." },
+  { name: "Lawyer", x: 65, y: 15, cat: "consulting", depth: 9, note: "Precedent and legislation shift frequently. Must integrate new rulings into existing thinking. High env volatility, but the core role is narrow and procedural." },
+  { name: "Policy Analyst", x: 70, y: 30, cat: "consulting", depth: 7, note: "Sits at the intersection of political shifts and deep research. Env volatility is high, but the role itself is more defined than it looks — rigorous analysis, not constant context-switching." },
+  { name: "VC / Investor", x: 72, y: 75, cat: "consulting", depth: 3, note: "Market sentiment, portfolio companies, sectors all shift. Need to think differently across cycles." },
+
+  // Others
+  { name: "Trader", x: 90, y: 22, cat: "others", depth: 5, note: "Extreme environment volatility — markets move constantly. But the role itself is narrow and well-defined: read signals, execute." },
+  { name: "Startup Founder", x: 85, y: 92, cat: "others", depth: 2, note: "Maximum fluidity — role is everything at once. Maximum env volatility — market, funding, competition." },
+  { name: "Journalist", x: 78, y: 15, cat: "others", depth: 3, note: "The news cycle is volatile by definition. But the role itself is well-defined — report, verify, write. Low fluidity despite high env volatility." },
+  { name: "ER Physician", x: 72, y: 68, cat: "others", depth: 8, note: "No two cases alike. High env volatility (patient mix, acuity). Role requires constant context-switching." },
+  { name: "Surgeon", x: 18, y: 14, cat: "others", depth: 10, note: "Extremely specialized. The OR is a controlled environment. Mastery over breadth — very low on both axes." },
+  { name: "Supply Chain Manager", x: 55, y: 38, cat: "others", depth: 5, note: "Post-2020 world: supply chains are volatile. Role is defined but environment throws constant curveballs." },
+  { name: "Sales / BD", x: 62, y: 62, cat: "others", depth: 2, note: "Market and competitive landscape shift constantly. Role requires switching between relationship-building, pitching, negotiation." },
+  { name: "Operations Manager", x: 30, y: 28, cat: "others", depth: 4, note: "Process-oriented. Defined role. Environments vary by industry but ops itself is about bringing stability." },
+  { name: "Academic Researcher", x: 20, y: 35, cat: "others", depth: 9, note: "Stable environment (university, lab). Role is deep and specialized — methodology doesn't change fast." },
+  { name: "Therapist", x: 72, y: 20, cat: "others", depth: 6, note: "Clients and presenting issues are unpredictable — high env volatility. But the therapeutic role itself is structured and consistent session to session." },
+  { name: "Hardware Engineer", x: 15, y: 15, cat: "others", depth: 9, note: "Deeply specialized. Long cycles. Low fluidity, low env volatility relative to software roles." },
+  { name: "Creative Director", x: 50, y: 70, cat: "others", depth: 4, note: "Switches between brand, campaign, team leadership, client management. Moderate env volatility." },
+  { name: "Chief of Staff", x: 22, y: 80, cat: "others", depth: 3, note: "Stable internal org environment, but the role is everything — comms, ops, strategy, people. High fluidity, low env volatility." },
+  { name: "BizOps", x: 25, y: 72, cat: "others", depth: 3, note: "Inside a mature company the environment is controlled, but the work spans data, process, cross-functional problem-solving. Classic high-fluidity, low-volatility role." },
+];
+
+const categories = {
+  product: { label: "Product", color: "#2D5F8A" },
+  consulting: { label: "Consulting", color: "#C84B31" },
+  others: { label: "Others", color: "#3A7D5A" },
+};
+
+let activeFilter = null;
+const matrix = document.getElementById('matrix');
+const tooltip = document.getElementById('tooltip');
+
+// Render roles
+const minDot = 7, maxDot = 26;
+roles.forEach((role, i) => {
+  const el = document.createElement('div');
+  el.className = 'role';
+  el.dataset.cat = role.cat;
+  el.style.left = role.x + '%';
+  el.style.top = (100 - role.y) + '%';
+
+  const dotSize = minDot + ((role.depth - 1) / 9) * (maxDot - minDot);
+
+  const dot = document.createElement('div');
+  dot.className = `role-dot cat-${role.cat}`;
+  dot.style.width = dotSize + 'px';
+  dot.style.height = dotSize + 'px';
+  dot.style.opacity = 0.75 + (role.depth / 10) * 0.25;
+
+  const label = document.createElement('div');
+  label.className = 'role-label';
+  label.textContent = role.name;
+
+  el.appendChild(dot);
+  el.appendChild(label);
+  matrix.appendChild(el);
+
+  el.addEventListener('mouseenter', (e) => {
+    const depthBar = '●'.repeat(role.depth) + '○'.repeat(10 - role.depth);
+    tooltip.innerHTML = `<strong>${role.name}</strong><span class="tt-cat">${categories[role.cat].label}</span>${role.note}<span class="tt-depth">Specialization depth: ${depthBar}</span>`;
+    tooltip.classList.add('visible');
+    positionTooltip(e);
+  });
+
+  el.addEventListener('mousemove', positionTooltip);
+
+  el.addEventListener('mouseleave', () => {
+    tooltip.classList.remove('visible');
+  });
+});
+
+function positionTooltip(e) {
+  const tw = 220, th = 100;
+  let x = e.clientX + 14;
+  let y = e.clientY - 20;
+  if (x + tw > window.innerWidth - 16) x = e.clientX - tw - 14;
+  if (y + th > window.innerHeight - 16) y = e.clientY - th - 10;
+  tooltip.style.left = x + 'px';
+  tooltip.style.top = y + 'px';
+}
+
+// Legend + filters
+const legend = document.getElementById('legend');
+const controls = document.getElementById('controls');
+
+Object.entries(categories).forEach(([key, val]) => {
+  // Legend
+  const li = document.createElement('div');
+  li.className = 'legend-item';
+  li.innerHTML = `<div class="legend-dot" style="background:${val.color}"></div><span>${val.label}</span>`;
+  li.addEventListener('click', () => toggleFilter(key));
+  legend.appendChild(li);
+
+  // Filter buttons
+  const btn = document.createElement('button');
+  btn.className = 'filter-btn';
+  btn.textContent = val.label;
+  btn.dataset.cat = key;
+  btn.addEventListener('click', () => toggleFilter(key));
+  controls.appendChild(btn);
+});
+
+// All button
+const allBtn = document.createElement('button');
+allBtn.className = 'filter-btn active';
+allBtn.textContent = 'All';
+allBtn.addEventListener('click', () => {
+  activeFilter = null;
+  updateFilter();
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  allBtn.classList.add('active');
+});
+controls.insertBefore(allBtn, controls.firstChild);
+
+function toggleFilter(cat) {
+  activeFilter = activeFilter === cat ? null : cat;
+  updateFilter();
+  document.querySelectorAll('.filter-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.cat === activeFilter || (!activeFilter && !b.dataset.cat));
+  });
+  allBtn.classList.toggle('active', !activeFilter);
+}
+
+function updateFilter() {
+  document.querySelectorAll('.role').forEach(el => {
+    if (!activeFilter || el.dataset.cat === activeFilter) {
+      el.classList.remove('faded');
+    } else {
+      el.classList.add('faded');
+    }
+  });
+}
+</script>
+</body>
+</html>
