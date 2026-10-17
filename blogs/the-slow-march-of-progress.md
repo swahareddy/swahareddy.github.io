@@ -1,5 +1,6 @@
 ---
 title: The (Slow) March of Progress
+layout: blog
 ---
 Three years ago, I was a Neely Fellow finishing an MBA, with a return offer from a technology consulting internship in hand and, academically at least, fully bought into the hype about a fourth industrial revolution driven by AI. I assumed my first years back in the workforce would be spent trying to steer something that was already moving quickly. But the pace turned out to be much slower than that.
 
@@ -27,4 +28,3 @@ In the MBA we often studied corporate decisions after the fact, and had the luxu
 
 The silver lining and irony is that the same scale that makes AI's rise feel unstoppable from the outside is what makes it crawl from the inside - *Big systems move the world fast and themselves slowly*. This slow march of progress should let decisions simmer long enough for ethics to bubble into sight, teams to redeploy talent, and individuals to reskill.
 
-  
