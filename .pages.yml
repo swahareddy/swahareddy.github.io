@@ -61,3 +61,26 @@ content:
         type: string
       - name: body
         type: rich-text
+
+
+  - name: projects-index
+    label: Projects index
+    type: file
+    path: projects/index.md
+    format: raw
+    fields:
+      - name: body
+        type: code
+        options:
+          format: markdown
+
+  - name: blogs-index
+    label: Blogs index
+    type: file
+    path: blogs/index.md
+    format: raw
+    fields:
+      - name: body
+        type: code
+        options:
+          format: markdown
