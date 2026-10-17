@@ -10,7 +10,7 @@ content:
   - name: home
     label: Home page
     type: file
-    path: index.md
+    path: index.html
     format: raw
     fields:
       - name: body
