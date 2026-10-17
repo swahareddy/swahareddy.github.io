@@ -7,6 +7,16 @@ media:
     extensions: [png, jpg, jpeg, gif, webp, svg]
 
 content:
+  - name: home
+    label: Home page
+    type: file
+    path: index.html
+    format: raw
+    fields:
+      - name: body
+        type: code
+        options:
+          format: html
   - name: about
     label: About page
     type: file
