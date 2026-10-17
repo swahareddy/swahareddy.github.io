@@ -4,6 +4,7 @@ layout: default
 # Blog Posts
 
 <ul class="links">
+    <li><a href="the-slow-march-of-progress">The (Slow) March of Progress</a></li>
     <li><a href="career_matrix">What Kind of Work Actually Suits You?</a></li>
     <li><a href="great_indian_parent_migration">The Great Parent Migration [RECOMMENDED ⭐]</a></li>
     <li><a href="unreasonable_hospitality">Unreasonable Hospitality</a></li>
