@@ -3,9 +3,9 @@
 # Tejaswa Gavankar
 
 ![](/images/\tejaswa_casual.jpg){: style="float: right;margin-left:85px" width="20%" }
-Hi, I am Tejaswa. ![](https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif) I'm a management consultant.
+Hi, I am Tejaswa! ![](https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif)
 
-I'm curious, analytical, and resourceful. Instead of an essay of my background and interests, here are 10 random examples of things I've worked on:
+3 adjectives that describe me best - curious, analytical, and resourceful. Instead of an essay of my background and interests, here are 10 random examples of things I've worked on:
 
 - Managed 30+ people, $3M+ budget, $25M+ value program through 8 AI agents with Sierra AI at a Fortune-10 company
 - Figured out how to and built the business case to sell an 8 MW datacenter in Texas to hyperscalers
