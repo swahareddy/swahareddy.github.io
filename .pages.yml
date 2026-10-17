@@ -1,9 +1,51 @@
-media: media
+media:
+  - name: images
+    label: Images
+    input: images
+    output: /images
+    path: images
+    extensions: [png, jpg, jpeg, gif, webp, svg]
+
 content:
-  - name: pages
-    label: Pages
+  - name: about
+    label: About page
+    type: file
+    path: about.md
+    fields:
+      - name: title
+        type: string
+      - name: body
+        type: rich-text
+
+  - name: projects
+    label: Projects
     type: collection
-    path: docs
+    path: projects
+    filename: "{primary}.md"
+    view:
+      fields: [title]
+      primary: title
+    fields:
+      - name: layout
+        type: string
+        default: project
+        hidden: true
+      - name: title
+        type: string
+      - name: github_repo
+        type: string
+        label: GitHub repo URL
+      - name: body
+        type: rich-text
+
+  - name: blogs
+    label: Blogs
+    type: collection
+    path: blogs
+    filename: "{primary}.md"
+    view:
+      fields: [title]
+      primary: title
     fields:
       - name: title
         type: string
