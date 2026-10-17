@@ -3,7 +3,7 @@ layout: default
 ---
 # Tejaswa Gavankar
 ![](images\tejaswa_casual.jpg){: style="float: right;margin-left:85px" width="20%" }
-Hi, I am Tejaswa Gavankar. <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> I'm currently getting my MBA at USC Marshall in Los Angeles.
+Hi, I am Tejaswa. <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> I'm a management consultant.
 
 I have worn a few hats since I began my career:
 1. **Product** - As the India lead for my team at Credit Suisse I worked with most of our stakeholders. I'd work with the users to plan milestones and shape our backlog and then define and track KPIs. I thrive in exploring new technologies for greenfield projects and scaling them from PoC to production.
@@ -26,45 +26,6 @@ I'm always upto [something fun](/blogs) outside work. Over the last year I have 
 
 
 <iframe src="https://drive.google.com/file/d/13FhmyPj9giNuv_hUDsphmDpYHeyjC8QL/preview" width="100%" height="500"></iframe>
-
-# Technical Skills
-<!-- ### Environment -->
-![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=21b52b)
-![](https://img.shields.io/badge/OS-Windows-informational?style=flat&logo=windows&logoColor=white&color=21b52b)
-![](https://img.shields.io/badge/Browser-Chrome-informational?style=flat&logo=google-chrome&logoColor=white&color=21b52b)
-![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=21b52b)
-![](https://img.shields.io/badge/Code-Shell-informational?style=flat&color=21b52b)
-![](https://img.shields.io/badge/IDE-Visual Studio-informational?style=flat&logo=visual-studio-code&logoColor=white&color=21b52b)
-
-<!-- ### Cloud -->
-![](https://img.shields.io/badge/Cloud-Google Cloud Platform-informational?style=flat&logo=google-cloud&logoColor=white&color=21b52b)
-
-<!-- ### Big Data  -->
-[/]: Logos N/A for these
-Big Data:  &nbsp; &nbsp; &nbsp;![](https://img.shields.io/badge/Big Data-HDFS-informational?style=flat&color=21b52b)
-![](https://img.shields.io/badge/Big Data-Sqoop-informational?style=flat&color=21b52b)
-![](https://img.shields.io/badge/Big Data-Oozie-informational?style=flat&color=21b52b)
-![](https://img.shields.io/badge/Big Data-Impala-informational?style=flat&color=21b52b)
-![](https://img.shields.io/badge/Big Data-Hive-informational?style=flat&color=21b52b)
-
-<!-- ### Front End -->
-Front End:  &nbsp; &nbsp; &nbsp;![](https://img.shields.io/badge/UI-Flask-informational?style=flat&logo=flask&logoColor=white&color=21b52b)
-![](https://img.shields.io/badge/UI-Angular-informational?style=flat&logo=angular&logoColor=white&color=21b52b)
-![](https://img.shields.io/badge/UI-Bootstrap-informational?style=flat&logo=bootstrap&logoColor=white&color=21b52b)
-![](https://img.shields.io/badge/UI-Markdown-informational?style=flat&logo=markdown&logoColor=white&color=21b52b)
-![](https://img.shields.io/badge/UI-HTML5-informational?style=flat&logo=html5&logoColor=white&color=21b52b)
-
-<!-- ### Databases -->
-Databases:  &nbsp; &nbsp; &nbsp;![](https://img.shields.io/badge/DB-MySQL-informational?style=flat&logo=mysql&logoColor=white&color=21b52b)
-![](https://img.shields.io/badge/DB-BigQuery-informational?style=flat&logoColor=white&color=21b52b)
-
-<!-- ### Collaboration -->
-Collaboration:  &nbsp; &nbsp; &nbsp;![](https://img.shields.io/badge/Collab-Jira-informational?style=flat&logo=jira&logoColor=white&color=21b52b)
-![](https://img.shields.io/badge/Collab-Confluence-informational?style=flat&logo=confluence&logoColor=white&color=21b52b)
-![](https://img.shields.io/badge/Collab-GitHub-informational?style=flat&logo=github&logoColor=white&color=21b52b)
-![](https://img.shields.io/badge/Collab-BitBucket-informational?style=flat&logo=bitbucket&logoColor=white&color=21b52b)
-![](https://img.shields.io/badge/Collab-Trello-informational?style=flat&logo=trello&logoColor=white&color=21b52b)
-
 
 ## Say Hi
 *I'd love to hear from you at [gavankartejaswa@gmail.com](mailto:gavankartejaswa@gmail.com) or a DM on [LinkedIn](https://www.linkedin.com/in/tejaswa/)*
