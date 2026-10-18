@@ -4,9 +4,9 @@ layout: default
 # Blog Posts
 
 <ul class="links">
-    <li><a href="the-slow-march-of-progress">The (Slow) March of Progress</a></li>
+    <li><a href="the-slow-march-of-progress">The (Slow) March of Progress [NEW ⭐]</a></li>
     <li><a href="career_matrix">What Kind of Work Actually Suits You?</a></li>
-    <li><a href="great_indian_parent_migration">The Great Parent Migration [RECOMMENDED ⭐]</a></li>
+    <li><a href="great_indian_parent_migration">The Great Parent Migration</a></li>
     <li><a href="unreasonable_hospitality">Unreasonable Hospitality</a></li>
     <li><a href="books">Books I'm reading 📚</a></li>
     <li><a href="fun_with_flags/wavin_flags.html">Wavin' Flags 🚩</a> </li>
@@ -14,14 +14,14 @@ layout: default
     <li><a href="spirit/spirit.html">Flying Cattle Class</a></li>
     <li><a href="networking.html">Advice on small talk</a></li>
     <li><a href="rice24/rice.html">Retail magic 💫</a></li>
-    <li><a href="same_as_ever.html">Life Lessons from Grandpa [RECOMMENDED ⭐]</a></li>
+    <li><a href="same_as_ever.html">Life Lessons from Grandpa</a></li>
     <li><a href="aws_summit_la24">AWS Summit 2024</a></li>
     <li><a href="business_movies">Business Movies</a></li>
     <li><a href="board_games">Board Games for Business Strategy</a></li>
     <!-- <li><a href="genai_classroom">GenAI in my Classrooms</a></li> -->
     <li>India viewed from the US:
     <ol><ol>
-        <li><a href="cost-of-trust">The Cost of Trust</a></li>
+        <li><a href="cost-of-trust">The Cost of Trust [NEW ⭐]</a></li>
         <li><a href="harvardindiacon2025">India Conference at Harvard 2025</a></li>
         <li><a href="harvardindiacon2024">India Conference at Harvard 2024</a></li>
         <li><a href="kunalshah_lenny">Kunal Shah (Cred, Freecharge) on Lenny's Podcast</a></li>
