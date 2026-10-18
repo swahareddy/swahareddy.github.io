@@ -1,6 +1,7 @@
 ---
 title: The (Slow) March of Progress
 layout: blog
+date:  10 October, 2023
 ---
 Three years ago, I was a Neely Fellow finishing an MBA, with a return offer from a technology consulting internship in hand and, academically at least, fully bought into the hype about a fourth industrial revolution driven by AI. I assumed my first years back in the workforce would be spent trying to steer something that was already moving quickly. But the pace turned out to be much slower than that.
 
