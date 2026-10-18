@@ -61,6 +61,8 @@ content:
         type: string
       - name: body
         type: rich-text
+      - name: date
+        type: rich-text        
       - name: layout
         type: string
         default: blog   # layout's name
