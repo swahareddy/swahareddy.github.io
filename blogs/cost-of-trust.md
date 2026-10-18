@@ -1,6 +1,7 @@
 ---
 title: Cost of Trust
 layout: blog
+date: 17 October, 2026
 ---
 I have lived in both India and the US, and what follows is my observation from living in each. Neither the US nor India gives ordinary people a cheap, predictable way to enforce a promise. The US lets you buy your way around that, India makes you wait or find a workaround, and both countries have built whole industries and habits around the gap.
 
